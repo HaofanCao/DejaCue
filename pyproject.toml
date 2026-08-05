@@ -41,7 +41,7 @@ preprocess = [
   "huggingface-hub==0.36.2",
   "Pillow>=10,<13",
   "safetensors==0.8.0",
-  "tokenizers==0.22.2",
+  "tokenizers==0.23.1",
   "transformers==4.57.6",
 ]
 
