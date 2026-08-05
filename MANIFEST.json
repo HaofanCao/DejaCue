@@ -3,7 +3,7 @@
   "kind": "deja_cue_file_manifest",
   "algorithm": "sha256",
   "file_count": 423,
-  "total_bytes": 52757141,
+  "total_bytes": 52756895,
   "files": [
     {
       "path": ".editorconfig",
@@ -67,8 +67,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 13141,
-      "sha256": "8c561d4fa9cd141c8880af3d391fba27c4d3071ff3005d6ad6f50ca8acf8c238"
+      "bytes": 12895,
+      "sha256": "0319a69e20728fd26c724c6c2298629509a64a8275b6a1dd585e6acab8ad2bf8"
     },
     {
       "path": "assets/method_overview.png",

@@ -12,15 +12,6 @@
   <img src="https://img.shields.io/badge/PyTorch-2.2%2B-EE4C2C.svg?logo=pytorch&logoColor=white" alt="PyTorch 2.2 or newer">
 </p>
 
-<p align="center">
-  <a href="#abstract">📄 Abstract</a> ·
-  <a href="#news">🔥 News</a> ·
-  <a href="#method">🧠 Method</a> ·
-  <a href="#main-result">📊 Results</a> ·
-  <a href="#quick-start">🚀 Quick Start</a> ·
-  <a href="#citation">📝 Citation</a>
-</p>
-
 </div>
 
 <p align="center">
@@ -31,13 +22,13 @@
 
 > **Official implementation and fixed-feature evaluation release.** Given a tracked-object history and a closed, state-grouped vocabulary, Déjà Cue localizes one inclusive temporal interval for every state description without task-specific training.
 
-## Abstract
+## 📄 Abstract
 
 Tracking links observations of the same object through visual change, yet cannot by itself determine when the object is empty or filled, intact or cut. We formulate identity-conditioned state-moment retrieval: given a tracked-object history and alternative state descriptions, localize an interval in which each described state holds. Absolute image-text similarity scores descriptions independently; because every visible frame depicts the same target, shared object compatibility can obscure the state evidence needed to identify the target interval. The alternatives provide the missing reference: evidence for one state should be measured against the others. We introduce Déjà Cue, a training-free framework that turns these alternatives into a vocabulary-relative coordinate system. It subtracts their state-balanced centroid from each description, calibrates frame scores, and scans multiple durations within contiguous visible runs using a frozen encoder. On 78 VOST histories, holding the temporal scan fixed and changing only the query reference nearly doubles R@1 at tIoU 0.5 from 10.3% to 20.5% and raises Top-1 tIoU from 16.0% to 21.5%. Candidate-rank analyses show that vocabulary-relative queries rank useful intervals higher within the same candidate set. Related state descriptions can therefore serve as an object-specific, query-time coordinate system for reading frozen visual representations.
 
 <p align="right"><a href="https://arxiv.org/abs/2608.02044">Read the paper on arXiv →</a></p>
 
-## News
+## 🔥 News
 
 - **2026.08.05** · The official code and fixed-feature evaluation assets are now open source.
 
@@ -59,7 +50,7 @@ Tracking links observations of the same object through visual change, yet cannot
 | Default method | Training-free, run-constrained, 33-duration multiscale scan |
 | Reproduction | CPU; no raw video, masks, encoder weights, or checkpoints required |
 
-## Method
+## 🧠 Method
 
 For each object history, Déjà Cue:
 
@@ -70,7 +61,7 @@ For each object history, Déjà Cue:
 
 The repository also contains matched coordinate ablations, robustness and diagnostic experiments, VOST cohort validators, SigLIP 2 feature extraction, and native training and evaluation paths for eight temporal decoders.
 
-## Main Result
+## 📊 Main Result
 
 The primary matched scan changes only the query coordinate. Frozen features, calibration, observed runs, candidate windows, scoring, and tie rules are held fixed.
 
@@ -84,7 +75,7 @@ Values are percentages over 78 VOST source components. For R@1 at tIoU 0.5, the 
 
 This table isolates the coordinate effect; it is not a general leaderboard claim. The absolute max-frame baseline reaches 23.0 Top-1 tIoU, the small seven-history held-out results are mixed, and no learned-decoder comparison is significant after Holm correction. See [Reproducing the Results](docs/reproducing-results.md) for the commands, outputs, and limitations of each evaluation.
 
-## Quick Start
+## 🚀 Quick Start
 
 Python 3.10 or newer is required. Clone the complete repository and use an editable install. The commands use the included `data/`, `configs/`, `scripts/`, and `third_party/` directories.
 
@@ -179,7 +170,7 @@ Bug reports and focused improvements are welcome through GitHub Issues and pull 
 
 Original project code is released under the [Apache License 2.0](LICENSE). Bundled third-party sources retain their original license files under [`third_party/`](third_party/). Data and derived feature assets are governed separately by [DATA_LICENSE.md](DATA_LICENSE.md).
 
-## 📖 Citation
+## 📝 Citation
 
 If you use Déjà Cue in your research, please cite the official arXiv record:
 
