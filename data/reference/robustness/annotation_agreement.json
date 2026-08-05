@@ -1,0 +1,128 @@
+{
+  "coverage": {
+    "history_count": 3,
+    "matched_episode_count": 34,
+    "selected_frame_count": 1883,
+    "stable_valid_frame_count": 1700,
+    "state_history_pair_count": 8
+  },
+  "histories": [
+    {
+      "history_id": "A01",
+      "label": "slice_banana",
+      "selected_frames": {
+        "disagreement_count": 76,
+        "exact_agreement_count": 254,
+        "exact_agreement_rate": 0.7696969696969697,
+        "frame_count": 330,
+        "kappa": {
+          "chance_agreement": 0.25869605142332414,
+          "cohen_kappa": 0.6893271231790703,
+          "observed_agreement": 0.7696969696969697
+        }
+      },
+      "stable_valid_frames": {
+        "disagreement_count": 76,
+        "exact_agreement_count": 203,
+        "exact_agreement_rate": 0.7275985663082437,
+        "frame_count": 279,
+        "kappa": {
+          "chance_agreement": 0.32850297401112516,
+          "cohen_kappa": 0.594337095848479,
+          "observed_agreement": 0.7275985663082437
+        }
+      }
+    },
+    {
+      "history_id": "A02",
+      "label": "cross_hands",
+      "selected_frames": {
+        "disagreement_count": 665,
+        "exact_agreement_count": 788,
+        "exact_agreement_rate": 0.5423262216104611,
+        "frame_count": 1453,
+        "kappa": {
+          "chance_agreement": 0.38871755472812025,
+          "cohen_kappa": 0.2512891840269033,
+          "observed_agreement": 0.5423262216104611
+        }
+      },
+      "stable_valid_frames": {
+        "disagreement_count": 665,
+        "exact_agreement_count": 656,
+        "exact_agreement_rate": 0.49659348978046935,
+        "frame_count": 1321,
+        "kappa": {
+          "chance_agreement": 0.4602986405477006,
+          "cohen_kappa": 0.06724987550448559,
+          "observed_agreement": 0.49659348978046935
+        }
+      }
+    },
+    {
+      "history_id": "A03",
+      "label": "coffee_martini",
+      "selected_frames": {
+        "disagreement_count": 2,
+        "exact_agreement_count": 98,
+        "exact_agreement_rate": 0.98,
+        "frame_count": 100,
+        "kappa": {
+          "chance_agreement": 0.3201,
+          "cohen_kappa": 0.970583909398441,
+          "observed_agreement": 0.98
+        }
+      },
+      "stable_valid_frames": {
+        "disagreement_count": 2,
+        "exact_agreement_count": 98,
+        "exact_agreement_rate": 0.98,
+        "frame_count": 100,
+        "kappa": {
+          "chance_agreement": 0.3201,
+          "cohen_kappa": 0.970583909398441,
+          "observed_agreement": 0.98
+        }
+      }
+    }
+  ],
+  "kind": "deja_cue_annotation_agreement_evidence",
+  "reported": {
+    "adjudication": {
+      "adjudication_decision_count": 743,
+      "adjudication_rate_per_disagreement": 1.0,
+      "adjudication_rate_per_selected_frame": 0.394583112055231,
+      "all_disagreements_adjudicated": true,
+      "frame_disagreement_count": 743
+    },
+    "global_pooled": {
+      "selected_frames": {
+        "disagreement_count": 743,
+        "exact_agreement_count": 1140,
+        "exact_agreement_rate": 0.605416887944769,
+        "frame_count": 1883,
+        "kappa": {
+          "chance_agreement": 0.24435476433494305,
+          "cohen_kappa": 0.477819625623721,
+          "observed_agreement": 0.605416887944769
+        }
+      },
+      "stable_valid_frames": {
+        "disagreement_count": 743,
+        "exact_agreement_count": 957,
+        "exact_agreement_rate": 0.5629411764705883,
+        "frame_count": 1700,
+        "kappa": {
+          "chance_agreement": 0.28820657439446357,
+          "cohen_kappa": 0.3859751891391841,
+          "observed_agreement": 0.5629411764705883
+        }
+      }
+    },
+    "history_macro": {
+      "selected_frames": 0.7640077304358103,
+      "stable_valid_frames": 0.7347306853629044
+    }
+  },
+  "schema_version": 1
+}

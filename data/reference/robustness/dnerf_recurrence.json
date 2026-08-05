@@ -1,0 +1,134 @@
+{
+  "kind": "deja_cue_recurrence_stress_evidence",
+  "predictions": {
+    "absolute_coordinates_locked_scan": [
+      {
+        "predicted_windows": [],
+        "query_id": "Q01"
+      },
+      {
+        "predicted_windows": [],
+        "query_id": "Q02"
+      },
+      {
+        "predicted_windows": [],
+        "query_id": "Q03"
+      },
+      {
+        "predicted_windows": [],
+        "query_id": "Q04"
+      }
+    ],
+    "development_selected_dual_centered_locked_scan": [
+      {
+        "predicted_windows": [
+          {
+            "end": 18,
+            "score": 5.530901908874512,
+            "start": 1
+          }
+        ],
+        "query_id": "Q01"
+      },
+      {
+        "predicted_windows": [],
+        "query_id": "Q02"
+      },
+      {
+        "predicted_windows": [],
+        "query_id": "Q03"
+      },
+      {
+        "predicted_windows": [],
+        "query_id": "Q04"
+      }
+    ],
+    "vocabulary_centered_coordinates_locked_scan": [
+      {
+        "predicted_windows": [
+          {
+            "end": 19,
+            "score": 4.197027206420898,
+            "start": 0
+          }
+        ],
+        "query_id": "Q01"
+      },
+      {
+        "predicted_windows": [],
+        "query_id": "Q02"
+      },
+      {
+        "predicted_windows": [],
+        "query_id": "Q03"
+      },
+      {
+        "predicted_windows": [],
+        "query_id": "Q04"
+      }
+    ]
+  },
+  "primary_min_run_frames": 3,
+  "queries": [
+    {
+      "description": "person with arms raised and legs spread",
+      "query_id": "Q01",
+      "state_id": "limbs_extended"
+    },
+    {
+      "description": "jumping jack in the extended pose",
+      "query_id": "Q02",
+      "state_id": "limbs_extended"
+    },
+    {
+      "description": "person with arms lowered and legs together",
+      "query_id": "Q03",
+      "state_id": "limbs_contracted"
+    },
+    {
+      "description": "jumping jack in the contracted pose",
+      "query_id": "Q04",
+      "state_id": "limbs_contracted"
+    }
+  ],
+  "references": {
+    "limbs_contracted": [
+      [
+        31,
+        170
+      ]
+    ],
+    "limbs_extended": [
+      [
+        0,
+        28
+      ],
+      [
+        179,
+        200
+      ]
+    ]
+  },
+  "reported_metrics": {
+    "absolute_coordinates_locked_scan": {
+      "query_macro_episode_count_absolute_error": 1.5,
+      "query_macro_multi_window_map_tiou_0.3_0.5_0.7": 0.0,
+      "query_macro_multi_window_precision_tiou_0.5": 0.0,
+      "query_macro_multi_window_recall_tiou_0.5": 0.0
+    },
+    "development_selected_dual_centered_locked_scan": {
+      "query_macro_episode_count_absolute_error": 1.25,
+      "query_macro_multi_window_map_tiou_0.3_0.5_0.7": 0.08333333333333333,
+      "query_macro_multi_window_precision_tiou_0.5": 0.25,
+      "query_macro_multi_window_recall_tiou_0.5": 0.125
+    },
+    "vocabulary_centered_coordinates_locked_scan": {
+      "query_macro_episode_count_absolute_error": 1.25,
+      "query_macro_multi_window_map_tiou_0.3_0.5_0.7": 0.08333333333333333,
+      "query_macro_multi_window_precision_tiou_0.5": 0.25,
+      "query_macro_multi_window_recall_tiou_0.5": 0.125
+    }
+  },
+  "schema_version": 1,
+  "sequence_frames": 201
+}

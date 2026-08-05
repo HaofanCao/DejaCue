@@ -1,0 +1,21 @@
+{
+  "device": "NVIDIA GeForce RTX 4090",
+  "feature_status": "precomputed",
+  "kind": "deja_cue_runtime_reference",
+  "measurement": {
+    "peak_memory_allocated_bytes": 33733632,
+    "query_count": 16,
+    "retrieval_wall_seconds": 0.24331997201079503,
+    "seconds_per_query": 0.01520749825067469
+  },
+  "method": {
+    "optimized_scalar_count": 0,
+    "query_centering": 1.0,
+    "smoothing_kernel_size": 3,
+    "visual_centering": 1.0,
+    "window_normalization": "sqrt_valid_count"
+  },
+  "paper_value_ms_per_query": 15.2,
+  "schema_version": 1,
+  "scope": "four_reconstructed_histories"
+}

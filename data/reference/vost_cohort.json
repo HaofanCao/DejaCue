@@ -1,0 +1,3699 @@
+{
+  "counts": {
+    "excluded_histories": 22,
+    "retained_descriptions": 312,
+    "retained_histories": 78,
+    "retained_states": 156,
+    "sampled_histories": 100,
+    "unique_action_object_pairs": 100,
+    "unique_sequences": 100
+  },
+  "excluded_history_ids": [
+    "H004",
+    "H008",
+    "H009",
+    "H010",
+    "H013",
+    "H014",
+    "H027",
+    "H029",
+    "H030",
+    "H036",
+    "H041",
+    "H042",
+    "H047",
+    "H048",
+    "H049",
+    "H054",
+    "H067",
+    "H069",
+    "H070",
+    "H079",
+    "H081",
+    "H092"
+  ],
+  "kind": "deja_cue_vost_cohort",
+  "protocol": {
+    "designated_event": "earliest_qualifying_event",
+    "eligibility": {
+      "minimum_stable_frames_per_side": 5,
+      "other_runs_between_sides_allowed": false,
+      "required_run_order": [
+        "pre",
+        "transition",
+        "post"
+      ]
+    },
+    "frame_labels": [
+      "pre",
+      "transition",
+      "post",
+      "unobserved"
+    ],
+    "object_local_preprocessing": {
+      "ignored_mask_label": 255,
+      "mask_composition": "union_of_target_lineage_labels",
+      "minimum_padding_pixels": 4,
+      "outside_mask_rgb_value": 127,
+      "padding_fraction": 0.2
+    },
+    "sampling": {
+      "balance_order": "round_robin_over_actions_then_target_nouns",
+      "fixed_seed": 3407,
+      "maximum_sequences_per_action_object_pair": 1,
+      "source_splits": [
+        "train",
+        "validation"
+      ]
+    },
+    "text_prompt_ensemble": {
+      "aggregation": "mean_three_unit_vectors_then_l2_normalize",
+      "forms": [
+        "description",
+        "a photo of [description]",
+        "the [description]"
+      ]
+    }
+  },
+  "retained_history_ids": [
+    "H001",
+    "H002",
+    "H003",
+    "H005",
+    "H006",
+    "H007",
+    "H011",
+    "H012",
+    "H015",
+    "H016",
+    "H017",
+    "H018",
+    "H019",
+    "H020",
+    "H021",
+    "H022",
+    "H023",
+    "H024",
+    "H025",
+    "H026",
+    "H028",
+    "H031",
+    "H032",
+    "H033",
+    "H034",
+    "H035",
+    "H037",
+    "H038",
+    "H039",
+    "H040",
+    "H043",
+    "H044",
+    "H045",
+    "H046",
+    "H050",
+    "H051",
+    "H052",
+    "H053",
+    "H055",
+    "H056",
+    "H057",
+    "H058",
+    "H059",
+    "H060",
+    "H061",
+    "H062",
+    "H063",
+    "H064",
+    "H065",
+    "H066",
+    "H068",
+    "H071",
+    "H072",
+    "H073",
+    "H074",
+    "H075",
+    "H076",
+    "H077",
+    "H078",
+    "H080",
+    "H082",
+    "H083",
+    "H084",
+    "H085",
+    "H086",
+    "H087",
+    "H088",
+    "H089",
+    "H090",
+    "H091",
+    "H093",
+    "H094",
+    "H095",
+    "H096",
+    "H097",
+    "H098",
+    "H099",
+    "H100"
+  ],
+  "roster": [
+    {
+      "action": "unscrew",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H001",
+      "exclusion_reason": null,
+      "history_id": "H001",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 56,
+        "longest_pre_run": 30,
+        "post_run_count": 1,
+        "pre_run_count": 3
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 111,
+          "evaluation_start": 56,
+          "length": 56,
+          "source_frame_end": 1332,
+          "source_frame_start": 672
+        },
+        "pre_interval": {
+          "evaluation_end": 49,
+          "evaluation_start": 43,
+          "length": 7,
+          "source_frame_end": 588,
+          "source_frame_start": 516
+        },
+        "transition_interval": {
+          "evaluation_end": 55,
+          "evaluation_start": 50,
+          "source_frame_end": 660,
+          "source_frame_start": 600
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "3511_unscrew_jar",
+      "status": "retained",
+      "target_noun": "screw-top jar"
+    },
+    {
+      "action": "unroll",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H002",
+      "exclusion_reason": null,
+      "history_id": "H002",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 105,
+        "longest_pre_run": 41,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 152,
+          "evaluation_start": 48,
+          "length": 105,
+          "source_frame_end": 1824,
+          "source_frame_start": 576
+        },
+        "pre_interval": {
+          "evaluation_end": 40,
+          "evaluation_start": 0,
+          "length": 41,
+          "source_frame_end": 480,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 47,
+          "evaluation_start": 41,
+          "source_frame_end": 564,
+          "source_frame_start": 492
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "1915_unroll_film",
+      "status": "retained",
+      "target_noun": "film"
+    },
+    {
+      "action": "eat",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H003",
+      "exclusion_reason": null,
+      "history_id": "H003",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 69,
+        "longest_pre_run": 12,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 94,
+          "evaluation_start": 26,
+          "length": 69,
+          "source_frame_end": 564,
+          "source_frame_start": 156
+        },
+        "pre_interval": {
+          "evaluation_end": 11,
+          "evaluation_start": 0,
+          "length": 12,
+          "source_frame_end": 66,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 25,
+          "evaluation_start": 12,
+          "source_frame_end": 150,
+          "source_frame_start": 72
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "8944_eat_icecream",
+      "status": "retained",
+      "target_noun": "ice cream"
+    },
+    {
+      "action": "unpack",
+      "eligibility_failure": "stable_sides_not_adjacent_in_required_order",
+      "evaluation_history_id": null,
+      "exclusion_reason": "no_qualifying_event",
+      "history_id": "H004",
+      "qualifying_event_count": 0,
+      "run_summary": {
+        "longest_post_run": 26,
+        "longest_pre_run": 8,
+        "post_run_count": 2,
+        "pre_run_count": 2
+      },
+      "selected_event": null,
+      "selected_event_index": null,
+      "sequence_id": "5304_unpack_broccoli",
+      "status": "excluded",
+      "target_noun": "broccoli"
+    },
+    {
+      "action": "screw",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H004",
+      "exclusion_reason": null,
+      "history_id": "H005",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 88,
+        "longest_pre_run": 26,
+        "post_run_count": 2,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 61,
+          "evaluation_start": 57,
+          "length": 5,
+          "source_frame_end": 366,
+          "source_frame_start": 342
+        },
+        "pre_interval": {
+          "evaluation_end": 25,
+          "evaluation_start": 0,
+          "length": 26,
+          "source_frame_end": 150,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 56,
+          "evaluation_start": 26,
+          "source_frame_end": 336,
+          "source_frame_start": 156
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "10051_screw_buckle",
+      "status": "retained",
+      "target_noun": "screw"
+    },
+    {
+      "action": "mix",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H005",
+      "exclusion_reason": null,
+      "history_id": "H006",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 21,
+        "longest_pre_run": 6,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 56,
+          "evaluation_start": 36,
+          "length": 21,
+          "source_frame_end": 672,
+          "source_frame_start": 432
+        },
+        "pre_interval": {
+          "evaluation_end": 5,
+          "evaluation_start": 0,
+          "length": 6,
+          "source_frame_end": 60,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 35,
+          "evaluation_start": 6,
+          "source_frame_end": 420,
+          "source_frame_start": 72
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "2515_mix_mayonnaise",
+      "status": "retained",
+      "target_noun": "sauce mixture"
+    },
+    {
+      "action": "smooth",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H006",
+      "exclusion_reason": null,
+      "history_id": "H007",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 45,
+        "longest_pre_run": 8,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 148,
+          "evaluation_start": 104,
+          "length": 45,
+          "source_frame_end": 888,
+          "source_frame_start": 624
+        },
+        "pre_interval": {
+          "evaluation_end": 7,
+          "evaluation_start": 0,
+          "length": 8,
+          "source_frame_end": 42,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 103,
+          "evaluation_start": 8,
+          "source_frame_end": 618,
+          "source_frame_start": 48
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "10334_smooth_wood",
+      "status": "retained",
+      "target_noun": "wood board"
+    },
+    {
+      "action": "unwrap",
+      "eligibility_failure": "stable_sides_not_adjacent_in_required_order",
+      "evaluation_history_id": null,
+      "exclusion_reason": "no_qualifying_event",
+      "history_id": "H008",
+      "qualifying_event_count": 0,
+      "run_summary": {
+        "longest_post_run": 5,
+        "longest_pre_run": 13,
+        "post_run_count": 2,
+        "pre_run_count": 1
+      },
+      "selected_event": null,
+      "selected_event_index": null,
+      "sequence_id": "3500_unwrap_stock",
+      "status": "excluded",
+      "target_noun": "stock cube"
+    },
+    {
+      "action": "crush",
+      "eligibility_failure": "pre_side_absent_or_short",
+      "evaluation_history_id": null,
+      "exclusion_reason": "no_qualifying_event",
+      "history_id": "H009",
+      "qualifying_event_count": 0,
+      "run_summary": {
+        "longest_post_run": 18,
+        "longest_pre_run": 1,
+        "post_run_count": 2,
+        "pre_run_count": 1
+      },
+      "selected_event": null,
+      "selected_event_index": null,
+      "sequence_id": "1899_crush_box",
+      "status": "excluded",
+      "target_noun": "cardboard carton"
+    },
+    {
+      "action": "tear",
+      "eligibility_failure": "pre_side_absent_or_short",
+      "evaluation_history_id": null,
+      "exclusion_reason": "no_qualifying_event",
+      "history_id": "H010",
+      "qualifying_event_count": 0,
+      "run_summary": {
+        "longest_post_run": 32,
+        "longest_pre_run": 2,
+        "post_run_count": 2,
+        "pre_run_count": 1
+      },
+      "selected_event": null,
+      "selected_event_index": null,
+      "sequence_id": "555_tear_aluminium_foil",
+      "status": "excluded",
+      "target_noun": "aluminium foil"
+    },
+    {
+      "action": "sand",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H007",
+      "exclusion_reason": null,
+      "history_id": "H011",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 10,
+        "longest_pre_run": 9,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 196,
+          "evaluation_start": 187,
+          "length": 10,
+          "source_frame_end": 1176,
+          "source_frame_start": 1122
+        },
+        "pre_interval": {
+          "evaluation_end": 8,
+          "evaluation_start": 0,
+          "length": 9,
+          "source_frame_end": 48,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 186,
+          "evaluation_start": 9,
+          "source_frame_end": 1116,
+          "source_frame_start": 54
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "10379_sand_wood",
+      "status": "retained",
+      "target_noun": "wood"
+    },
+    {
+      "action": "stretch",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H008",
+      "exclusion_reason": null,
+      "history_id": "H012",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 94,
+        "longest_pre_run": 5,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 100,
+          "evaluation_start": 7,
+          "length": 94,
+          "source_frame_end": 1200,
+          "source_frame_start": 84
+        },
+        "pre_interval": {
+          "evaluation_end": 4,
+          "evaluation_start": 0,
+          "length": 5,
+          "source_frame_end": 48,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 6,
+          "evaluation_start": 5,
+          "source_frame_end": 72,
+          "source_frame_start": 60
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "3717_stretch_bag",
+      "status": "retained",
+      "target_noun": "bag"
+    },
+    {
+      "action": "knead",
+      "eligibility_failure": "post_side_absent_or_short",
+      "evaluation_history_id": null,
+      "exclusion_reason": "no_qualifying_event",
+      "history_id": "H013",
+      "qualifying_event_count": 0,
+      "run_summary": {
+        "longest_post_run": 0,
+        "longest_pre_run": 5,
+        "post_run_count": 0,
+        "pre_run_count": 1
+      },
+      "selected_event": null,
+      "selected_event_index": null,
+      "sequence_id": "2579_knead_dough",
+      "status": "excluded",
+      "target_noun": "dough"
+    },
+    {
+      "action": "fold",
+      "eligibility_failure": "stable_sides_not_adjacent_in_required_order",
+      "evaluation_history_id": null,
+      "exclusion_reason": "no_qualifying_event",
+      "history_id": "H014",
+      "qualifying_event_count": 0,
+      "run_summary": {
+        "longest_post_run": 5,
+        "longest_pre_run": 50,
+        "post_run_count": 3,
+        "pre_run_count": 4
+      },
+      "selected_event": null,
+      "selected_event_index": null,
+      "sequence_id": "7359_fold_tape_measure",
+      "status": "excluded",
+      "target_noun": "tape measure"
+    },
+    {
+      "action": "divide",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H009",
+      "exclusion_reason": null,
+      "history_id": "H015",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 29,
+        "longest_pre_run": 10,
+        "post_run_count": 1,
+        "pre_run_count": 3
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 88,
+          "evaluation_start": 60,
+          "length": 29,
+          "source_frame_end": 528,
+          "source_frame_start": 360
+        },
+        "pre_interval": {
+          "evaluation_end": 21,
+          "evaluation_start": 12,
+          "length": 10,
+          "source_frame_end": 126,
+          "source_frame_start": 72
+        },
+        "transition_interval": {
+          "evaluation_end": 59,
+          "evaluation_start": 22,
+          "source_frame_end": 354,
+          "source_frame_start": 132
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "9672_divide_wheel",
+      "status": "retained",
+      "target_noun": "wheel assembly"
+    },
+    {
+      "action": "open",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H010",
+      "exclusion_reason": null,
+      "history_id": "H016",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 25,
+        "longest_pre_run": 10,
+        "post_run_count": 1,
+        "pre_run_count": 2
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 38,
+          "evaluation_start": 14,
+          "length": 25,
+          "source_frame_end": 228,
+          "source_frame_start": 84
+        },
+        "pre_interval": {
+          "evaluation_end": 7,
+          "evaluation_start": 0,
+          "length": 8,
+          "source_frame_end": 42,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 13,
+          "evaluation_start": 8,
+          "source_frame_end": 78,
+          "source_frame_start": 48
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "5074_open_phone",
+      "status": "retained",
+      "target_noun": "phone in a flip cover"
+    },
+    {
+      "action": "spread",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H011",
+      "exclusion_reason": null,
+      "history_id": "H017",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 28,
+        "longest_pre_run": 5,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 126,
+          "evaluation_start": 99,
+          "length": 28,
+          "source_frame_end": 756,
+          "source_frame_start": 594
+        },
+        "pre_interval": {
+          "evaluation_end": 4,
+          "evaluation_start": 0,
+          "length": 5,
+          "source_frame_end": 24,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 98,
+          "evaluation_start": 5,
+          "source_frame_end": 588,
+          "source_frame_start": 30
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "9487_spread_potato",
+      "status": "retained",
+      "target_noun": "diced potato topping"
+    },
+    {
+      "action": "remove",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H012",
+      "exclusion_reason": null,
+      "history_id": "H018",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 85,
+        "longest_pre_run": 18,
+        "post_run_count": 2,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 88,
+          "evaluation_start": 41,
+          "length": 48,
+          "source_frame_end": 528,
+          "source_frame_start": 246
+        },
+        "pre_interval": {
+          "evaluation_end": 17,
+          "evaluation_start": 0,
+          "length": 18,
+          "source_frame_end": 102,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 40,
+          "evaluation_start": 18,
+          "source_frame_end": 240,
+          "source_frame_start": 108
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "7066_remove_floor_mat",
+      "status": "retained",
+      "target_noun": "cargo-area floor mat"
+    },
+    {
+      "action": "rip",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H013",
+      "exclusion_reason": null,
+      "history_id": "H019",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 109,
+        "longest_pre_run": 17,
+        "post_run_count": 2,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 126,
+          "evaluation_start": 18,
+          "length": 109,
+          "source_frame_end": 756,
+          "source_frame_start": 108
+        },
+        "pre_interval": {
+          "evaluation_end": 16,
+          "evaluation_start": 0,
+          "length": 17,
+          "source_frame_end": 96,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 17,
+          "evaluation_start": 17,
+          "source_frame_end": 102,
+          "source_frame_start": 102
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "4216_rip_roll",
+      "status": "retained",
+      "target_noun": "paper towel roll"
+    },
+    {
+      "action": "attach",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H014",
+      "exclusion_reason": null,
+      "history_id": "H020",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 41,
+        "longest_pre_run": 5,
+        "post_run_count": 2,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 64,
+          "evaluation_start": 24,
+          "length": 41,
+          "source_frame_end": 384,
+          "source_frame_start": 144
+        },
+        "pre_interval": {
+          "evaluation_end": 19,
+          "evaluation_start": 15,
+          "length": 5,
+          "source_frame_end": 114,
+          "source_frame_start": 90
+        },
+        "transition_interval": {
+          "evaluation_end": 23,
+          "evaluation_start": 20,
+          "source_frame_end": 138,
+          "source_frame_start": 120
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "7471_attach_drill",
+      "status": "retained",
+      "target_noun": "cordless drill"
+    },
+    {
+      "action": "pour",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H015",
+      "exclusion_reason": null,
+      "history_id": "H021",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 43,
+        "longest_pre_run": 27,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 107,
+          "evaluation_start": 65,
+          "length": 43,
+          "source_frame_end": 642,
+          "source_frame_start": 390
+        },
+        "pre_interval": {
+          "evaluation_end": 26,
+          "evaluation_start": 0,
+          "length": 27,
+          "source_frame_end": 156,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 64,
+          "evaluation_start": 27,
+          "source_frame_end": 384,
+          "source_frame_start": 162
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "5280_pour_flour",
+      "status": "retained",
+      "target_noun": "flour"
+    },
+    {
+      "action": "wrap",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H016",
+      "exclusion_reason": null,
+      "history_id": "H022",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 7,
+        "longest_pre_run": 33,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 57,
+          "evaluation_start": 51,
+          "length": 7,
+          "source_frame_end": 570,
+          "source_frame_start": 510
+        },
+        "pre_interval": {
+          "evaluation_end": 32,
+          "evaluation_start": 0,
+          "length": 33,
+          "source_frame_end": 320,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 50,
+          "evaluation_start": 33,
+          "source_frame_end": 500,
+          "source_frame_start": 330
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "2917_wrap_sandwich",
+      "status": "retained",
+      "target_noun": "sandwich"
+    },
+    {
+      "action": "trim",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H017",
+      "exclusion_reason": null,
+      "history_id": "H023",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 31,
+        "longest_pre_run": 8,
+        "post_run_count": 2,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 39,
+          "evaluation_start": 9,
+          "length": 31,
+          "source_frame_end": 234,
+          "source_frame_start": 54
+        },
+        "pre_interval": {
+          "evaluation_end": 7,
+          "evaluation_start": 0,
+          "length": 8,
+          "source_frame_end": 42,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 8,
+          "evaluation_start": 8,
+          "source_frame_end": 48,
+          "source_frame_start": 48
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "4357_trim_dough",
+      "status": "retained",
+      "target_noun": "dough"
+    },
+    {
+      "action": "flatten",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H018",
+      "exclusion_reason": null,
+      "history_id": "H024",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 20,
+        "longest_pre_run": 6,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 33,
+          "evaluation_start": 14,
+          "length": 20,
+          "source_frame_end": 330,
+          "source_frame_start": 140
+        },
+        "pre_interval": {
+          "evaluation_end": 5,
+          "evaluation_start": 0,
+          "length": 6,
+          "source_frame_end": 50,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 13,
+          "evaluation_start": 6,
+          "source_frame_end": 130,
+          "source_frame_start": 60
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "3705_flatten_box",
+      "status": "retained",
+      "target_noun": "box"
+    },
+    {
+      "action": "saw",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H019",
+      "exclusion_reason": null,
+      "history_id": "H025",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 41,
+        "longest_pre_run": 10,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 83,
+          "evaluation_start": 43,
+          "length": 41,
+          "source_frame_end": 498,
+          "source_frame_start": 258
+        },
+        "pre_interval": {
+          "evaluation_end": 9,
+          "evaluation_start": 0,
+          "length": 10,
+          "source_frame_end": 54,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 42,
+          "evaluation_start": 10,
+          "source_frame_end": 252,
+          "source_frame_start": 60
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "7454_saw_wood",
+      "status": "retained",
+      "target_noun": "wood"
+    },
+    {
+      "action": "paint",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H020",
+      "exclusion_reason": null,
+      "history_id": "H026",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 17,
+        "longest_pre_run": 26,
+        "post_run_count": 2,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 77,
+          "evaluation_start": 61,
+          "length": 17,
+          "source_frame_end": 462,
+          "source_frame_start": 366
+        },
+        "pre_interval": {
+          "evaluation_end": 25,
+          "evaluation_start": 0,
+          "length": 26,
+          "source_frame_end": 150,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 60,
+          "evaluation_start": 26,
+          "source_frame_end": 360,
+          "source_frame_start": 156
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "6409_paint_plate",
+      "status": "retained",
+      "target_noun": "plate"
+    },
+    {
+      "action": "grate",
+      "eligibility_failure": "pre_side_absent_or_short",
+      "evaluation_history_id": null,
+      "exclusion_reason": "no_qualifying_event",
+      "history_id": "H027",
+      "qualifying_event_count": 0,
+      "run_summary": {
+        "longest_post_run": 17,
+        "longest_pre_run": 3,
+        "post_run_count": 2,
+        "pre_run_count": 1
+      },
+      "selected_event": null,
+      "selected_event_index": null,
+      "sequence_id": "3698_grate_cheese",
+      "status": "excluded",
+      "target_noun": "cheese"
+    },
+    {
+      "action": "break",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H021",
+      "exclusion_reason": null,
+      "history_id": "H028",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 13,
+        "longest_pre_run": 5,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 46,
+          "evaluation_start": 34,
+          "length": 13,
+          "source_frame_end": 460,
+          "source_frame_start": 340
+        },
+        "pre_interval": {
+          "evaluation_end": 4,
+          "evaluation_start": 0,
+          "length": 5,
+          "source_frame_end": 40,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 33,
+          "evaluation_start": 5,
+          "source_frame_end": 330,
+          "source_frame_start": 50
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "3538_break_broccoli",
+      "status": "retained",
+      "target_noun": "broccoli"
+    },
+    {
+      "action": "separate",
+      "eligibility_failure": "stable_sides_not_adjacent_in_required_order",
+      "evaluation_history_id": null,
+      "exclusion_reason": "no_qualifying_event",
+      "history_id": "H029",
+      "qualifying_event_count": 0,
+      "run_summary": {
+        "longest_post_run": 11,
+        "longest_pre_run": 70,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": null,
+      "selected_event_index": null,
+      "sequence_id": "4545_separate_clay",
+      "status": "excluded",
+      "target_noun": "clay"
+    },
+    {
+      "action": "squeeze",
+      "eligibility_failure": "both_stable_sides_absent_or_short",
+      "evaluation_history_id": null,
+      "exclusion_reason": "no_qualifying_event",
+      "history_id": "H030",
+      "qualifying_event_count": 0,
+      "run_summary": {
+        "longest_post_run": 0,
+        "longest_pre_run": 0,
+        "post_run_count": 0,
+        "pre_run_count": 0
+      },
+      "selected_event": null,
+      "selected_event_index": null,
+      "sequence_id": "0_squeeze_cloth",
+      "status": "excluded",
+      "target_noun": "cloth"
+    },
+    {
+      "action": "cut",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H022",
+      "exclusion_reason": null,
+      "history_id": "H031",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 55,
+        "longest_pre_run": 8,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 75,
+          "evaluation_start": 21,
+          "length": 55,
+          "source_frame_end": 750,
+          "source_frame_start": 210
+        },
+        "pre_interval": {
+          "evaluation_end": 7,
+          "evaluation_start": 0,
+          "length": 8,
+          "source_frame_end": 70,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 20,
+          "evaluation_start": 8,
+          "source_frame_end": 200,
+          "source_frame_start": 80
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "655_cut_salad",
+      "status": "retained",
+      "target_noun": "bok choy"
+    },
+    {
+      "action": "add",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H023",
+      "exclusion_reason": null,
+      "history_id": "H032",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 12,
+        "longest_pre_run": 94,
+        "post_run_count": 1,
+        "pre_run_count": 5
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 210,
+          "evaluation_start": 199,
+          "length": 12,
+          "source_frame_end": 2100,
+          "source_frame_start": 1990
+        },
+        "pre_interval": {
+          "evaluation_end": 122,
+          "evaluation_start": 29,
+          "length": 94,
+          "source_frame_end": 1220,
+          "source_frame_start": 290
+        },
+        "transition_interval": {
+          "evaluation_end": 198,
+          "evaluation_start": 123,
+          "source_frame_end": 1980,
+          "source_frame_start": 1230
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "2877_add_sauce",
+      "status": "retained",
+      "target_noun": "sauce"
+    },
+    {
+      "action": "sew",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H024",
+      "exclusion_reason": null,
+      "history_id": "H033",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 39,
+        "longest_pre_run": 6,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 59,
+          "evaluation_start": 21,
+          "length": 39,
+          "source_frame_end": 354,
+          "source_frame_start": 126
+        },
+        "pre_interval": {
+          "evaluation_end": 5,
+          "evaluation_start": 0,
+          "length": 6,
+          "source_frame_end": 30,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 20,
+          "evaluation_start": 6,
+          "source_frame_end": 120,
+          "source_frame_start": 36
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "9857_sew_cloth",
+      "status": "retained",
+      "target_noun": "cloth"
+    },
+    {
+      "action": "bend",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H025",
+      "exclusion_reason": null,
+      "history_id": "H034",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 26,
+        "longest_pre_run": 10,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 40,
+          "evaluation_start": 15,
+          "length": 26,
+          "source_frame_end": 400,
+          "source_frame_start": 150
+        },
+        "pre_interval": {
+          "evaluation_end": 9,
+          "evaluation_start": 0,
+          "length": 10,
+          "source_frame_end": 90,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 14,
+          "evaluation_start": 10,
+          "source_frame_end": 140,
+          "source_frame_start": 100
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "3803_bend_book",
+      "status": "retained",
+      "target_noun": "book"
+    },
+    {
+      "action": "clean",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H026",
+      "exclusion_reason": null,
+      "history_id": "H035",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 102,
+        "longest_pre_run": 11,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 130,
+          "evaluation_start": 29,
+          "length": 102,
+          "source_frame_end": 780,
+          "source_frame_start": 174
+        },
+        "pre_interval": {
+          "evaluation_end": 10,
+          "evaluation_start": 0,
+          "length": 11,
+          "source_frame_end": 60,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 28,
+          "evaluation_start": 11,
+          "source_frame_end": 168,
+          "source_frame_start": 66
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "7202_clean_car",
+      "status": "retained",
+      "target_noun": "car"
+    },
+    {
+      "action": "peel",
+      "eligibility_failure": "post_side_absent_or_short",
+      "evaluation_history_id": null,
+      "exclusion_reason": "no_qualifying_event",
+      "history_id": "H036",
+      "qualifying_event_count": 0,
+      "run_summary": {
+        "longest_post_run": 0,
+        "longest_pre_run": 6,
+        "post_run_count": 0,
+        "pre_run_count": 1
+      },
+      "selected_event": null,
+      "selected_event_index": null,
+      "sequence_id": "3356_peel_peach",
+      "status": "excluded",
+      "target_noun": "peach"
+    },
+    {
+      "action": "weld",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H027",
+      "exclusion_reason": null,
+      "history_id": "H037",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 39,
+        "longest_pre_run": 6,
+        "post_run_count": 7,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 32,
+          "evaluation_start": 14,
+          "length": 19,
+          "source_frame_end": 192,
+          "source_frame_start": 84
+        },
+        "pre_interval": {
+          "evaluation_end": 5,
+          "evaluation_start": 0,
+          "length": 6,
+          "source_frame_end": 30,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 13,
+          "evaluation_start": 6,
+          "source_frame_end": 78,
+          "source_frame_start": 36
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "10578_weld_iron",
+      "status": "retained",
+      "target_noun": "metal pieces"
+    },
+    {
+      "action": "apply",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H028",
+      "exclusion_reason": null,
+      "history_id": "H038",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 49,
+        "longest_pre_run": 11,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 62,
+          "evaluation_start": 14,
+          "length": 49,
+          "source_frame_end": 372,
+          "source_frame_start": 84
+        },
+        "pre_interval": {
+          "evaluation_end": 10,
+          "evaluation_start": 0,
+          "length": 11,
+          "source_frame_end": 60,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 13,
+          "evaluation_start": 11,
+          "source_frame_end": 78,
+          "source_frame_start": 66
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "6424_apply_pen",
+      "status": "retained",
+      "target_noun": "pen"
+    },
+    {
+      "action": "detach",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H029",
+      "exclusion_reason": null,
+      "history_id": "H039",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 45,
+        "longest_pre_run": 16,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 66,
+          "evaluation_start": 22,
+          "length": 45,
+          "source_frame_end": 396,
+          "source_frame_start": 132
+        },
+        "pre_interval": {
+          "evaluation_end": 15,
+          "evaluation_start": 0,
+          "length": 16,
+          "source_frame_end": 90,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 21,
+          "evaluation_start": 16,
+          "source_frame_end": 126,
+          "source_frame_start": 96
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "7421_detach_blender",
+      "status": "retained",
+      "target_noun": "hand blender"
+    },
+    {
+      "action": "disassemble",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H030",
+      "exclusion_reason": null,
+      "history_id": "H040",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 12,
+        "longest_pre_run": 9,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 52,
+          "evaluation_start": 41,
+          "length": 12,
+          "source_frame_end": 312,
+          "source_frame_start": 246
+        },
+        "pre_interval": {
+          "evaluation_end": 8,
+          "evaluation_start": 0,
+          "length": 9,
+          "source_frame_end": 48,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 40,
+          "evaluation_start": 9,
+          "source_frame_end": 240,
+          "source_frame_start": 54
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "5412_disassemble_wafflemaker",
+      "status": "retained",
+      "target_noun": "waffle maker"
+    },
+    {
+      "action": "scoop",
+      "eligibility_failure": "post_side_absent_or_short",
+      "evaluation_history_id": null,
+      "exclusion_reason": "no_qualifying_event",
+      "history_id": "H041",
+      "qualifying_event_count": 0,
+      "run_summary": {
+        "longest_post_run": 0,
+        "longest_pre_run": 24,
+        "post_run_count": 0,
+        "pre_run_count": 1
+      },
+      "selected_event": null,
+      "selected_event_index": null,
+      "sequence_id": "3069_scoop_condensed_milk",
+      "status": "excluded",
+      "target_noun": "condensed milk"
+    },
+    {
+      "action": "split",
+      "eligibility_failure": "pre_side_absent_or_short",
+      "evaluation_history_id": null,
+      "exclusion_reason": "no_qualifying_event",
+      "history_id": "H042",
+      "qualifying_event_count": 0,
+      "run_summary": {
+        "longest_post_run": 26,
+        "longest_pre_run": 3,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": null,
+      "selected_event_index": null,
+      "sequence_id": "9671_split_cups",
+      "status": "excluded",
+      "target_noun": "cups"
+    },
+    {
+      "action": "scrape",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H031",
+      "exclusion_reason": null,
+      "history_id": "H043",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 13,
+        "longest_pre_run": 5,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 55,
+          "evaluation_start": 43,
+          "length": 13,
+          "source_frame_end": 660,
+          "source_frame_start": 516
+        },
+        "pre_interval": {
+          "evaluation_end": 4,
+          "evaluation_start": 0,
+          "length": 5,
+          "source_frame_end": 48,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 42,
+          "evaluation_start": 5,
+          "source_frame_end": 504,
+          "source_frame_start": 60
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "3099_scrape_tomato",
+      "status": "retained",
+      "target_noun": "tomato half"
+    },
+    {
+      "action": "roll",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H032",
+      "exclusion_reason": null,
+      "history_id": "H044",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 11,
+        "longest_pre_run": 9,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 53,
+          "evaluation_start": 43,
+          "length": 11,
+          "source_frame_end": 636,
+          "source_frame_start": 516
+        },
+        "pre_interval": {
+          "evaluation_end": 8,
+          "evaluation_start": 0,
+          "length": 9,
+          "source_frame_end": 96,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 42,
+          "evaluation_start": 9,
+          "source_frame_end": 504,
+          "source_frame_start": 108
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "2399_roll_omelette",
+      "status": "retained",
+      "target_noun": "omelette"
+    },
+    {
+      "action": "mold",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H033",
+      "exclusion_reason": null,
+      "history_id": "H045",
+      "qualifying_event_count": 3,
+      "run_summary": {
+        "longest_post_run": 18,
+        "longest_pre_run": 8,
+        "post_run_count": 3,
+        "pre_run_count": 3
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 37,
+          "evaluation_start": 20,
+          "length": 18,
+          "source_frame_end": 222,
+          "source_frame_start": 120
+        },
+        "pre_interval": {
+          "evaluation_end": 4,
+          "evaluation_start": 0,
+          "length": 5,
+          "source_frame_end": 24,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 19,
+          "evaluation_start": 5,
+          "source_frame_end": 114,
+          "source_frame_start": 30
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "4547_mold_dough",
+      "status": "retained",
+      "target_noun": "dough"
+    },
+    {
+      "action": "melt",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H034",
+      "exclusion_reason": null,
+      "history_id": "H046",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 45,
+        "longest_pre_run": 31,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 105,
+          "evaluation_start": 61,
+          "length": 45,
+          "source_frame_end": 1050,
+          "source_frame_start": 610
+        },
+        "pre_interval": {
+          "evaluation_end": 30,
+          "evaluation_start": 0,
+          "length": 31,
+          "source_frame_end": 300,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 60,
+          "evaluation_start": 31,
+          "source_frame_end": 600,
+          "source_frame_start": 310
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "1385_melt_butter",
+      "status": "retained",
+      "target_noun": "butter"
+    },
+    {
+      "action": "wash",
+      "eligibility_failure": "stable_sides_not_adjacent_in_required_order",
+      "evaluation_history_id": null,
+      "exclusion_reason": "no_qualifying_event",
+      "history_id": "H047",
+      "qualifying_event_count": 0,
+      "run_summary": {
+        "longest_post_run": 6,
+        "longest_pre_run": 5,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": null,
+      "selected_event_index": null,
+      "sequence_id": "6070_wash_cloth",
+      "status": "excluded",
+      "target_noun": "cloth"
+    },
+    {
+      "action": "close",
+      "eligibility_failure": "post_side_absent_or_short",
+      "evaluation_history_id": null,
+      "exclusion_reason": "no_qualifying_event",
+      "history_id": "H048",
+      "qualifying_event_count": 0,
+      "run_summary": {
+        "longest_post_run": 4,
+        "longest_pre_run": 26,
+        "post_run_count": 2,
+        "pre_run_count": 2
+      },
+      "selected_event": null,
+      "selected_event_index": null,
+      "sequence_id": "5551_close_notepad",
+      "status": "excluded",
+      "target_noun": "notepad"
+    },
+    {
+      "action": "empty",
+      "eligibility_failure": "stable_sides_not_adjacent_in_required_order",
+      "evaluation_history_id": null,
+      "exclusion_reason": "no_qualifying_event",
+      "history_id": "H049",
+      "qualifying_event_count": 0,
+      "run_summary": {
+        "longest_post_run": 16,
+        "longest_pre_run": 8,
+        "post_run_count": 3,
+        "pre_run_count": 3
+      },
+      "selected_event": null,
+      "selected_event_index": null,
+      "sequence_id": "2271_empty_grinder",
+      "status": "excluded",
+      "target_noun": "grinder"
+    },
+    {
+      "action": "unscrew",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H035",
+      "exclusion_reason": null,
+      "history_id": "H050",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 13,
+        "longest_pre_run": 15,
+        "post_run_count": 2,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 46,
+          "evaluation_start": 34,
+          "length": 13,
+          "source_frame_end": 460,
+          "source_frame_start": 340
+        },
+        "pre_interval": {
+          "evaluation_end": 14,
+          "evaluation_start": 0,
+          "length": 15,
+          "source_frame_end": 140,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 33,
+          "evaluation_start": 15,
+          "source_frame_end": 330,
+          "source_frame_start": 150
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "3514_unscrew_milk",
+      "status": "retained",
+      "target_noun": "milk bottle"
+    },
+    {
+      "action": "unroll",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H036",
+      "exclusion_reason": null,
+      "history_id": "H051",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 33,
+        "longest_pre_run": 5,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 64,
+          "evaluation_start": 32,
+          "length": 33,
+          "source_frame_end": 640,
+          "source_frame_start": 320
+        },
+        "pre_interval": {
+          "evaluation_end": 4,
+          "evaluation_start": 0,
+          "length": 5,
+          "source_frame_end": 40,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 31,
+          "evaluation_start": 5,
+          "source_frame_end": 310,
+          "source_frame_start": 50
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "1917_unroll_foil",
+      "status": "retained",
+      "target_noun": "foil"
+    },
+    {
+      "action": "eat",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H037",
+      "exclusion_reason": null,
+      "history_id": "H052",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 133,
+        "longest_pre_run": 8,
+        "post_run_count": 2,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 72,
+          "evaluation_start": 18,
+          "length": 55,
+          "source_frame_end": 432,
+          "source_frame_start": 108
+        },
+        "pre_interval": {
+          "evaluation_end": 7,
+          "evaluation_start": 0,
+          "length": 8,
+          "source_frame_end": 42,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 17,
+          "evaluation_start": 8,
+          "source_frame_end": 102,
+          "source_frame_start": 48
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "8921_eat_food",
+      "status": "retained",
+      "target_noun": "rice dish"
+    },
+    {
+      "action": "unpack",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H038",
+      "exclusion_reason": null,
+      "history_id": "H053",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 120,
+        "longest_pre_run": 63,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 191,
+          "evaluation_start": 72,
+          "length": 120,
+          "source_frame_end": 1146,
+          "source_frame_start": 432
+        },
+        "pre_interval": {
+          "evaluation_end": 62,
+          "evaluation_start": 0,
+          "length": 63,
+          "source_frame_end": 372,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 71,
+          "evaluation_start": 63,
+          "source_frame_end": 426,
+          "source_frame_start": 378
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "5179_unpack_meat",
+      "status": "retained",
+      "target_noun": "meat"
+    },
+    {
+      "action": "mix",
+      "eligibility_failure": "both_stable_sides_absent_or_short",
+      "evaluation_history_id": null,
+      "exclusion_reason": "no_qualifying_event",
+      "history_id": "H054",
+      "qualifying_event_count": 0,
+      "run_summary": {
+        "longest_post_run": 0,
+        "longest_pre_run": 0,
+        "post_run_count": 0,
+        "pre_run_count": 0
+      },
+      "selected_event": null,
+      "selected_event_index": null,
+      "sequence_id": "2539_mix_biscuit",
+      "status": "excluded",
+      "target_noun": "biscuit mixture"
+    },
+    {
+      "action": "unwrap",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H039",
+      "exclusion_reason": null,
+      "history_id": "H055",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 39,
+        "longest_pre_run": 6,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 57,
+          "evaluation_start": 19,
+          "length": 39,
+          "source_frame_end": 570,
+          "source_frame_start": 190
+        },
+        "pre_interval": {
+          "evaluation_end": 5,
+          "evaluation_start": 0,
+          "length": 6,
+          "source_frame_end": 50,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 18,
+          "evaluation_start": 6,
+          "source_frame_end": 180,
+          "source_frame_start": 60
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "3504_unwrap_onion",
+      "status": "retained",
+      "target_noun": "onion"
+    },
+    {
+      "action": "crush",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H040",
+      "exclusion_reason": null,
+      "history_id": "H056",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 26,
+        "longest_pre_run": 8,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 46,
+          "evaluation_start": 21,
+          "length": 26,
+          "source_frame_end": 552,
+          "source_frame_start": 252
+        },
+        "pre_interval": {
+          "evaluation_end": 7,
+          "evaluation_start": 0,
+          "length": 8,
+          "source_frame_end": 84,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 20,
+          "evaluation_start": 8,
+          "source_frame_end": 240,
+          "source_frame_start": 96
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "1897_crush_can",
+      "status": "retained",
+      "target_noun": "can"
+    },
+    {
+      "action": "tear",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H041",
+      "exclusion_reason": null,
+      "history_id": "H057",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 24,
+        "longest_pre_run": 12,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 72,
+          "evaluation_start": 49,
+          "length": 24,
+          "source_frame_end": 432,
+          "source_frame_start": 294
+        },
+        "pre_interval": {
+          "evaluation_end": 11,
+          "evaluation_start": 0,
+          "length": 12,
+          "source_frame_end": 66,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 48,
+          "evaluation_start": 12,
+          "source_frame_end": 288,
+          "source_frame_start": 72
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "4311_tear_dough",
+      "status": "retained",
+      "target_noun": "dough"
+    },
+    {
+      "action": "stretch",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H042",
+      "exclusion_reason": null,
+      "history_id": "H058",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 24,
+        "longest_pre_run": 7,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 104,
+          "evaluation_start": 81,
+          "length": 24,
+          "source_frame_end": 1040,
+          "source_frame_start": 810
+        },
+        "pre_interval": {
+          "evaluation_end": 6,
+          "evaluation_start": 0,
+          "length": 7,
+          "source_frame_end": 60,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 80,
+          "evaluation_start": 7,
+          "source_frame_end": 800,
+          "source_frame_start": 70
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "3738_stretch_dough",
+      "status": "retained",
+      "target_noun": "dough"
+    },
+    {
+      "action": "fold",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H043",
+      "exclusion_reason": null,
+      "history_id": "H059",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 16,
+        "longest_pre_run": 5,
+        "post_run_count": 2,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 44,
+          "evaluation_start": 29,
+          "length": 16,
+          "source_frame_end": 440,
+          "source_frame_start": 290
+        },
+        "pre_interval": {
+          "evaluation_end": 4,
+          "evaluation_start": 0,
+          "length": 5,
+          "source_frame_end": 40,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 28,
+          "evaluation_start": 5,
+          "source_frame_end": 280,
+          "source_frame_start": 50
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "358_fold_foil",
+      "status": "retained",
+      "target_noun": "foil"
+    },
+    {
+      "action": "divide",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H044",
+      "exclusion_reason": null,
+      "history_id": "H060",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 118,
+        "longest_pre_run": 15,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 159,
+          "evaluation_start": 42,
+          "length": 118,
+          "source_frame_end": 954,
+          "source_frame_start": 252
+        },
+        "pre_interval": {
+          "evaluation_end": 14,
+          "evaluation_start": 0,
+          "length": 15,
+          "source_frame_end": 84,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 41,
+          "evaluation_start": 15,
+          "source_frame_end": 246,
+          "source_frame_start": 90
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "9666_divide_cards",
+      "status": "retained",
+      "target_noun": "playing cards"
+    },
+    {
+      "action": "open",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H045",
+      "exclusion_reason": null,
+      "history_id": "H061",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 145,
+        "longest_pre_run": 5,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 152,
+          "evaluation_start": 8,
+          "length": 145,
+          "source_frame_end": 912,
+          "source_frame_start": 48
+        },
+        "pre_interval": {
+          "evaluation_end": 4,
+          "evaluation_start": 0,
+          "length": 5,
+          "source_frame_end": 24,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 7,
+          "evaluation_start": 5,
+          "source_frame_end": 42,
+          "source_frame_start": 30
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "5212_open_blender",
+      "status": "retained",
+      "target_noun": "blender jar"
+    },
+    {
+      "action": "spread",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H046",
+      "exclusion_reason": null,
+      "history_id": "H062",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 5,
+        "longest_pre_run": 20,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 81,
+          "evaluation_start": 77,
+          "length": 5,
+          "source_frame_end": 972,
+          "source_frame_start": 924
+        },
+        "pre_interval": {
+          "evaluation_end": 19,
+          "evaluation_start": 0,
+          "length": 20,
+          "source_frame_end": 228,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 76,
+          "evaluation_start": 20,
+          "source_frame_end": 912,
+          "source_frame_start": 240
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "3568_spread_hummus",
+      "status": "retained",
+      "target_noun": "hummus"
+    },
+    {
+      "action": "rip",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H047",
+      "exclusion_reason": null,
+      "history_id": "H063",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 27,
+        "longest_pre_run": 55,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 87,
+          "evaluation_start": 61,
+          "length": 27,
+          "source_frame_end": 1044,
+          "source_frame_start": 732
+        },
+        "pre_interval": {
+          "evaluation_end": 54,
+          "evaluation_start": 0,
+          "length": 55,
+          "source_frame_end": 648,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 60,
+          "evaluation_start": 55,
+          "source_frame_end": 720,
+          "source_frame_start": 660
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "3687_rip_foil",
+      "status": "retained",
+      "target_noun": "foil"
+    },
+    {
+      "action": "pour",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H048",
+      "exclusion_reason": null,
+      "history_id": "H064",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 39,
+        "longest_pre_run": 14,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 73,
+          "evaluation_start": 35,
+          "length": 39,
+          "source_frame_end": 438,
+          "source_frame_start": 210
+        },
+        "pre_interval": {
+          "evaluation_end": 13,
+          "evaluation_start": 0,
+          "length": 14,
+          "source_frame_end": 78,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 34,
+          "evaluation_start": 14,
+          "source_frame_end": 204,
+          "source_frame_start": 84
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "5090_pour_detergent",
+      "status": "retained",
+      "target_noun": "detergent"
+    },
+    {
+      "action": "flatten",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H049",
+      "exclusion_reason": null,
+      "history_id": "H065",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 19,
+        "longest_pre_run": 11,
+        "post_run_count": 2,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 32,
+          "evaluation_start": 23,
+          "length": 10,
+          "source_frame_end": 384,
+          "source_frame_start": 276
+        },
+        "pre_interval": {
+          "evaluation_end": 10,
+          "evaluation_start": 0,
+          "length": 11,
+          "source_frame_end": 120,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 22,
+          "evaluation_start": 11,
+          "source_frame_end": 264,
+          "source_frame_start": 132
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "3712_flatten_bottle",
+      "status": "retained",
+      "target_noun": "bottle"
+    },
+    {
+      "action": "paint",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H050",
+      "exclusion_reason": null,
+      "history_id": "H066",
+      "qualifying_event_count": 2,
+      "run_summary": {
+        "longest_post_run": 7,
+        "longest_pre_run": 5,
+        "post_run_count": 2,
+        "pre_run_count": 2
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 126,
+          "evaluation_start": 122,
+          "length": 5,
+          "source_frame_end": 756,
+          "source_frame_start": 732
+        },
+        "pre_interval": {
+          "evaluation_end": 4,
+          "evaluation_start": 0,
+          "length": 5,
+          "source_frame_end": 24,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 121,
+          "evaluation_start": 5,
+          "source_frame_end": 726,
+          "source_frame_start": 30
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "7049_paint_nail",
+      "status": "retained",
+      "target_noun": "nail"
+    },
+    {
+      "action": "grate",
+      "eligibility_failure": "stable_sides_not_adjacent_in_required_order",
+      "evaluation_history_id": null,
+      "exclusion_reason": "no_qualifying_event",
+      "history_id": "H067",
+      "qualifying_event_count": 0,
+      "run_summary": {
+        "longest_post_run": 21,
+        "longest_pre_run": 6,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": null,
+      "selected_event_index": null,
+      "sequence_id": "8607_grate_onion",
+      "status": "excluded",
+      "target_noun": "onion"
+    },
+    {
+      "action": "break",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H051",
+      "exclusion_reason": null,
+      "history_id": "H068",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 9,
+        "longest_pre_run": 55,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 150,
+          "evaluation_start": 142,
+          "length": 9,
+          "source_frame_end": 900,
+          "source_frame_start": 852
+        },
+        "pre_interval": {
+          "evaluation_end": 54,
+          "evaluation_start": 0,
+          "length": 55,
+          "source_frame_end": 324,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 141,
+          "evaluation_start": 55,
+          "source_frame_end": 846,
+          "source_frame_start": 330
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "5483_break_ice",
+      "status": "retained",
+      "target_noun": "ice cubes"
+    },
+    {
+      "action": "separate",
+      "eligibility_failure": "pre_side_absent_or_short",
+      "evaluation_history_id": null,
+      "exclusion_reason": "no_qualifying_event",
+      "history_id": "H069",
+      "qualifying_event_count": 0,
+      "run_summary": {
+        "longest_post_run": 64,
+        "longest_pre_run": 1,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": null,
+      "selected_event_index": null,
+      "sequence_id": "10623_separate_dough",
+      "status": "excluded",
+      "target_noun": "dough"
+    },
+    {
+      "action": "squeeze",
+      "eligibility_failure": "stable_sides_not_adjacent_in_required_order",
+      "evaluation_history_id": null,
+      "exclusion_reason": "no_qualifying_event",
+      "history_id": "H070",
+      "qualifying_event_count": 0,
+      "run_summary": {
+        "longest_post_run": 21,
+        "longest_pre_run": 9,
+        "post_run_count": 3,
+        "pre_run_count": 3
+      },
+      "selected_event": null,
+      "selected_event_index": null,
+      "sequence_id": "7_squeeze_pasta",
+      "status": "excluded",
+      "target_noun": "cooked pasta"
+    },
+    {
+      "action": "cut",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H052",
+      "exclusion_reason": null,
+      "history_id": "H071",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 19,
+        "longest_pre_run": 27,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 65,
+          "evaluation_start": 47,
+          "length": 19,
+          "source_frame_end": 390,
+          "source_frame_start": 282
+        },
+        "pre_interval": {
+          "evaluation_end": 26,
+          "evaluation_start": 0,
+          "length": 27,
+          "source_frame_end": 156,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 46,
+          "evaluation_start": 27,
+          "source_frame_end": 276,
+          "source_frame_start": 162
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "5033_cut_paper",
+      "status": "retained",
+      "target_noun": "paper"
+    },
+    {
+      "action": "peel",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H053",
+      "exclusion_reason": null,
+      "history_id": "H072",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 5,
+        "longest_pre_run": 9,
+        "post_run_count": 2,
+        "pre_run_count": 2
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 151,
+          "evaluation_start": 147,
+          "length": 5,
+          "source_frame_end": 906,
+          "source_frame_start": 882
+        },
+        "pre_interval": {
+          "evaluation_end": 83,
+          "evaluation_start": 75,
+          "length": 9,
+          "source_frame_end": 498,
+          "source_frame_start": 450
+        },
+        "transition_interval": {
+          "evaluation_end": 146,
+          "evaluation_start": 84,
+          "source_frame_end": 876,
+          "source_frame_start": 504
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "8591_peel_courgette",
+      "status": "retained",
+      "target_noun": "courgette"
+    },
+    {
+      "action": "apply",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H054",
+      "exclusion_reason": null,
+      "history_id": "H073",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 6,
+        "longest_pre_run": 8,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 44,
+          "evaluation_start": 39,
+          "length": 6,
+          "source_frame_end": 264,
+          "source_frame_start": 234
+        },
+        "pre_interval": {
+          "evaluation_end": 7,
+          "evaluation_start": 0,
+          "length": 8,
+          "source_frame_end": 42,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 38,
+          "evaluation_start": 8,
+          "source_frame_end": 228,
+          "source_frame_start": 48
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "6489_apply_paint",
+      "status": "retained",
+      "target_noun": "paint"
+    },
+    {
+      "action": "detach",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H055",
+      "exclusion_reason": null,
+      "history_id": "H074",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 26,
+        "longest_pre_run": 23,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 62,
+          "evaluation_start": 37,
+          "length": 26,
+          "source_frame_end": 372,
+          "source_frame_start": 222
+        },
+        "pre_interval": {
+          "evaluation_end": 22,
+          "evaluation_start": 0,
+          "length": 23,
+          "source_frame_end": 132,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 36,
+          "evaluation_start": 23,
+          "source_frame_end": 216,
+          "source_frame_start": 138
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "7805_detach_bag",
+      "status": "retained",
+      "target_noun": "grass catcher bag"
+    },
+    {
+      "action": "scoop",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H056",
+      "exclusion_reason": null,
+      "history_id": "H075",
+      "qualifying_event_count": 2,
+      "run_summary": {
+        "longest_post_run": 17,
+        "longest_pre_run": 14,
+        "post_run_count": 3,
+        "pre_run_count": 2
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 25,
+          "evaluation_start": 21,
+          "length": 5,
+          "source_frame_end": 300,
+          "source_frame_start": 252
+        },
+        "pre_interval": {
+          "evaluation_end": 13,
+          "evaluation_start": 0,
+          "length": 14,
+          "source_frame_end": 156,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 20,
+          "evaluation_start": 14,
+          "source_frame_end": 240,
+          "source_frame_start": 168
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "2761_scoop_cheese",
+      "status": "retained",
+      "target_noun": "cheese"
+    },
+    {
+      "action": "split",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H057",
+      "exclusion_reason": null,
+      "history_id": "H076",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 7,
+        "longest_pre_run": 5,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 168,
+          "evaluation_start": 162,
+          "length": 7,
+          "source_frame_end": 1008,
+          "source_frame_start": 972
+        },
+        "pre_interval": {
+          "evaluation_end": 4,
+          "evaluation_start": 0,
+          "length": 5,
+          "source_frame_end": 24,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 161,
+          "evaluation_start": 5,
+          "source_frame_end": 966,
+          "source_frame_start": 30
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "9256_split_cards",
+      "status": "retained",
+      "target_noun": "playing cards"
+    },
+    {
+      "action": "scrape",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H058",
+      "exclusion_reason": null,
+      "history_id": "H077",
+      "qualifying_event_count": 2,
+      "run_summary": {
+        "longest_post_run": 45,
+        "longest_pre_run": 16,
+        "post_run_count": 2,
+        "pre_run_count": 2
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 82,
+          "evaluation_start": 38,
+          "length": 45,
+          "source_frame_end": 492,
+          "source_frame_start": 228
+        },
+        "pre_interval": {
+          "evaluation_end": 5,
+          "evaluation_start": 0,
+          "length": 6,
+          "source_frame_end": 30,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 37,
+          "evaluation_start": 6,
+          "source_frame_end": 222,
+          "source_frame_start": 36
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "9818_scrape_papaya",
+      "status": "retained",
+      "target_noun": "papaya half"
+    },
+    {
+      "action": "roll",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H059",
+      "exclusion_reason": null,
+      "history_id": "H078",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 31,
+        "longest_pre_run": 5,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 78,
+          "evaluation_start": 48,
+          "length": 31,
+          "source_frame_end": 936,
+          "source_frame_start": 576
+        },
+        "pre_interval": {
+          "evaluation_end": 4,
+          "evaluation_start": 0,
+          "length": 5,
+          "source_frame_end": 48,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 47,
+          "evaluation_start": 5,
+          "source_frame_end": 564,
+          "source_frame_start": 60
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "2406_roll_bread",
+      "status": "retained",
+      "target_noun": "bread slice"
+    },
+    {
+      "action": "mold",
+      "eligibility_failure": "stable_sides_not_adjacent_in_required_order",
+      "evaluation_history_id": null,
+      "exclusion_reason": "no_qualifying_event",
+      "history_id": "H079",
+      "qualifying_event_count": 0,
+      "run_summary": {
+        "longest_post_run": 6,
+        "longest_pre_run": 22,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": null,
+      "selected_event_index": null,
+      "sequence_id": "9388_mold_clay",
+      "status": "excluded",
+      "target_noun": "clay"
+    },
+    {
+      "action": "empty",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H060",
+      "exclusion_reason": null,
+      "history_id": "H080",
+      "qualifying_event_count": 2,
+      "run_summary": {
+        "longest_post_run": 64,
+        "longest_pre_run": 14,
+        "post_run_count": 2,
+        "pre_run_count": 2
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 26,
+          "evaluation_start": 16,
+          "length": 11,
+          "source_frame_end": 260,
+          "source_frame_start": 160
+        },
+        "pre_interval": {
+          "evaluation_end": 13,
+          "evaluation_start": 0,
+          "length": 14,
+          "source_frame_end": 130,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 15,
+          "evaluation_start": 14,
+          "source_frame_end": 150,
+          "source_frame_start": 140
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "2258_empty_bowl",
+      "status": "retained",
+      "target_noun": "bowl"
+    },
+    {
+      "action": "unscrew",
+      "eligibility_failure": "stable_sides_not_adjacent_in_required_order",
+      "evaluation_history_id": null,
+      "exclusion_reason": "no_qualifying_event",
+      "history_id": "H081",
+      "qualifying_event_count": 0,
+      "run_summary": {
+        "longest_post_run": 33,
+        "longest_pre_run": 18,
+        "post_run_count": 3,
+        "pre_run_count": 1
+      },
+      "selected_event": null,
+      "selected_event_index": null,
+      "sequence_id": "3517_unscrew_coffemaker",
+      "status": "excluded",
+      "target_noun": "moka pot"
+    },
+    {
+      "action": "unroll",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H061",
+      "exclusion_reason": null,
+      "history_id": "H082",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 47,
+        "longest_pre_run": 9,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 61,
+          "evaluation_start": 15,
+          "length": 47,
+          "source_frame_end": 610,
+          "source_frame_start": 150
+        },
+        "pre_interval": {
+          "evaluation_end": 8,
+          "evaluation_start": 0,
+          "length": 9,
+          "source_frame_end": 80,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 14,
+          "evaluation_start": 9,
+          "source_frame_end": 140,
+          "source_frame_start": 90
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "1916_unroll_paper",
+      "status": "retained",
+      "target_noun": "paper"
+    },
+    {
+      "action": "unpack",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H062",
+      "exclusion_reason": null,
+      "history_id": "H083",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 148,
+        "longest_pre_run": 8,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 165,
+          "evaluation_start": 18,
+          "length": 148,
+          "source_frame_end": 1650,
+          "source_frame_start": 180
+        },
+        "pre_interval": {
+          "evaluation_end": 7,
+          "evaluation_start": 0,
+          "length": 8,
+          "source_frame_end": 70,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 17,
+          "evaluation_start": 8,
+          "source_frame_end": 170,
+          "source_frame_start": 80
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "3294_unpack_chorizo",
+      "status": "retained",
+      "target_noun": "chorizo"
+    },
+    {
+      "action": "mix",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H063",
+      "exclusion_reason": null,
+      "history_id": "H084",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 5,
+        "longest_pre_run": 6,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 99,
+          "evaluation_start": 95,
+          "length": 5,
+          "source_frame_end": 1188,
+          "source_frame_start": 1140
+        },
+        "pre_interval": {
+          "evaluation_end": 5,
+          "evaluation_start": 0,
+          "length": 6,
+          "source_frame_end": 60,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 94,
+          "evaluation_start": 6,
+          "source_frame_end": 1128,
+          "source_frame_start": 72
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "2480_mix_food",
+      "status": "retained",
+      "target_noun": "food"
+    },
+    {
+      "action": "unwrap",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H064",
+      "exclusion_reason": null,
+      "history_id": "H085",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 42,
+        "longest_pre_run": 38,
+        "post_run_count": 1,
+        "pre_run_count": 2
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 145,
+          "evaluation_start": 104,
+          "length": 42,
+          "source_frame_end": 870,
+          "source_frame_start": 624
+        },
+        "pre_interval": {
+          "evaluation_end": 56,
+          "evaluation_start": 42,
+          "length": 15,
+          "source_frame_end": 336,
+          "source_frame_start": 252
+        },
+        "transition_interval": {
+          "evaluation_end": 103,
+          "evaluation_start": 57,
+          "source_frame_end": 618,
+          "source_frame_start": 342
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "6619_unwrap_bag",
+      "status": "retained",
+      "target_noun": "trash bag"
+    },
+    {
+      "action": "tear",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H065",
+      "exclusion_reason": null,
+      "history_id": "H086",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 39,
+        "longest_pre_run": 31,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 108,
+          "evaluation_start": 70,
+          "length": 39,
+          "source_frame_end": 648,
+          "source_frame_start": 420
+        },
+        "pre_interval": {
+          "evaluation_end": 30,
+          "evaluation_start": 0,
+          "length": 31,
+          "source_frame_end": 180,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 69,
+          "evaluation_start": 31,
+          "source_frame_end": 414,
+          "source_frame_start": 186
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "4942_tear_squid",
+      "status": "retained",
+      "target_noun": "squid"
+    },
+    {
+      "action": "fold",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H066",
+      "exclusion_reason": null,
+      "history_id": "H087",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 8,
+        "longest_pre_run": 7,
+        "post_run_count": 2,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 43,
+          "evaluation_start": 36,
+          "length": 8,
+          "source_frame_end": 430,
+          "source_frame_start": 360
+        },
+        "pre_interval": {
+          "evaluation_end": 6,
+          "evaluation_start": 0,
+          "length": 7,
+          "source_frame_end": 60,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 35,
+          "evaluation_start": 7,
+          "source_frame_end": 350,
+          "source_frame_start": 70
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "336_fold_bag",
+      "status": "retained",
+      "target_noun": "bag"
+    },
+    {
+      "action": "divide",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H067",
+      "exclusion_reason": null,
+      "history_id": "H088",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 38,
+        "longest_pre_run": 21,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 76,
+          "evaluation_start": 39,
+          "length": 38,
+          "source_frame_end": 912,
+          "source_frame_start": 468
+        },
+        "pre_interval": {
+          "evaluation_end": 20,
+          "evaluation_start": 0,
+          "length": 21,
+          "source_frame_end": 240,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 38,
+          "evaluation_start": 21,
+          "source_frame_end": 456,
+          "source_frame_start": 252
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "3807_divide_meat",
+      "status": "retained",
+      "target_noun": "meat"
+    },
+    {
+      "action": "open",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H068",
+      "exclusion_reason": null,
+      "history_id": "H089",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 98,
+        "longest_pre_run": 36,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 148,
+          "evaluation_start": 51,
+          "length": 98,
+          "source_frame_end": 1480,
+          "source_frame_start": 510
+        },
+        "pre_interval": {
+          "evaluation_end": 35,
+          "evaluation_start": 0,
+          "length": 36,
+          "source_frame_end": 350,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 50,
+          "evaluation_start": 36,
+          "source_frame_end": 500,
+          "source_frame_start": 360
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "1374_open_mozzarella",
+      "status": "retained",
+      "target_noun": "mozzarella"
+    },
+    {
+      "action": "spread",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H069",
+      "exclusion_reason": null,
+      "history_id": "H090",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 13,
+        "longest_pre_run": 13,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 149,
+          "evaluation_start": 137,
+          "length": 13,
+          "source_frame_end": 894,
+          "source_frame_start": 822
+        },
+        "pre_interval": {
+          "evaluation_end": 12,
+          "evaluation_start": 0,
+          "length": 13,
+          "source_frame_end": 72,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 136,
+          "evaluation_start": 13,
+          "source_frame_end": 816,
+          "source_frame_start": 78
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "9383_spread_cement",
+      "status": "retained",
+      "target_noun": "cement"
+    },
+    {
+      "action": "pour",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H070",
+      "exclusion_reason": null,
+      "history_id": "H091",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 66,
+        "longest_pre_run": 7,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 106,
+          "evaluation_start": 41,
+          "length": 66,
+          "source_frame_end": 636,
+          "source_frame_start": 246
+        },
+        "pre_interval": {
+          "evaluation_end": 6,
+          "evaluation_start": 0,
+          "length": 7,
+          "source_frame_end": 36,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 40,
+          "evaluation_start": 7,
+          "source_frame_end": 240,
+          "source_frame_start": 42
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "8208_pour_batter",
+      "status": "retained",
+      "target_noun": "batter"
+    },
+    {
+      "action": "grate",
+      "eligibility_failure": "post_side_absent_or_short",
+      "evaluation_history_id": null,
+      "exclusion_reason": "no_qualifying_event",
+      "history_id": "H092",
+      "qualifying_event_count": 0,
+      "run_summary": {
+        "longest_post_run": 0,
+        "longest_pre_run": 6,
+        "post_run_count": 0,
+        "pre_run_count": 1
+      },
+      "selected_event": null,
+      "selected_event_index": null,
+      "sequence_id": "3691_grate_carrot",
+      "status": "excluded",
+      "target_noun": "carrot"
+    },
+    {
+      "action": "break",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H071",
+      "exclusion_reason": null,
+      "history_id": "H093",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 21,
+        "longest_pre_run": 6,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 54,
+          "evaluation_start": 34,
+          "length": 21,
+          "source_frame_end": 324,
+          "source_frame_start": 204
+        },
+        "pre_interval": {
+          "evaluation_end": 5,
+          "evaluation_start": 0,
+          "length": 6,
+          "source_frame_end": 30,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 33,
+          "evaluation_start": 6,
+          "source_frame_end": 198,
+          "source_frame_start": 36
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "5261_break_package",
+      "status": "retained",
+      "target_noun": "package"
+    },
+    {
+      "action": "squeeze",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H072",
+      "exclusion_reason": null,
+      "history_id": "H094",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 5,
+        "longest_pre_run": 8,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 60,
+          "evaluation_start": 56,
+          "length": 5,
+          "source_frame_end": 720,
+          "source_frame_start": 672
+        },
+        "pre_interval": {
+          "evaluation_end": 7,
+          "evaluation_start": 0,
+          "length": 8,
+          "source_frame_end": 84,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 55,
+          "evaluation_start": 8,
+          "source_frame_end": 660,
+          "source_frame_start": 96
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "3447_squeeze_sausage",
+      "status": "retained",
+      "target_noun": "sausage meat"
+    },
+    {
+      "action": "cut",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H073",
+      "exclusion_reason": null,
+      "history_id": "H095",
+      "qualifying_event_count": 2,
+      "run_summary": {
+        "longest_post_run": 122,
+        "longest_pre_run": 14,
+        "post_run_count": 2,
+        "pre_run_count": 2
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 196,
+          "evaluation_start": 75,
+          "length": 122,
+          "source_frame_end": 1960,
+          "source_frame_start": 750
+        },
+        "pre_interval": {
+          "evaluation_end": 5,
+          "evaluation_start": 0,
+          "length": 6,
+          "source_frame_end": 50,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 74,
+          "evaluation_start": 6,
+          "source_frame_end": 740,
+          "source_frame_start": 60
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "1377_cut_potato",
+      "status": "retained",
+      "target_noun": "potato"
+    },
+    {
+      "action": "peel",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H074",
+      "exclusion_reason": null,
+      "history_id": "H096",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 5,
+        "longest_pre_run": 10,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 110,
+          "evaluation_start": 106,
+          "length": 5,
+          "source_frame_end": 660,
+          "source_frame_start": 636
+        },
+        "pre_interval": {
+          "evaluation_end": 9,
+          "evaluation_start": 0,
+          "length": 10,
+          "source_frame_end": 54,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 105,
+          "evaluation_start": 10,
+          "source_frame_end": 630,
+          "source_frame_start": 60
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "4836_peel_root",
+      "status": "retained",
+      "target_noun": "root"
+    },
+    {
+      "action": "apply",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H075",
+      "exclusion_reason": null,
+      "history_id": "H097",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 5,
+        "longest_pre_run": 5,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 62,
+          "evaluation_start": 58,
+          "length": 5,
+          "source_frame_end": 372,
+          "source_frame_start": 348
+        },
+        "pre_interval": {
+          "evaluation_end": 4,
+          "evaluation_start": 0,
+          "length": 5,
+          "source_frame_end": 24,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 57,
+          "evaluation_start": 5,
+          "source_frame_end": 342,
+          "source_frame_start": 30
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "6420_apply_marker",
+      "status": "retained",
+      "target_noun": "marker ink"
+    },
+    {
+      "action": "detach",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H076",
+      "exclusion_reason": null,
+      "history_id": "H098",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 65,
+        "longest_pre_run": 7,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 92,
+          "evaluation_start": 28,
+          "length": 65,
+          "source_frame_end": 552,
+          "source_frame_start": 168
+        },
+        "pre_interval": {
+          "evaluation_end": 6,
+          "evaluation_start": 0,
+          "length": 7,
+          "source_frame_end": 36,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 27,
+          "evaluation_start": 7,
+          "source_frame_end": 162,
+          "source_frame_start": 42
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "8076_detach_car",
+      "status": "retained",
+      "target_noun": "rear cargo cover"
+    },
+    {
+      "action": "scoop",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H077",
+      "exclusion_reason": null,
+      "history_id": "H099",
+      "qualifying_event_count": 3,
+      "run_summary": {
+        "longest_post_run": 10,
+        "longest_pre_run": 9,
+        "post_run_count": 6,
+        "pre_run_count": 6
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 16,
+          "evaluation_start": 12,
+          "length": 5,
+          "source_frame_end": 96,
+          "source_frame_start": 72
+        },
+        "pre_interval": {
+          "evaluation_end": 8,
+          "evaluation_start": 0,
+          "length": 9,
+          "source_frame_end": 48,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 11,
+          "evaluation_start": 9,
+          "source_frame_end": 66,
+          "source_frame_start": 54
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "9234_scoop_sauce",
+      "status": "retained",
+      "target_noun": "sauce"
+    },
+    {
+      "action": "split",
+      "eligibility_failure": null,
+      "evaluation_history_id": "H078",
+      "exclusion_reason": null,
+      "history_id": "H100",
+      "qualifying_event_count": 1,
+      "run_summary": {
+        "longest_post_run": 48,
+        "longest_pre_run": 6,
+        "post_run_count": 1,
+        "pre_run_count": 1
+      },
+      "selected_event": {
+        "post_interval": {
+          "evaluation_end": 77,
+          "evaluation_start": 30,
+          "length": 48,
+          "source_frame_end": 462,
+          "source_frame_start": 180
+        },
+        "pre_interval": {
+          "evaluation_end": 5,
+          "evaluation_start": 0,
+          "length": 6,
+          "source_frame_end": 30,
+          "source_frame_start": 0
+        },
+        "transition_interval": {
+          "evaluation_end": 29,
+          "evaluation_start": 6,
+          "source_frame_end": 174,
+          "source_frame_start": 36
+        }
+      },
+      "selected_event_index": 0,
+      "sequence_id": "6922_split_paper",
+      "status": "retained",
+      "target_noun": "paper train craft"
+    }
+  ],
+  "schema_version": 1
+}

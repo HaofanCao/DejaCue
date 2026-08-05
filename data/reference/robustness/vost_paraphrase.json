@@ -1,0 +1,803 @@
+{
+  "aggregation": "unweighted_source_component_mean",
+  "conditions": {
+    "absolute_coordinates": {
+      "reported_source_component_macro": {
+        "paraphrase_exact_agreement": 0.32051282051282054,
+        "paraphrase_window_tiou": 0.6311847902834415
+      },
+      "source_components": [
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.18918919563293457,
+          "source_component_id": "source_component_0001"
+        },
+        {
+          "paraphrase_exact_agreement": 1.0,
+          "paraphrase_window_tiou": 1.0,
+          "source_component_id": "source_component_0002"
+        },
+        {
+          "paraphrase_exact_agreement": 1.0,
+          "paraphrase_window_tiou": 1.0,
+          "source_component_id": "source_component_0003"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0004"
+        },
+        {
+          "paraphrase_exact_agreement": 0.5,
+          "paraphrase_window_tiou": 0.8703703582286835,
+          "source_component_id": "source_component_0006"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.3066893443465233,
+          "source_component_id": "source_component_0007"
+        },
+        {
+          "paraphrase_exact_agreement": 0.5,
+          "paraphrase_window_tiou": 0.9666666686534882,
+          "source_component_id": "source_component_0008"
+        },
+        {
+          "paraphrase_exact_agreement": 0.5,
+          "paraphrase_window_tiou": 0.9761904776096344,
+          "source_component_id": "source_component_0009"
+        },
+        {
+          "paraphrase_exact_agreement": 0.5,
+          "paraphrase_window_tiou": 0.9473684132099152,
+          "source_component_id": "source_component_0011"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.75,
+          "source_component_id": "source_component_0012"
+        },
+        {
+          "paraphrase_exact_agreement": 0.5,
+          "paraphrase_window_tiou": 0.9000000059604645,
+          "source_component_id": "source_component_0013"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.6292517185211182,
+          "source_component_id": "source_component_0014"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.7142857313156128,
+          "source_component_id": "source_component_0016"
+        },
+        {
+          "paraphrase_exact_agreement": 0.5,
+          "paraphrase_window_tiou": 0.7604166567325592,
+          "source_component_id": "source_component_0017"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.3647244721651077,
+          "source_component_id": "source_component_0018"
+        },
+        {
+          "paraphrase_exact_agreement": 0.5,
+          "paraphrase_window_tiou": 0.5,
+          "source_component_id": "source_component_0019"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.8088235259056091,
+          "source_component_id": "source_component_0022"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0023"
+        },
+        {
+          "paraphrase_exact_agreement": 0.5,
+          "paraphrase_window_tiou": 0.9038461446762085,
+          "source_component_id": "source_component_0024"
+        },
+        {
+          "paraphrase_exact_agreement": 0.5,
+          "paraphrase_window_tiou": 0.7666666805744171,
+          "source_component_id": "source_component_0026"
+        },
+        {
+          "paraphrase_exact_agreement": 0.5,
+          "paraphrase_window_tiou": 0.6111111119389534,
+          "source_component_id": "source_component_0027"
+        },
+        {
+          "paraphrase_exact_agreement": 0.5,
+          "paraphrase_window_tiou": 0.5,
+          "source_component_id": "source_component_0029"
+        },
+        {
+          "paraphrase_exact_agreement": 0.5,
+          "paraphrase_window_tiou": 0.949999988079071,
+          "source_component_id": "source_component_0030"
+        },
+        {
+          "paraphrase_exact_agreement": 0.5,
+          "paraphrase_window_tiou": 0.5,
+          "source_component_id": "source_component_0032"
+        },
+        {
+          "paraphrase_exact_agreement": 0.5,
+          "paraphrase_window_tiou": 0.5961538478732109,
+          "source_component_id": "source_component_0033"
+        },
+        {
+          "paraphrase_exact_agreement": 0.5,
+          "paraphrase_window_tiou": 0.800000011920929,
+          "source_component_id": "source_component_0034"
+        },
+        {
+          "paraphrase_exact_agreement": 1.0,
+          "paraphrase_window_tiou": 1.0,
+          "source_component_id": "source_component_0036"
+        },
+        {
+          "paraphrase_exact_agreement": 0.5,
+          "paraphrase_window_tiou": 0.8888888955116272,
+          "source_component_id": "source_component_0037"
+        },
+        {
+          "paraphrase_exact_agreement": 1.0,
+          "paraphrase_window_tiou": 1.0,
+          "source_component_id": "source_component_0038"
+        },
+        {
+          "paraphrase_exact_agreement": 1.0,
+          "paraphrase_window_tiou": 1.0,
+          "source_component_id": "source_component_0039"
+        },
+        {
+          "paraphrase_exact_agreement": 1.0,
+          "paraphrase_window_tiou": 1.0,
+          "source_component_id": "source_component_0042"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.1428571492433548,
+          "source_component_id": "source_component_0043"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.36000001430511475,
+          "source_component_id": "source_component_0044"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.3880952447652817,
+          "source_component_id": "source_component_0045"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.6031746119260788,
+          "source_component_id": "source_component_0046"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.3888888955116272,
+          "source_component_id": "source_component_0047"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.5165229886770248,
+          "source_component_id": "source_component_0048"
+        },
+        {
+          "paraphrase_exact_agreement": 0.5,
+          "paraphrase_window_tiou": 0.6428571492433548,
+          "source_component_id": "source_component_0049"
+        },
+        {
+          "paraphrase_exact_agreement": 0.5,
+          "paraphrase_window_tiou": 0.8333333432674408,
+          "source_component_id": "source_component_0050"
+        },
+        {
+          "paraphrase_exact_agreement": 0.5,
+          "paraphrase_window_tiou": 0.8571428656578064,
+          "source_component_id": "source_component_0052"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.9090909361839294,
+          "source_component_id": "source_component_0053"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.3095238208770752,
+          "source_component_id": "source_component_0054"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.48148149251937866,
+          "source_component_id": "source_component_0055"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.6097308695316315,
+          "source_component_id": "source_component_0056"
+        },
+        {
+          "paraphrase_exact_agreement": 0.5,
+          "paraphrase_window_tiou": 0.9666666686534882,
+          "source_component_id": "source_component_0057"
+        },
+        {
+          "paraphrase_exact_agreement": 0.5,
+          "paraphrase_window_tiou": 0.9909909963607788,
+          "source_component_id": "source_component_0058"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.36764705181121826,
+          "source_component_id": "source_component_0059"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.49047620594501495,
+          "source_component_id": "source_component_0060"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.06666667014360428,
+          "source_component_id": "source_component_0061"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.4821428656578064,
+          "source_component_id": "source_component_0063"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.4096989929676056,
+          "source_component_id": "source_component_0064"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.6233766227960587,
+          "source_component_id": "source_component_0068"
+        },
+        {
+          "paraphrase_exact_agreement": 1.0,
+          "paraphrase_window_tiou": 1.0,
+          "source_component_id": "source_component_0069"
+        },
+        {
+          "paraphrase_exact_agreement": 1.0,
+          "paraphrase_window_tiou": 1.0,
+          "source_component_id": "source_component_0070"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0071"
+        },
+        {
+          "paraphrase_exact_agreement": 0.5,
+          "paraphrase_window_tiou": 0.5,
+          "source_component_id": "source_component_0072"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0073"
+        },
+        {
+          "paraphrase_exact_agreement": 1.0,
+          "paraphrase_window_tiou": 1.0,
+          "source_component_id": "source_component_0074"
+        },
+        {
+          "paraphrase_exact_agreement": 1.0,
+          "paraphrase_window_tiou": 1.0,
+          "source_component_id": "source_component_0075"
+        },
+        {
+          "paraphrase_exact_agreement": 1.0,
+          "paraphrase_window_tiou": 1.0,
+          "source_component_id": "source_component_0076"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.1458333283662796,
+          "source_component_id": "source_component_0077"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.5555555820465088,
+          "source_component_id": "source_component_0079"
+        },
+        {
+          "paraphrase_exact_agreement": 1.0,
+          "paraphrase_window_tiou": 1.0,
+          "source_component_id": "source_component_0080"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.3333333432674408,
+          "source_component_id": "source_component_0081"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.36000001430511475,
+          "source_component_id": "source_component_0082"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0084"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0085"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.8269230723381042,
+          "source_component_id": "source_component_0086"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.171875,
+          "source_component_id": "source_component_0088"
+        },
+        {
+          "paraphrase_exact_agreement": 1.0,
+          "paraphrase_window_tiou": 1.0,
+          "source_component_id": "source_component_0089"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.6274510025978088,
+          "source_component_id": "source_component_0090"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.7561403512954712,
+          "source_component_id": "source_component_0091"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.5333333611488342,
+          "source_component_id": "source_component_0092"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.4238095358014107,
+          "source_component_id": "source_component_0094"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.8785714209079742,
+          "source_component_id": "source_component_0095"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.8422152698040009,
+          "source_component_id": "source_component_0097"
+        },
+        {
+          "paraphrase_exact_agreement": 1.0,
+          "paraphrase_window_tiou": 1.0,
+          "source_component_id": "source_component_0098"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.6363636553287506,
+          "source_component_id": "source_component_0099"
+        }
+      ]
+    },
+    "vocabulary_centered_coordinates": {
+      "reported_source_component_macro": {
+        "paraphrase_exact_agreement": 0.02564102564102564,
+        "paraphrase_window_tiou": 0.13321064490204057
+      },
+      "source_components": [
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0001"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0002"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.3113207519054413,
+          "source_component_id": "source_component_0003"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0004"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.22826087474822998,
+          "source_component_id": "source_component_0006"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.06756756454706192,
+          "source_component_id": "source_component_0007"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0008"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.2380952388048172,
+          "source_component_id": "source_component_0009"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0011"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.02631578966975212,
+          "source_component_id": "source_component_0012"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0013"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.2542372941970825,
+          "source_component_id": "source_component_0014"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0016"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0017"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0018"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.02631578966975212,
+          "source_component_id": "source_component_0019"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.1428571492433548,
+          "source_component_id": "source_component_0022"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.040909089148044586,
+          "source_component_id": "source_component_0023"
+        },
+        {
+          "paraphrase_exact_agreement": 0.5,
+          "paraphrase_window_tiou": 0.7199999988079071,
+          "source_component_id": "source_component_0024"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0026"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.46296295523643494,
+          "source_component_id": "source_component_0027"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0029"
+        },
+        {
+          "paraphrase_exact_agreement": 0.5,
+          "paraphrase_window_tiou": 0.5,
+          "source_component_id": "source_component_0030"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0032"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.5019230842590332,
+          "source_component_id": "source_component_0033"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0034"
+        },
+        {
+          "paraphrase_exact_agreement": 0.5,
+          "paraphrase_window_tiou": 0.6000000014901161,
+          "source_component_id": "source_component_0036"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0037"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0972222238779068,
+          "source_component_id": "source_component_0038"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.1940615028142929,
+          "source_component_id": "source_component_0039"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.3333333432674408,
+          "source_component_id": "source_component_0042"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.3333333432674408,
+          "source_component_id": "source_component_0043"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0044"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0045"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.1428571492433548,
+          "source_component_id": "source_component_0046"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.4509245902299881,
+          "source_component_id": "source_component_0047"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.1666666716337204,
+          "source_component_id": "source_component_0048"
+        },
+        {
+          "paraphrase_exact_agreement": 0.5,
+          "paraphrase_window_tiou": 0.621621623635292,
+          "source_component_id": "source_component_0049"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.25999999046325684,
+          "source_component_id": "source_component_0050"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.2800000011920929,
+          "source_component_id": "source_component_0052"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0053"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0054"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0055"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0056"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0057"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.46000000834465027,
+          "source_component_id": "source_component_0058"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.072727270424366,
+          "source_component_id": "source_component_0059"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.5533333346247673,
+          "source_component_id": "source_component_0060"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.4054054021835327,
+          "source_component_id": "source_component_0061"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0063"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.2222222238779068,
+          "source_component_id": "source_component_0064"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0805626604706049,
+          "source_component_id": "source_component_0068"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0069"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0070"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0071"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.33585055358707905,
+          "source_component_id": "source_component_0072"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.008928571827709675,
+          "source_component_id": "source_component_0073"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0074"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0075"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0076"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0077"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.17307692766189575,
+          "source_component_id": "source_component_0079"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0080"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0081"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0625,
+          "source_component_id": "source_component_0082"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0084"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0085"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.25681817531585693,
+          "source_component_id": "source_component_0086"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0088"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0089"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0090"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0091"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0092"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0094"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.7582191526889801,
+          "source_component_id": "source_component_0095"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0097"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0098"
+        },
+        {
+          "paraphrase_exact_agreement": 0.0,
+          "paraphrase_window_tiou": 0.0,
+          "source_component_id": "source_component_0099"
+        }
+      ]
+    }
+  },
+  "kind": "deja_cue_vost_paraphrase_evidence",
+  "schema_version": 1
+}

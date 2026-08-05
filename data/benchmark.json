@@ -1,0 +1,2191 @@
+{
+  "histories": [
+    {
+      "history_id": "H001",
+      "sequence_id": "3511_unscrew_jar",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H001.npz",
+      "siglip2_text": "data/features/siglip2/H001/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H001/visual_features.npz",
+      "source_component_id": "source_component_0033",
+      "states": [
+        {
+          "references": [
+            [
+              43,
+              49
+            ]
+          ],
+          "state_id": "pre_unscrew"
+        },
+        {
+          "references": [
+            [
+              56,
+              111
+            ]
+          ],
+          "state_id": "post_unscrew"
+        }
+      ]
+    },
+    {
+      "history_id": "H002",
+      "sequence_id": "1915_unroll_film",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H002.npz",
+      "siglip2_text": "data/features/siglip2/H002/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H002/visual_features.npz",
+      "source_component_id": "source_component_0011",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              40
+            ]
+          ],
+          "state_id": "pre_unroll"
+        },
+        {
+          "references": [
+            [
+              48,
+              152
+            ]
+          ],
+          "state_id": "post_unroll"
+        }
+      ]
+    },
+    {
+      "history_id": "H003",
+      "sequence_id": "8944_eat_icecream",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H003.npz",
+      "siglip2_text": "data/features/siglip2/H003/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H003/visual_features.npz",
+      "source_component_id": "source_component_0089",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              11
+            ]
+          ],
+          "state_id": "pre_eat"
+        },
+        {
+          "references": [
+            [
+              26,
+              94
+            ]
+          ],
+          "state_id": "post_eat"
+        }
+      ]
+    },
+    {
+      "history_id": "H004",
+      "sequence_id": "10051_screw_buckle",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H004.npz",
+      "siglip2_text": "data/features/siglip2/H004/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H004/visual_features.npz",
+      "source_component_id": "source_component_0001",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              25
+            ]
+          ],
+          "state_id": "pre_screw"
+        },
+        {
+          "references": [
+            [
+              57,
+              61
+            ]
+          ],
+          "state_id": "post_screw"
+        }
+      ]
+    },
+    {
+      "history_id": "H005",
+      "sequence_id": "2515_mix_mayonnaise",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H005.npz",
+      "siglip2_text": "data/features/siglip2/H005/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H005/visual_features.npz",
+      "source_component_id": "source_component_0019",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              5
+            ]
+          ],
+          "state_id": "pre_mix"
+        },
+        {
+          "references": [
+            [
+              36,
+              56
+            ]
+          ],
+          "state_id": "post_mix"
+        }
+      ]
+    },
+    {
+      "history_id": "H006",
+      "sequence_id": "10334_smooth_wood",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H006.npz",
+      "siglip2_text": "data/features/siglip2/H006/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H006/visual_features.npz",
+      "source_component_id": "source_component_0002",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              7
+            ]
+          ],
+          "state_id": "pre_smooth"
+        },
+        {
+          "references": [
+            [
+              104,
+              148
+            ]
+          ],
+          "state_id": "post_smooth"
+        }
+      ]
+    },
+    {
+      "history_id": "H007",
+      "sequence_id": "10379_sand_wood",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H007.npz",
+      "siglip2_text": "data/features/siglip2/H007/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H007/visual_features.npz",
+      "source_component_id": "source_component_0003",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              8
+            ]
+          ],
+          "state_id": "pre_sand"
+        },
+        {
+          "references": [
+            [
+              187,
+              196
+            ]
+          ],
+          "state_id": "post_sand"
+        }
+      ]
+    },
+    {
+      "history_id": "H008",
+      "sequence_id": "3717_stretch_bag",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H008.npz",
+      "siglip2_text": "data/features/siglip2/H008/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H008/visual_features.npz",
+      "source_component_id": "source_component_0044",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              4
+            ]
+          ],
+          "state_id": "pre_stretch"
+        },
+        {
+          "references": [
+            [
+              7,
+              100
+            ]
+          ],
+          "state_id": "post_stretch"
+        }
+      ]
+    },
+    {
+      "history_id": "H009",
+      "sequence_id": "9672_divide_wheel",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H009.npz",
+      "siglip2_text": "data/features/siglip2/H009/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H009/visual_features.npz",
+      "source_component_id": "source_component_0097",
+      "states": [
+        {
+          "references": [
+            [
+              12,
+              21
+            ]
+          ],
+          "state_id": "pre_divide"
+        },
+        {
+          "references": [
+            [
+              60,
+              88
+            ]
+          ],
+          "state_id": "post_divide"
+        }
+      ]
+    },
+    {
+      "history_id": "H010",
+      "sequence_id": "5074_open_phone",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H010.npz",
+      "siglip2_text": "data/features/siglip2/H010/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H010/visual_features.npz",
+      "source_component_id": "source_component_0056",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              7
+            ]
+          ],
+          "state_id": "pre_open"
+        },
+        {
+          "references": [
+            [
+              14,
+              38
+            ]
+          ],
+          "state_id": "post_open"
+        }
+      ]
+    },
+    {
+      "history_id": "H011",
+      "sequence_id": "9487_spread_potato",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H011.npz",
+      "siglip2_text": "data/features/siglip2/H011/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H011/visual_features.npz",
+      "source_component_id": "source_component_0094",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              4
+            ]
+          ],
+          "state_id": "pre_spread"
+        },
+        {
+          "references": [
+            [
+              99,
+              126
+            ]
+          ],
+          "state_id": "post_spread"
+        }
+      ]
+    },
+    {
+      "history_id": "H012",
+      "sequence_id": "7066_remove_floor_mat",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H012.npz",
+      "siglip2_text": "data/features/siglip2/H012/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H012/visual_features.npz",
+      "source_component_id": "source_component_0076",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              17
+            ]
+          ],
+          "state_id": "pre_remove"
+        },
+        {
+          "references": [
+            [
+              41,
+              88
+            ]
+          ],
+          "state_id": "post_remove"
+        }
+      ]
+    },
+    {
+      "history_id": "H013",
+      "sequence_id": "4216_rip_roll",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H013.npz",
+      "siglip2_text": "data/features/siglip2/H013/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H013/visual_features.npz",
+      "source_component_id": "source_component_0048",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              16
+            ]
+          ],
+          "state_id": "pre_rip"
+        },
+        {
+          "references": [
+            [
+              18,
+              126
+            ]
+          ],
+          "state_id": "post_rip"
+        }
+      ]
+    },
+    {
+      "history_id": "H014",
+      "sequence_id": "7471_attach_drill",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H014.npz",
+      "siglip2_text": "data/features/siglip2/H014/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H014/visual_features.npz",
+      "source_component_id": "source_component_0081",
+      "states": [
+        {
+          "references": [
+            [
+              15,
+              19
+            ]
+          ],
+          "state_id": "pre_attach"
+        },
+        {
+          "references": [
+            [
+              24,
+              64
+            ]
+          ],
+          "state_id": "post_attach"
+        }
+      ]
+    },
+    {
+      "history_id": "H015",
+      "sequence_id": "5280_pour_flour",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H015.npz",
+      "siglip2_text": "data/features/siglip2/H015/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H015/visual_features.npz",
+      "source_component_id": "source_component_0061",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              26
+            ]
+          ],
+          "state_id": "pre_pour"
+        },
+        {
+          "references": [
+            [
+              65,
+              107
+            ]
+          ],
+          "state_id": "post_pour"
+        }
+      ]
+    },
+    {
+      "history_id": "H016",
+      "sequence_id": "2917_wrap_sandwich",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H016.npz",
+      "siglip2_text": "data/features/siglip2/H016/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H016/visual_features.npz",
+      "source_component_id": "source_component_0024",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              32
+            ]
+          ],
+          "state_id": "pre_wrap"
+        },
+        {
+          "references": [
+            [
+              51,
+              57
+            ]
+          ],
+          "state_id": "post_wrap"
+        }
+      ]
+    },
+    {
+      "history_id": "H017",
+      "sequence_id": "4357_trim_dough",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H017.npz",
+      "siglip2_text": "data/features/siglip2/H017/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H017/visual_features.npz",
+      "source_component_id": "source_component_0050",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              7
+            ]
+          ],
+          "state_id": "pre_trim"
+        },
+        {
+          "references": [
+            [
+              9,
+              39
+            ]
+          ],
+          "state_id": "post_trim"
+        }
+      ]
+    },
+    {
+      "history_id": "H018",
+      "sequence_id": "3705_flatten_box",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H018.npz",
+      "siglip2_text": "data/features/siglip2/H018/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H018/visual_features.npz",
+      "source_component_id": "source_component_0042",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              5
+            ]
+          ],
+          "state_id": "pre_flatten"
+        },
+        {
+          "references": [
+            [
+              14,
+              33
+            ]
+          ],
+          "state_id": "post_flatten"
+        }
+      ]
+    },
+    {
+      "history_id": "H019",
+      "sequence_id": "7454_saw_wood",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H019.npz",
+      "siglip2_text": "data/features/siglip2/H019/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H019/visual_features.npz",
+      "source_component_id": "source_component_0080",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              9
+            ]
+          ],
+          "state_id": "pre_saw"
+        },
+        {
+          "references": [
+            [
+              43,
+              83
+            ]
+          ],
+          "state_id": "post_saw"
+        }
+      ]
+    },
+    {
+      "history_id": "H020",
+      "sequence_id": "6409_paint_plate",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H020.npz",
+      "siglip2_text": "data/features/siglip2/H020/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H020/visual_features.npz",
+      "source_component_id": "source_component_0068",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              25
+            ]
+          ],
+          "state_id": "pre_paint"
+        },
+        {
+          "references": [
+            [
+              61,
+              77
+            ]
+          ],
+          "state_id": "post_paint"
+        }
+      ]
+    },
+    {
+      "history_id": "H021",
+      "sequence_id": "3538_break_broccoli",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H021.npz",
+      "siglip2_text": "data/features/siglip2/H021/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H021/visual_features.npz",
+      "source_component_id": "source_component_0036",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              4
+            ]
+          ],
+          "state_id": "pre_break"
+        },
+        {
+          "references": [
+            [
+              34,
+              46
+            ]
+          ],
+          "state_id": "post_break"
+        }
+      ]
+    },
+    {
+      "history_id": "H022",
+      "sequence_id": "655_cut_salad",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H022.npz",
+      "siglip2_text": "data/features/siglip2/H022/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H022/visual_features.npz",
+      "source_component_id": "source_component_0072",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              7
+            ]
+          ],
+          "state_id": "pre_cut"
+        },
+        {
+          "references": [
+            [
+              21,
+              75
+            ]
+          ],
+          "state_id": "post_cut"
+        }
+      ]
+    },
+    {
+      "history_id": "H023",
+      "sequence_id": "2877_add_sauce",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H023.npz",
+      "siglip2_text": "data/features/siglip2/H023/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H023/visual_features.npz",
+      "source_component_id": "source_component_0023",
+      "states": [
+        {
+          "references": [
+            [
+              29,
+              122
+            ]
+          ],
+          "state_id": "pre_add"
+        },
+        {
+          "references": [
+            [
+              199,
+              210
+            ]
+          ],
+          "state_id": "post_add"
+        }
+      ]
+    },
+    {
+      "history_id": "H024",
+      "sequence_id": "9857_sew_cloth",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H024.npz",
+      "siglip2_text": "data/features/siglip2/H024/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H024/visual_features.npz",
+      "source_component_id": "source_component_0099",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              5
+            ]
+          ],
+          "state_id": "pre_sew"
+        },
+        {
+          "references": [
+            [
+              21,
+              59
+            ]
+          ],
+          "state_id": "post_sew"
+        }
+      ]
+    },
+    {
+      "history_id": "H025",
+      "sequence_id": "3803_bend_book",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H025.npz",
+      "siglip2_text": "data/features/siglip2/H025/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H025/visual_features.npz",
+      "source_component_id": "source_component_0046",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              9
+            ]
+          ],
+          "state_id": "pre_bend"
+        },
+        {
+          "references": [
+            [
+              15,
+              40
+            ]
+          ],
+          "state_id": "post_bend"
+        }
+      ]
+    },
+    {
+      "history_id": "H026",
+      "sequence_id": "7202_clean_car",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H026.npz",
+      "siglip2_text": "data/features/siglip2/H026/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H026/visual_features.npz",
+      "source_component_id": "source_component_0077",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              10
+            ]
+          ],
+          "state_id": "pre_clean"
+        },
+        {
+          "references": [
+            [
+              29,
+              130
+            ]
+          ],
+          "state_id": "post_clean"
+        }
+      ]
+    },
+    {
+      "history_id": "H027",
+      "sequence_id": "10578_weld_iron",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H027.npz",
+      "siglip2_text": "data/features/siglip2/H027/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H027/visual_features.npz",
+      "source_component_id": "source_component_0004",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              5
+            ]
+          ],
+          "state_id": "pre_weld"
+        },
+        {
+          "references": [
+            [
+              14,
+              32
+            ]
+          ],
+          "state_id": "post_weld"
+        }
+      ]
+    },
+    {
+      "history_id": "H028",
+      "sequence_id": "6424_apply_pen",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H028.npz",
+      "siglip2_text": "data/features/siglip2/H028/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H028/visual_features.npz",
+      "source_component_id": "source_component_0070",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              10
+            ]
+          ],
+          "state_id": "pre_apply"
+        },
+        {
+          "references": [
+            [
+              14,
+              62
+            ]
+          ],
+          "state_id": "post_apply"
+        }
+      ]
+    },
+    {
+      "history_id": "H029",
+      "sequence_id": "7421_detach_blender",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H029.npz",
+      "siglip2_text": "data/features/siglip2/H029/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H029/visual_features.npz",
+      "source_component_id": "source_component_0079",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              15
+            ]
+          ],
+          "state_id": "pre_detach"
+        },
+        {
+          "references": [
+            [
+              22,
+              66
+            ]
+          ],
+          "state_id": "post_detach"
+        }
+      ]
+    },
+    {
+      "history_id": "H030",
+      "sequence_id": "5412_disassemble_wafflemaker",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H030.npz",
+      "siglip2_text": "data/features/siglip2/H030/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H030/visual_features.npz",
+      "source_component_id": "source_component_0063",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              8
+            ]
+          ],
+          "state_id": "pre_disassemble"
+        },
+        {
+          "references": [
+            [
+              41,
+              52
+            ]
+          ],
+          "state_id": "post_disassemble"
+        }
+      ]
+    },
+    {
+      "history_id": "H031",
+      "sequence_id": "3099_scrape_tomato",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H031.npz",
+      "siglip2_text": "data/features/siglip2/H031/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H031/visual_features.npz",
+      "source_component_id": "source_component_0026",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              4
+            ]
+          ],
+          "state_id": "pre_scrape"
+        },
+        {
+          "references": [
+            [
+              43,
+              55
+            ]
+          ],
+          "state_id": "post_scrape"
+        }
+      ]
+    },
+    {
+      "history_id": "H032",
+      "sequence_id": "2399_roll_omelette",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H032.npz",
+      "siglip2_text": "data/features/siglip2/H032/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H032/visual_features.npz",
+      "source_component_id": "source_component_0016",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              8
+            ]
+          ],
+          "state_id": "pre_roll"
+        },
+        {
+          "references": [
+            [
+              43,
+              53
+            ]
+          ],
+          "state_id": "post_roll"
+        }
+      ]
+    },
+    {
+      "history_id": "H033",
+      "sequence_id": "4547_mold_dough",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H033.npz",
+      "siglip2_text": "data/features/siglip2/H033/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H033/visual_features.npz",
+      "source_component_id": "source_component_0052",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              4
+            ]
+          ],
+          "state_id": "pre_mold"
+        },
+        {
+          "references": [
+            [
+              20,
+              37
+            ]
+          ],
+          "state_id": "post_mold"
+        }
+      ]
+    },
+    {
+      "history_id": "H034",
+      "sequence_id": "1385_melt_butter",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H034.npz",
+      "siglip2_text": "data/features/siglip2/H034/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H034/visual_features.npz",
+      "source_component_id": "source_component_0008",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              30
+            ]
+          ],
+          "state_id": "pre_melt"
+        },
+        {
+          "references": [
+            [
+              61,
+              105
+            ]
+          ],
+          "state_id": "post_melt"
+        }
+      ]
+    },
+    {
+      "history_id": "H035",
+      "sequence_id": "3514_unscrew_milk",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H035.npz",
+      "siglip2_text": "data/features/siglip2/H035/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H035/visual_features.npz",
+      "source_component_id": "source_component_0034",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              14
+            ]
+          ],
+          "state_id": "pre_unscrew"
+        },
+        {
+          "references": [
+            [
+              34,
+              46
+            ]
+          ],
+          "state_id": "post_unscrew"
+        }
+      ]
+    },
+    {
+      "history_id": "H036",
+      "sequence_id": "1917_unroll_foil",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H036.npz",
+      "siglip2_text": "data/features/siglip2/H036/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H036/visual_features.npz",
+      "source_component_id": "source_component_0013",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              4
+            ]
+          ],
+          "state_id": "pre_unroll"
+        },
+        {
+          "references": [
+            [
+              32,
+              64
+            ]
+          ],
+          "state_id": "post_unroll"
+        }
+      ]
+    },
+    {
+      "history_id": "H037",
+      "sequence_id": "8921_eat_food",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H037.npz",
+      "siglip2_text": "data/features/siglip2/H037/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H037/visual_features.npz",
+      "source_component_id": "source_component_0088",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              7
+            ]
+          ],
+          "state_id": "pre_eat"
+        },
+        {
+          "references": [
+            [
+              18,
+              72
+            ]
+          ],
+          "state_id": "post_eat"
+        }
+      ]
+    },
+    {
+      "history_id": "H038",
+      "sequence_id": "5179_unpack_meat",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H038.npz",
+      "siglip2_text": "data/features/siglip2/H038/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H038/visual_features.npz",
+      "source_component_id": "source_component_0058",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              62
+            ]
+          ],
+          "state_id": "pre_unpack"
+        },
+        {
+          "references": [
+            [
+              72,
+              191
+            ]
+          ],
+          "state_id": "post_unpack"
+        }
+      ]
+    },
+    {
+      "history_id": "H039",
+      "sequence_id": "3504_unwrap_onion",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H039.npz",
+      "siglip2_text": "data/features/siglip2/H039/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H039/visual_features.npz",
+      "source_component_id": "source_component_0032",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              5
+            ]
+          ],
+          "state_id": "pre_unwrap"
+        },
+        {
+          "references": [
+            [
+              19,
+              57
+            ]
+          ],
+          "state_id": "post_unwrap"
+        }
+      ]
+    },
+    {
+      "history_id": "H040",
+      "sequence_id": "1897_crush_can",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H040.npz",
+      "siglip2_text": "data/features/siglip2/H040/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H040/visual_features.npz",
+      "source_component_id": "source_component_0009",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              7
+            ]
+          ],
+          "state_id": "pre_crush"
+        },
+        {
+          "references": [
+            [
+              21,
+              46
+            ]
+          ],
+          "state_id": "post_crush"
+        }
+      ]
+    },
+    {
+      "history_id": "H041",
+      "sequence_id": "4311_tear_dough",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H041.npz",
+      "siglip2_text": "data/features/siglip2/H041/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H041/visual_features.npz",
+      "source_component_id": "source_component_0049",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              11
+            ]
+          ],
+          "state_id": "pre_tear"
+        },
+        {
+          "references": [
+            [
+              49,
+              72
+            ]
+          ],
+          "state_id": "post_tear"
+        }
+      ]
+    },
+    {
+      "history_id": "H042",
+      "sequence_id": "3738_stretch_dough",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H042.npz",
+      "siglip2_text": "data/features/siglip2/H042/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H042/visual_features.npz",
+      "source_component_id": "source_component_0045",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              6
+            ]
+          ],
+          "state_id": "pre_stretch"
+        },
+        {
+          "references": [
+            [
+              81,
+              104
+            ]
+          ],
+          "state_id": "post_stretch"
+        }
+      ]
+    },
+    {
+      "history_id": "H043",
+      "sequence_id": "358_fold_foil",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H043.npz",
+      "siglip2_text": "data/features/siglip2/H043/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H043/visual_features.npz",
+      "source_component_id": "source_component_0038",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              4
+            ]
+          ],
+          "state_id": "pre_fold"
+        },
+        {
+          "references": [
+            [
+              29,
+              44
+            ]
+          ],
+          "state_id": "post_fold"
+        }
+      ]
+    },
+    {
+      "history_id": "H044",
+      "sequence_id": "9666_divide_cards",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H044.npz",
+      "siglip2_text": "data/features/siglip2/H044/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H044/visual_features.npz",
+      "source_component_id": "source_component_0095",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              14
+            ]
+          ],
+          "state_id": "pre_divide"
+        },
+        {
+          "references": [
+            [
+              42,
+              159
+            ]
+          ],
+          "state_id": "post_divide"
+        }
+      ]
+    },
+    {
+      "history_id": "H045",
+      "sequence_id": "5212_open_blender",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H045.npz",
+      "siglip2_text": "data/features/siglip2/H045/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H045/visual_features.npz",
+      "source_component_id": "source_component_0059",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              4
+            ]
+          ],
+          "state_id": "pre_open"
+        },
+        {
+          "references": [
+            [
+              8,
+              152
+            ]
+          ],
+          "state_id": "post_open"
+        }
+      ]
+    },
+    {
+      "history_id": "H046",
+      "sequence_id": "3568_spread_hummus",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H046.npz",
+      "siglip2_text": "data/features/siglip2/H046/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H046/visual_features.npz",
+      "source_component_id": "source_component_0037",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              19
+            ]
+          ],
+          "state_id": "pre_spread"
+        },
+        {
+          "references": [
+            [
+              77,
+              81
+            ]
+          ],
+          "state_id": "post_spread"
+        }
+      ]
+    },
+    {
+      "history_id": "H047",
+      "sequence_id": "3687_rip_foil",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H047.npz",
+      "siglip2_text": "data/features/siglip2/H047/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H047/visual_features.npz",
+      "source_component_id": "source_component_0039",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              54
+            ]
+          ],
+          "state_id": "pre_rip"
+        },
+        {
+          "references": [
+            [
+              61,
+              87
+            ]
+          ],
+          "state_id": "post_rip"
+        }
+      ]
+    },
+    {
+      "history_id": "H048",
+      "sequence_id": "5090_pour_detergent",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H048.npz",
+      "siglip2_text": "data/features/siglip2/H048/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H048/visual_features.npz",
+      "source_component_id": "source_component_0057",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              13
+            ]
+          ],
+          "state_id": "pre_pour"
+        },
+        {
+          "references": [
+            [
+              35,
+              73
+            ]
+          ],
+          "state_id": "post_pour"
+        }
+      ]
+    },
+    {
+      "history_id": "H049",
+      "sequence_id": "3712_flatten_bottle",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H049.npz",
+      "siglip2_text": "data/features/siglip2/H049/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H049/visual_features.npz",
+      "source_component_id": "source_component_0043",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              10
+            ]
+          ],
+          "state_id": "pre_flatten"
+        },
+        {
+          "references": [
+            [
+              23,
+              32
+            ]
+          ],
+          "state_id": "post_flatten"
+        }
+      ]
+    },
+    {
+      "history_id": "H050",
+      "sequence_id": "7049_paint_nail",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H050.npz",
+      "siglip2_text": "data/features/siglip2/H050/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H050/visual_features.npz",
+      "source_component_id": "source_component_0075",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              4
+            ]
+          ],
+          "state_id": "pre_paint"
+        },
+        {
+          "references": [
+            [
+              122,
+              126
+            ]
+          ],
+          "state_id": "post_paint"
+        }
+      ]
+    },
+    {
+      "history_id": "H051",
+      "sequence_id": "5483_break_ice",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H051.npz",
+      "siglip2_text": "data/features/siglip2/H051/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H051/visual_features.npz",
+      "source_component_id": "source_component_0064",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              54
+            ]
+          ],
+          "state_id": "pre_break"
+        },
+        {
+          "references": [
+            [
+              142,
+              150
+            ]
+          ],
+          "state_id": "post_break"
+        }
+      ]
+    },
+    {
+      "history_id": "H052",
+      "sequence_id": "5033_cut_paper",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H052.npz",
+      "siglip2_text": "data/features/siglip2/H052/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H052/visual_features.npz",
+      "source_component_id": "source_component_0055",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              26
+            ]
+          ],
+          "state_id": "pre_cut"
+        },
+        {
+          "references": [
+            [
+              47,
+              65
+            ]
+          ],
+          "state_id": "post_cut"
+        }
+      ]
+    },
+    {
+      "history_id": "H053",
+      "sequence_id": "8591_peel_courgette",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H053.npz",
+      "siglip2_text": "data/features/siglip2/H053/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H053/visual_features.npz",
+      "source_component_id": "source_component_0086",
+      "states": [
+        {
+          "references": [
+            [
+              75,
+              83
+            ]
+          ],
+          "state_id": "pre_peel"
+        },
+        {
+          "references": [
+            [
+              147,
+              151
+            ]
+          ],
+          "state_id": "post_peel"
+        }
+      ]
+    },
+    {
+      "history_id": "H054",
+      "sequence_id": "6489_apply_paint",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H054.npz",
+      "siglip2_text": "data/features/siglip2/H054/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H054/visual_features.npz",
+      "source_component_id": "source_component_0071",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              7
+            ]
+          ],
+          "state_id": "pre_apply"
+        },
+        {
+          "references": [
+            [
+              39,
+              44
+            ]
+          ],
+          "state_id": "post_apply"
+        }
+      ]
+    },
+    {
+      "history_id": "H055",
+      "sequence_id": "7805_detach_bag",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H055.npz",
+      "siglip2_text": "data/features/siglip2/H055/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H055/visual_features.npz",
+      "source_component_id": "source_component_0082",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              22
+            ]
+          ],
+          "state_id": "pre_detach"
+        },
+        {
+          "references": [
+            [
+              37,
+              62
+            ]
+          ],
+          "state_id": "post_detach"
+        }
+      ]
+    },
+    {
+      "history_id": "H056",
+      "sequence_id": "2761_scoop_cheese",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H056.npz",
+      "siglip2_text": "data/features/siglip2/H056/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H056/visual_features.npz",
+      "source_component_id": "source_component_0022",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              13
+            ]
+          ],
+          "state_id": "pre_scoop"
+        },
+        {
+          "references": [
+            [
+              21,
+              25
+            ]
+          ],
+          "state_id": "post_scoop"
+        }
+      ]
+    },
+    {
+      "history_id": "H057",
+      "sequence_id": "9256_split_cards",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H057.npz",
+      "siglip2_text": "data/features/siglip2/H057/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H057/visual_features.npz",
+      "source_component_id": "source_component_0091",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              4
+            ]
+          ],
+          "state_id": "pre_split"
+        },
+        {
+          "references": [
+            [
+              162,
+              168
+            ]
+          ],
+          "state_id": "post_split"
+        }
+      ]
+    },
+    {
+      "history_id": "H058",
+      "sequence_id": "9818_scrape_papaya",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H058.npz",
+      "siglip2_text": "data/features/siglip2/H058/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H058/visual_features.npz",
+      "source_component_id": "source_component_0098",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              5
+            ]
+          ],
+          "state_id": "pre_scrape"
+        },
+        {
+          "references": [
+            [
+              38,
+              82
+            ]
+          ],
+          "state_id": "post_scrape"
+        }
+      ]
+    },
+    {
+      "history_id": "H059",
+      "sequence_id": "2406_roll_bread",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H059.npz",
+      "siglip2_text": "data/features/siglip2/H059/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H059/visual_features.npz",
+      "source_component_id": "source_component_0017",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              4
+            ]
+          ],
+          "state_id": "pre_roll"
+        },
+        {
+          "references": [
+            [
+              48,
+              78
+            ]
+          ],
+          "state_id": "post_roll"
+        }
+      ]
+    },
+    {
+      "history_id": "H060",
+      "sequence_id": "2258_empty_bowl",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H060.npz",
+      "siglip2_text": "data/features/siglip2/H060/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H060/visual_features.npz",
+      "source_component_id": "source_component_0014",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              13
+            ]
+          ],
+          "state_id": "pre_empty"
+        },
+        {
+          "references": [
+            [
+              16,
+              26
+            ]
+          ],
+          "state_id": "post_empty"
+        }
+      ]
+    },
+    {
+      "history_id": "H061",
+      "sequence_id": "1916_unroll_paper",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H061.npz",
+      "siglip2_text": "data/features/siglip2/H061/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H061/visual_features.npz",
+      "source_component_id": "source_component_0012",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              8
+            ]
+          ],
+          "state_id": "pre_unroll"
+        },
+        {
+          "references": [
+            [
+              15,
+              61
+            ]
+          ],
+          "state_id": "post_unroll"
+        }
+      ]
+    },
+    {
+      "history_id": "H062",
+      "sequence_id": "3294_unpack_chorizo",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H062.npz",
+      "siglip2_text": "data/features/siglip2/H062/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H062/visual_features.npz",
+      "source_component_id": "source_component_0027",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              7
+            ]
+          ],
+          "state_id": "pre_unpack"
+        },
+        {
+          "references": [
+            [
+              18,
+              165
+            ]
+          ],
+          "state_id": "post_unpack"
+        }
+      ]
+    },
+    {
+      "history_id": "H063",
+      "sequence_id": "2480_mix_food",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H063.npz",
+      "siglip2_text": "data/features/siglip2/H063/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H063/visual_features.npz",
+      "source_component_id": "source_component_0018",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              5
+            ]
+          ],
+          "state_id": "pre_mix"
+        },
+        {
+          "references": [
+            [
+              95,
+              99
+            ]
+          ],
+          "state_id": "post_mix"
+        }
+      ]
+    },
+    {
+      "history_id": "H064",
+      "sequence_id": "6619_unwrap_bag",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H064.npz",
+      "siglip2_text": "data/features/siglip2/H064/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H064/visual_features.npz",
+      "source_component_id": "source_component_0073",
+      "states": [
+        {
+          "references": [
+            [
+              42,
+              56
+            ]
+          ],
+          "state_id": "pre_unwrap"
+        },
+        {
+          "references": [
+            [
+              104,
+              145
+            ]
+          ],
+          "state_id": "post_unwrap"
+        }
+      ]
+    },
+    {
+      "history_id": "H065",
+      "sequence_id": "4942_tear_squid",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H065.npz",
+      "siglip2_text": "data/features/siglip2/H065/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H065/visual_features.npz",
+      "source_component_id": "source_component_0054",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              30
+            ]
+          ],
+          "state_id": "pre_tear"
+        },
+        {
+          "references": [
+            [
+              70,
+              108
+            ]
+          ],
+          "state_id": "post_tear"
+        }
+      ]
+    },
+    {
+      "history_id": "H066",
+      "sequence_id": "336_fold_bag",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H066.npz",
+      "siglip2_text": "data/features/siglip2/H066/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H066/visual_features.npz",
+      "source_component_id": "source_component_0029",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              6
+            ]
+          ],
+          "state_id": "pre_fold"
+        },
+        {
+          "references": [
+            [
+              36,
+              43
+            ]
+          ],
+          "state_id": "post_fold"
+        }
+      ]
+    },
+    {
+      "history_id": "H067",
+      "sequence_id": "3807_divide_meat",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H067.npz",
+      "siglip2_text": "data/features/siglip2/H067/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H067/visual_features.npz",
+      "source_component_id": "source_component_0047",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              20
+            ]
+          ],
+          "state_id": "pre_divide"
+        },
+        {
+          "references": [
+            [
+              39,
+              76
+            ]
+          ],
+          "state_id": "post_divide"
+        }
+      ]
+    },
+    {
+      "history_id": "H068",
+      "sequence_id": "1374_open_mozzarella",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H068.npz",
+      "siglip2_text": "data/features/siglip2/H068/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H068/visual_features.npz",
+      "source_component_id": "source_component_0006",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              35
+            ]
+          ],
+          "state_id": "pre_open"
+        },
+        {
+          "references": [
+            [
+              51,
+              148
+            ]
+          ],
+          "state_id": "post_open"
+        }
+      ]
+    },
+    {
+      "history_id": "H069",
+      "sequence_id": "9383_spread_cement",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H069.npz",
+      "siglip2_text": "data/features/siglip2/H069/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H069/visual_features.npz",
+      "source_component_id": "source_component_0092",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              12
+            ]
+          ],
+          "state_id": "pre_spread"
+        },
+        {
+          "references": [
+            [
+              137,
+              149
+            ]
+          ],
+          "state_id": "post_spread"
+        }
+      ]
+    },
+    {
+      "history_id": "H070",
+      "sequence_id": "8208_pour_batter",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H070.npz",
+      "siglip2_text": "data/features/siglip2/H070/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H070/visual_features.npz",
+      "source_component_id": "source_component_0085",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              6
+            ]
+          ],
+          "state_id": "pre_pour"
+        },
+        {
+          "references": [
+            [
+              41,
+              106
+            ]
+          ],
+          "state_id": "post_pour"
+        }
+      ]
+    },
+    {
+      "history_id": "H071",
+      "sequence_id": "5261_break_package",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H071.npz",
+      "siglip2_text": "data/features/siglip2/H071/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H071/visual_features.npz",
+      "source_component_id": "source_component_0060",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              5
+            ]
+          ],
+          "state_id": "pre_break"
+        },
+        {
+          "references": [
+            [
+              34,
+              54
+            ]
+          ],
+          "state_id": "post_break"
+        }
+      ]
+    },
+    {
+      "history_id": "H072",
+      "sequence_id": "3447_squeeze_sausage",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H072.npz",
+      "siglip2_text": "data/features/siglip2/H072/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H072/visual_features.npz",
+      "source_component_id": "source_component_0030",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              7
+            ]
+          ],
+          "state_id": "pre_squeeze"
+        },
+        {
+          "references": [
+            [
+              56,
+              60
+            ]
+          ],
+          "state_id": "post_squeeze"
+        }
+      ]
+    },
+    {
+      "history_id": "H073",
+      "sequence_id": "1377_cut_potato",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H073.npz",
+      "siglip2_text": "data/features/siglip2/H073/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H073/visual_features.npz",
+      "source_component_id": "source_component_0007",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              5
+            ]
+          ],
+          "state_id": "pre_cut"
+        },
+        {
+          "references": [
+            [
+              75,
+              196
+            ]
+          ],
+          "state_id": "post_cut"
+        }
+      ]
+    },
+    {
+      "history_id": "H074",
+      "sequence_id": "4836_peel_root",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H074.npz",
+      "siglip2_text": "data/features/siglip2/H074/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H074/visual_features.npz",
+      "source_component_id": "source_component_0053",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              9
+            ]
+          ],
+          "state_id": "pre_peel"
+        },
+        {
+          "references": [
+            [
+              106,
+              110
+            ]
+          ],
+          "state_id": "post_peel"
+        }
+      ]
+    },
+    {
+      "history_id": "H075",
+      "sequence_id": "6420_apply_marker",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H075.npz",
+      "siglip2_text": "data/features/siglip2/H075/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H075/visual_features.npz",
+      "source_component_id": "source_component_0069",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              4
+            ]
+          ],
+          "state_id": "pre_apply"
+        },
+        {
+          "references": [
+            [
+              58,
+              62
+            ]
+          ],
+          "state_id": "post_apply"
+        }
+      ]
+    },
+    {
+      "history_id": "H076",
+      "sequence_id": "8076_detach_car",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H076.npz",
+      "siglip2_text": "data/features/siglip2/H076/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H076/visual_features.npz",
+      "source_component_id": "source_component_0084",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              6
+            ]
+          ],
+          "state_id": "pre_detach"
+        },
+        {
+          "references": [
+            [
+              28,
+              92
+            ]
+          ],
+          "state_id": "post_detach"
+        }
+      ]
+    },
+    {
+      "history_id": "H077",
+      "sequence_id": "9234_scoop_sauce",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H077.npz",
+      "siglip2_text": "data/features/siglip2/H077/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H077/visual_features.npz",
+      "source_component_id": "source_component_0090",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              8
+            ]
+          ],
+          "state_id": "pre_scoop"
+        },
+        {
+          "references": [
+            [
+              12,
+              16
+            ]
+          ],
+          "state_id": "post_scoop"
+        }
+      ]
+    },
+    {
+      "history_id": "H078",
+      "sequence_id": "6922_split_paper",
+      "siglip2_prompt_text": "data/features/siglip2_prompts/H078.npz",
+      "siglip2_text": "data/features/siglip2/H078/text_features.npz",
+      "siglip2_visual": "data/features/siglip2/H078/visual_features.npz",
+      "source_component_id": "source_component_0074",
+      "states": [
+        {
+          "references": [
+            [
+              0,
+              5
+            ]
+          ],
+          "state_id": "pre_split"
+        },
+        {
+          "references": [
+            [
+              30,
+              77
+            ]
+          ],
+          "state_id": "post_split"
+        }
+      ]
+    }
+  ],
+  "interval_convention": "zero_based_inclusive_evaluation_frames",
+  "kind": "deja_cue_compact_benchmark",
+  "schema_version": 1
+}

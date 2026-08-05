@@ -1,0 +1,2 @@
+# Convenience entry point. Dependency constraints live in pyproject.toml.
+-e .[test]

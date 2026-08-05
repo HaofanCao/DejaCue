@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "kind": "deja_cue_fixed_protocol",
+  "history_count": 78,
+  "state_count": 156,
+  "description_count": 312,
+  "source_component_count": 78,
+  "window_ratio": 1.5,
+  "window_schedule": [
+    1, 2, 3, 4, 6, 9, 10, 11, 14, 18, 20, 21, 25, 26, 27, 28, 30,
+    32, 34, 37, 46, 48, 49, 52, 59, 72, 108, 110, 162, 168, 243, 364, 483
+  ],
+  "smoothing_kernel_size": 3,
+  "mad_consistency_factor": 1.4826,
+  "mad_floor": 0.001,
+  "minimum_query_residual_norm": 1e-8,
+  "minimum_window_coverage": 1.0,
+  "primary_window_normalization": "sqrt_valid_count",
+  "bootstrap_resamples": 10000,
+  "sign_flip_assignments": 100000,
+  "seed": 3407,
+  "adaptive_peak_threshold_ratio": 0.3,
+  "prompt_variants": ["raw", "photo", "definite", "ensemble"],
+  "primary_metrics": [
+    "state_macro_target_r1_tiou_0.3",
+    "state_macro_target_r1_tiou_0.5",
+    "state_macro_target_top1_tiou"
+  ]
+}

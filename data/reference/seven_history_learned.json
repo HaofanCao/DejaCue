@@ -1,0 +1,1986 @@
+{
+  "families": {
+    "L-I": {
+      "comparison_order": [
+        "vocabulary_centered_minus_moment_detr",
+        "vocabulary_centered_minus_qd_detr",
+        "vocabulary_centered_minus_eatr",
+        "vocabulary_centered_minus_cg_detr",
+        "vocabulary_centered_minus_uvcom",
+        "vocabulary_centered_minus_tr_detr",
+        "vocabulary_centered_minus_taskweave_mr2hd",
+        "vocabulary_centered_minus_sim_detr"
+      ],
+      "family_size": 8,
+      "metric": "state_macro_top1_tiou",
+      "rows": [
+        {
+          "bootstrap_resamples": 10000,
+          "bootstrap_seed": 3407,
+          "ci95": [
+            0.01703034054098862,
+            0.37403549810161346
+          ],
+          "exact_sign_flip": {
+            "enumerations": 128,
+            "exact_two_sided_p": 0.125,
+            "extreme_assignments": 16,
+            "observed_absolute_mean": 0.20795197843297195,
+            "statistic": "absolute_unweighted_mean_history_delta"
+          },
+          "holm8_adjusted_p": 0.875,
+          "model_id": "moment_detr",
+          "per_history": [
+            {
+              "delta": 0.39786586013993597,
+              "learned_seed_values": {
+                "3407": 0.125,
+                "3408": 0.12233231707317073,
+                "3409": 0.1558689024390244
+              },
+              "learned_three_seed_mean": 0.13440040650406504,
+              "scene": "interp_torchocolate",
+              "stratum": "original",
+              "training_free_vocabulary": 0.532266266644001
+            },
+            {
+              "delta": 0.44559792784099644,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.0,
+                "3409": 0.2237154772208671
+              },
+              "learned_three_seed_mean": 0.07457182574028903,
+              "scene": "misc_espresso",
+              "stratum": "original",
+              "training_free_vocabulary": 0.5201697535812855
+            },
+            {
+              "delta": -0.15636812174776316,
+              "learned_seed_values": {
+                "3407": 0.028,
+                "3408": 0.26257861635220126,
+                "3409": 0.2971698113207547
+              },
+              "learned_three_seed_mean": 0.195916142557652,
+              "scene": "misc_tamping",
+              "stratum": "original",
+              "training_free_vocabulary": 0.03954802080988884
+            },
+            {
+              "delta": 0.5781172939073607,
+              "learned_seed_values": {
+                "3407": 0.16993957703927492,
+                "3408": 0.1918918918918919,
+                "3409": 0.062231080263060415
+              },
+              "learned_three_seed_mean": 0.1413541830647424,
+              "scene": "misc_americano",
+              "stratum": "original",
+              "training_free_vocabulary": 0.7194714769721031
+            },
+            {
+              "delta": 0.048853011584459205,
+              "learned_seed_values": {
+                "3407": 0.19866983791402396,
+                "3408": 0.27953091684434966,
+                "3409": 0.22042563934605205
+              },
+              "learned_three_seed_mean": 0.23287546470147524,
+              "scene": "coffee_martini",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.28172847628593445
+            },
+            {
+              "delta": 0.3087145835161209,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.0,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.0,
+              "scene": "misc_cross-hands",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.3087145835161209
+            },
+            {
+              "delta": -0.16711670621030628,
+              "learned_seed_values": {
+                "3407": 0.3218390804597701,
+                "3408": 0.3218390804597701,
+                "3409": 0.19166666666666665
+              },
+              "learned_three_seed_mean": 0.27844827586206894,
+              "scene": "interp_slice-banana",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.11133156965176265
+            }
+          ],
+          "point_estimate": 0.20795197843297195,
+          "raw_exact_two_sided_p": 0.125
+        },
+        {
+          "bootstrap_resamples": 10000,
+          "bootstrap_seed": 3407,
+          "ci95": [
+            -0.008383148566379811,
+            0.347254950233087
+          ],
+          "exact_sign_flip": {
+            "enumerations": 128,
+            "exact_two_sided_p": 0.140625,
+            "extreme_assignments": 18,
+            "observed_absolute_mean": 0.18579743369601104,
+            "statistic": "absolute_unweighted_mean_history_delta"
+          },
+          "holm8_adjusted_p": 0.875,
+          "model_id": "qd_detr",
+          "per_history": [
+            {
+              "delta": 0.371461080438376,
+              "learned_seed_values": {
+                "3407": 0.12933289731850883,
+                "3408": 0.16163295349422355,
+                "3409": 0.1914497078041425
+              },
+              "learned_three_seed_mean": 0.16080518620562498,
+              "scene": "interp_torchocolate",
+              "stratum": "original",
+              "training_free_vocabulary": 0.532266266644001
+            },
+            {
+              "delta": 0.4988403885019204,
+              "learned_seed_values": {
+                "3407": 0.06398809523809523,
+                "3408": 0.0,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.021329365079365076,
+              "scene": "misc_espresso",
+              "stratum": "original",
+              "training_free_vocabulary": 0.5201697535812855
+            },
+            {
+              "delta": -0.14705998596321226,
+              "learned_seed_values": {
+                "3407": 0.08812590711175616,
+                "3408": 0.12735849056603774,
+                "3409": 0.3443396226415094
+              },
+              "learned_three_seed_mean": 0.1866080067731011,
+              "scene": "misc_tamping",
+              "stratum": "original",
+              "training_free_vocabulary": 0.03954802080988884
+            },
+            {
+              "delta": 0.566303715408391,
+              "learned_seed_values": {
+                "3407": 0.16645192517452007,
+                "3408": 0.13066465256797583,
+                "3409": 0.1623867069486405
+              },
+              "learned_three_seed_mean": 0.15316776156371212,
+              "scene": "misc_americano",
+              "stratum": "original",
+              "training_free_vocabulary": 0.7194714769721031
+            },
+            {
+              "delta": 0.0038259333608640644,
+              "learned_seed_values": {
+                "3407": 0.27586206896551724,
+                "3408": 0.23892300088713503,
+                "3409": 0.3189225589225589
+              },
+              "learned_three_seed_mean": 0.2779025429250704,
+              "scene": "coffee_martini",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.28172847628593445
+            },
+            {
+              "delta": 0.2253812501827876,
+              "learned_seed_values": {
+                "3407": 0.25,
+                "3408": 0.0,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.08333333333333333,
+              "scene": "misc_cross-hands",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.3087145835161209
+            },
+            {
+              "delta": -0.21817034605704955,
+              "learned_seed_values": {
+                "3407": 0.3333333333333333,
+                "3408": 0.3218390804597701,
+                "3409": 0.3333333333333333
+              },
+              "learned_three_seed_mean": 0.3295019157088122,
+              "scene": "interp_slice-banana",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.11133156965176265
+            }
+          ],
+          "point_estimate": 0.18579743369601104,
+          "raw_exact_two_sided_p": 0.140625
+        },
+        {
+          "bootstrap_resamples": 10000,
+          "bootstrap_seed": 3407,
+          "ci95": [
+            0.05872657265235115,
+            0.32120481808608004
+          ],
+          "exact_sign_flip": {
+            "enumerations": 128,
+            "exact_two_sided_p": 0.09375,
+            "extreme_assignments": 12,
+            "observed_absolute_mean": 0.2042258332263884,
+            "statistic": "absolute_unweighted_mean_history_delta"
+          },
+          "holm8_adjusted_p": 0.75,
+          "model_id": "eatr",
+          "per_history": [
+            {
+              "delta": 0.3939278520098547,
+              "learned_seed_values": {
+                "3407": 0.13757621951219512,
+                "3408": 0.09108231707317073,
+                "3409": 0.18635670731707316
+              },
+              "learned_three_seed_mean": 0.13833841463414634,
+              "scene": "interp_torchocolate",
+              "stratum": "original",
+              "training_free_vocabulary": 0.532266266644001
+            },
+            {
+              "delta": 0.39502751587982377,
+              "learned_seed_values": {
+                "3407": 0.16348973607038123,
+                "3408": 0.0,
+                "3409": 0.2119369770340039
+              },
+              "learned_three_seed_mean": 0.1251422377014617,
+              "scene": "misc_espresso",
+              "stratum": "original",
+              "training_free_vocabulary": 0.5201697535812855
+            },
+            {
+              "delta": -0.03845585515910341,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.0,
+                "3409": 0.23401162790697674
+              },
+              "learned_three_seed_mean": 0.07800387596899225,
+              "scene": "misc_tamping",
+              "stratum": "original",
+              "training_free_vocabulary": 0.03954802080988884
+            },
+            {
+              "delta": 0.5537013004042939,
+              "learned_seed_values": {
+                "3407": 0.13615901724620863,
+                "3408": 0.16993957703927492,
+                "3409": 0.191211935417944
+              },
+              "learned_three_seed_mean": 0.1657701765678092,
+              "scene": "misc_americano",
+              "stratum": "original",
+              "training_free_vocabulary": 0.7194714769721031
+            },
+            {
+              "delta": 0.06797992420538557,
+              "learned_seed_values": {
+                "3407": 0.18965517241379307,
+                "3408": 0.2298850574712644,
+                "3409": 0.22170542635658916
+              },
+              "learned_three_seed_mean": 0.21374855208054888,
+              "scene": "coffee_martini",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.28172847628593445
+            },
+            {
+              "delta": 0.14204791684945425,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.5,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.16666666666666666,
+              "scene": "misc_cross-hands",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.3087145835161209
+            },
+            {
+              "delta": -0.08464782160498992,
+              "learned_seed_values": {
+                "3407": 0.32033983008495753,
+                "3408": 0.06521739130434782,
+                "3409": 0.20238095238095236
+              },
+              "learned_three_seed_mean": 0.19597939125675257,
+              "scene": "interp_slice-banana",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.11133156965176265
+            }
+          ],
+          "point_estimate": 0.2042258332263884,
+          "raw_exact_two_sided_p": 0.09375
+        },
+        {
+          "bootstrap_resamples": 10000,
+          "bootstrap_seed": 3407,
+          "ci95": [
+            -0.010543580180503474,
+            0.3077642674046787
+          ],
+          "exact_sign_flip": {
+            "enumerations": 128,
+            "exact_two_sided_p": 0.140625,
+            "extreme_assignments": 18,
+            "observed_absolute_mean": 0.16931325279451168,
+            "statistic": "absolute_unweighted_mean_history_delta"
+          },
+          "holm8_adjusted_p": 0.875,
+          "model_id": "cg_detr",
+          "per_history": [
+            {
+              "delta": 0.3615685349004133,
+              "learned_seed_values": {
+                "3407": 0.2325583311631238,
+                "3408": 0.08879573170731707,
+                "3409": 0.19073913236032242
+              },
+              "learned_three_seed_mean": 0.17069773174358774,
+              "scene": "interp_torchocolate",
+              "stratum": "original",
+              "training_free_vocabulary": 0.532266266644001
+            },
+            {
+              "delta": 0.307804162183436,
+              "learned_seed_values": {
+                "3407": 0.1935483870967742,
+                "3408": 0.14149560117302054,
+                "3409": 0.3020527859237537
+              },
+              "learned_three_seed_mean": 0.2123655913978495,
+              "scene": "misc_espresso",
+              "stratum": "original",
+              "training_free_vocabulary": 0.5201697535812855
+            },
+            {
+              "delta": -0.19420459973518453,
+              "learned_seed_values": {
+                "3407": 0.3081761006289308,
+                "3408": 0.1650943396226415,
+                "3409": 0.2279874213836478
+              },
+              "learned_three_seed_mean": 0.23375262054507337,
+              "scene": "misc_tamping",
+              "stratum": "original",
+              "training_free_vocabulary": 0.03954802080988884
+            },
+            {
+              "delta": 0.5682605187181992,
+              "learned_seed_values": {
+                "3407": 0.01925548744314811,
+                "3408": 0.07983193277310924,
+                "3409": 0.35454545454545455
+              },
+              "learned_three_seed_mean": 0.15121095825390396,
+              "scene": "misc_americano",
+              "stratum": "original",
+              "training_free_vocabulary": 0.7194714769721031
+            },
+            {
+              "delta": 0.010432830402582416,
+              "learned_seed_values": {
+                "3407": 0.31667342319516234,
+                "3408": 0.19836293974225006,
+                "3409": 0.2988505747126437
+              },
+              "learned_three_seed_mean": 0.27129564588335203,
+              "scene": "coffee_martini",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.28172847628593445
+            },
+            {
+              "delta": 0.12637454223645114,
+              "learned_seed_values": {
+                "3407": 0.46368679050567596,
+                "3408": 0.08333333333333333,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.18234004127966977,
+              "scene": "misc_cross-hands",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.3087145835161209
+            },
+            {
+              "delta": 0.004956780855684503,
+              "learned_seed_values": {
+                "3407": 0.11547619047619047,
+                "3408": 0.12318840579710144,
+                "3409": 0.08045977011494253
+              },
+              "learned_three_seed_mean": 0.10637478879607815,
+              "scene": "interp_slice-banana",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.11133156965176265
+            }
+          ],
+          "point_estimate": 0.16931325279451168,
+          "raw_exact_two_sided_p": 0.140625
+        },
+        {
+          "bootstrap_resamples": 10000,
+          "bootstrap_seed": 3407,
+          "ci95": [
+            0.02477163370700064,
+            0.3108289771777282
+          ],
+          "exact_sign_flip": {
+            "enumerations": 128,
+            "exact_two_sided_p": 0.125,
+            "extreme_assignments": 16,
+            "observed_absolute_mean": 0.19268962241604176,
+            "statistic": "absolute_unweighted_mean_history_delta"
+          },
+          "holm8_adjusted_p": 0.875,
+          "model_id": "uvcom",
+          "per_history": [
+            {
+              "delta": 0.41894941148434484,
+              "learned_seed_values": {
+                "3407": 0.08175110817326386,
+                "3408": 0.19770467378957246,
+                "3409": 0.060494783516132127
+              },
+              "learned_three_seed_mean": 0.11331685515965616,
+              "scene": "interp_torchocolate",
+              "stratum": "original",
+              "training_free_vocabulary": 0.532266266644001
+            },
+            {
+              "delta": 0.38624990998402253,
+              "learned_seed_values": {
+                "3407": 0.2375366568914956,
+                "3408": 0.16422287390029325,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.13391984359726294,
+              "scene": "misc_espresso",
+              "stratum": "original",
+              "training_free_vocabulary": 0.5201697535812855
+            },
+            {
+              "delta": -0.139173153194304,
+              "learned_seed_values": {
+                "3407": 0.25943396226415094,
+                "3408": 0.1792452830188679,
+                "3409": 0.09748427672955975
+              },
+              "learned_three_seed_mean": 0.17872117400419285,
+              "scene": "misc_tamping",
+              "stratum": "original",
+              "training_free_vocabulary": 0.03954802080988884
+            },
+            {
+              "delta": 0.5270367472972147,
+              "learned_seed_values": {
+                "3407": 0.2294776119402985,
+                "3408": 0.2798507462686567,
+                "3409": 0.06797583081570997
+              },
+              "learned_three_seed_mean": 0.1924347296748884,
+              "scene": "misc_americano",
+              "stratum": "original",
+              "training_free_vocabulary": 0.7194714769721031
+            },
+            {
+              "delta": 0.12847177130509155,
+              "learned_seed_values": {
+                "3407": 0.16091954022988506,
+                "3408": 0.20689655172413793,
+                "3409": 0.09195402298850575
+              },
+              "learned_three_seed_mean": 0.1532567049808429,
+              "scene": "coffee_martini",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.28172847628593445
+            },
+            {
+              "delta": 0.05958648157111757,
+              "learned_seed_values": {
+                "3407": 0.15,
+                "3408": 0.4142857142857143,
+                "3409": 0.18309859154929578
+              },
+              "learned_three_seed_mean": 0.24912810194500334,
+              "scene": "misc_cross-hands",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.3087145835161209
+            },
+            {
+              "delta": -0.03229381153519488,
+              "learned_seed_values": {
+                "3407": 0.17874149659863944,
+                "3408": 0.20689655172413793,
+                "3409": 0.04523809523809524
+              },
+              "learned_three_seed_mean": 0.14362538118695753,
+              "scene": "interp_slice-banana",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.11133156965176265
+            }
+          ],
+          "point_estimate": 0.19268962241604176,
+          "raw_exact_two_sided_p": 0.125
+        },
+        {
+          "bootstrap_resamples": 10000,
+          "bootstrap_seed": 3407,
+          "ci95": [
+            -0.09046399819266845,
+            0.23236626877048341
+          ],
+          "exact_sign_flip": {
+            "enumerations": 128,
+            "exact_two_sided_p": 0.4375,
+            "extreme_assignments": 56,
+            "observed_absolute_mean": 0.07690181003814064,
+            "statistic": "absolute_unweighted_mean_history_delta"
+          },
+          "holm8_adjusted_p": 0.875,
+          "model_id": "tr_detr",
+          "per_history": [
+            {
+              "delta": 0.14717129489426473,
+              "learned_seed_values": {
+                "3407": 0.4127198573034132,
+                "3408": 0.3903850417053117,
+                "3409": 0.35218001624048406
+              },
+              "learned_three_seed_mean": 0.3850949717497363,
+              "scene": "interp_torchocolate",
+              "stratum": "original",
+              "training_free_vocabulary": 0.532266266644001
+            },
+            {
+              "delta": 0.23491406358966527,
+              "learned_seed_values": {
+                "3407": 0.2415014164305949,
+                "3408": 0.38559602078436506,
+                "3409": 0.22866963275990074
+              },
+              "learned_three_seed_mean": 0.2852556899916202,
+              "scene": "misc_espresso",
+              "stratum": "original",
+              "training_free_vocabulary": 0.5201697535812855
+            },
+            {
+              "delta": -0.2844435170736896,
+              "learned_seed_values": {
+                "3407": 0.3309405364519695,
+                "3408": 0.35544744572934484,
+                "3409": 0.2855866314694208
+              },
+              "learned_three_seed_mean": 0.32399153788357843,
+              "scene": "misc_tamping",
+              "stratum": "original",
+              "training_free_vocabulary": 0.03954802080988884
+            },
+            {
+              "delta": 0.36775955987861914,
+              "learned_seed_values": {
+                "3407": 0.4446562532113863,
+                "3408": 0.302407683149128,
+                "3409": 0.30807181491993785
+              },
+              "learned_three_seed_mean": 0.351711917093484,
+              "scene": "misc_americano",
+              "stratum": "original",
+              "training_free_vocabulary": 0.7194714769721031
+            },
+            {
+              "delta": -0.02867608855705006,
+              "learned_seed_values": {
+                "3407": 0.3170006464124111,
+                "3408": 0.2981690920725864,
+                "3409": 0.316043956043956
+              },
+              "learned_three_seed_mean": 0.3104045648429845,
+              "scene": "coffee_martini",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.28172847628593445
+            },
+            {
+              "delta": 0.27452654932808673,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.10256410256410256,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.034188034188034185,
+              "scene": "misc_cross-hands",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.3087145835161209
+            },
+            {
+              "delta": -0.17293919179291178,
+              "learned_seed_values": {
+                "3407": 0.2646703608979824,
+                "3408": 0.25480859010270773,
+                "3409": 0.3333333333333333
+              },
+              "learned_three_seed_mean": 0.28427076144467445,
+              "scene": "interp_slice-banana",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.11133156965176265
+            }
+          ],
+          "point_estimate": 0.07690181003814064,
+          "raw_exact_two_sided_p": 0.4375
+        },
+        {
+          "bootstrap_resamples": 10000,
+          "bootstrap_seed": 3407,
+          "ci95": [
+            -0.04741060186828226,
+            0.2612948992620417
+          ],
+          "exact_sign_flip": {
+            "enumerations": 128,
+            "exact_two_sided_p": 0.234375,
+            "extreme_assignments": 30,
+            "observed_absolute_mean": 0.12150132010091472,
+            "statistic": "absolute_unweighted_mean_history_delta"
+          },
+          "holm8_adjusted_p": 0.875,
+          "model_id": "taskweave_mr2hd",
+          "per_history": [
+            {
+              "delta": 0.2814367365628159,
+              "learned_seed_values": {
+                "3407": 0.16692073170731708,
+                "3408": 0.22014699293306078,
+                "3409": 0.36542086560317744
+              },
+              "learned_three_seed_mean": 0.2508295300811851,
+              "scene": "interp_torchocolate",
+              "stratum": "original",
+              "training_free_vocabulary": 0.532266266644001
+            },
+            {
+              "delta": 0.3542325715329151,
+              "learned_seed_values": {
+                "3407": 0.0024509803921568627,
+                "3408": 0.37473251505885874,
+                "3409": 0.12062805069409568
+              },
+              "learned_three_seed_mean": 0.1659371820483704,
+              "scene": "misc_espresso",
+              "stratum": "original",
+              "training_free_vocabulary": 0.5201697535812855
+            },
+            {
+              "delta": -0.21712407366498215,
+              "learned_seed_values": {
+                "3407": 0.3202750239846498,
+                "3408": 0.2524445564516129,
+                "3409": 0.1972967029883502
+              },
+              "learned_three_seed_mean": 0.256672094474871,
+              "scene": "misc_tamping",
+              "stratum": "original",
+              "training_free_vocabulary": 0.03954802080988884
+            },
+            {
+              "delta": 0.39390273492149963,
+              "learned_seed_values": {
+                "3407": 0.26647014220092746,
+                "3408": 0.35058805469617177,
+                "3409": 0.3596480292547113
+              },
+              "learned_three_seed_mean": 0.3255687420506035,
+              "scene": "misc_americano",
+              "stratum": "original",
+              "training_free_vocabulary": 0.7194714769721031
+            },
+            {
+              "delta": 0.0664300038806788,
+              "learned_seed_values": {
+                "3407": 0.1634479717813051,
+                "3408": 0.18043959519291586,
+                "3409": 0.3020078502415459
+              },
+              "learned_three_seed_mean": 0.21529847240525565,
+              "scene": "coffee_martini",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.28172847628593445
+            },
+            {
+              "delta": 0.17268517175141504,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.1875,
+                "3409": 0.22058823529411764
+              },
+              "learned_three_seed_mean": 0.13602941176470587,
+              "scene": "misc_cross-hands",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.3087145835161209
+            },
+            {
+              "delta": -0.20105390427793912,
+              "learned_seed_values": {
+                "3407": 0.3333333333333333,
+                "3408": 0.2934782608695652,
+                "3409": 0.3103448275862069
+              },
+              "learned_three_seed_mean": 0.3123854739297018,
+              "scene": "interp_slice-banana",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.11133156965176265
+            }
+          ],
+          "point_estimate": 0.12150132010091472,
+          "raw_exact_two_sided_p": 0.234375
+        },
+        {
+          "bootstrap_resamples": 10000,
+          "bootstrap_seed": 3407,
+          "ci95": [
+            -0.09736466402754616,
+            0.2231019941685146
+          ],
+          "exact_sign_flip": {
+            "enumerations": 128,
+            "exact_two_sided_p": 0.421875,
+            "extreme_assignments": 54,
+            "observed_absolute_mean": 0.0725276730643376,
+            "statistic": "absolute_unweighted_mean_history_delta"
+          },
+          "holm8_adjusted_p": 0.875,
+          "model_id": "sim_detr",
+          "per_history": [
+            {
+              "delta": 0.17578976483822473,
+              "learned_seed_values": {
+                "3407": 0.3014481707317073,
+                "3408": 0.4241284549326183,
+                "3409": 0.34385287975300305
+              },
+              "learned_three_seed_mean": 0.3564765018057763,
+              "scene": "interp_torchocolate",
+              "stratum": "original",
+              "training_free_vocabulary": 0.532266266644001
+            },
+            {
+              "delta": 0.1461100354346112,
+              "learned_seed_values": {
+                "3407": 0.41568914956011727,
+                "3408": 0.39857211631685574,
+                "3409": 0.30791788856304986
+              },
+              "learned_three_seed_mean": 0.37405971814667427,
+              "scene": "misc_espresso",
+              "stratum": "original",
+              "training_free_vocabulary": 0.5201697535812855
+            },
+            {
+              "delta": -0.31922396336873166,
+              "learned_seed_values": {
+                "3407": 0.30974842767295596,
+                "3408": 0.4379511726616476,
+                "3409": 0.32861635220125784
+              },
+              "learned_three_seed_mean": 0.3587719841786205,
+              "scene": "misc_tamping",
+              "stratum": "original",
+              "training_free_vocabulary": 0.03954802080988884
+            },
+            {
+              "delta": 0.3750086680674984,
+              "learned_seed_values": {
+                "3407": 0.37921126249538617,
+                "3408": 0.26611746272589076,
+                "3409": 0.3880597014925373
+              },
+              "learned_three_seed_mean": 0.34446280890460473,
+              "scene": "misc_americano",
+              "stratum": "original",
+              "training_free_vocabulary": 0.7194714769721031
+            },
+            {
+              "delta": 0.0037600318541257116,
+              "learned_seed_values": {
+                "3407": 0.30936708860759493,
+                "3408": 0.23097572362278243,
+                "3409": 0.2935625210650488
+              },
+              "learned_three_seed_mean": 0.27796844443180874,
+              "scene": "coffee_martini",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.28172847628593445
+            },
+            {
+              "delta": 0.2532775916462022,
+              "learned_seed_values": {
+                "3407": 0.1663109756097561,
+                "3408": 0.0,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.055436991869918704,
+              "scene": "misc_cross-hands",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.3087145835161209
+            },
+            {
+              "delta": -0.12702841702156736,
+              "learned_seed_values": {
+                "3407": 0.20258620689655174,
+                "3408": 0.2826086956521739,
+                "3409": 0.2298850574712644
+              },
+              "learned_three_seed_mean": 0.23835998667333003,
+              "scene": "interp_slice-banana",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.11133156965176265
+            }
+          ],
+          "point_estimate": 0.0725276730643376,
+          "raw_exact_two_sided_p": 0.421875
+        }
+      ]
+    },
+    "L-R": {
+      "comparison_order": [
+        "vocabulary_centered_minus_moment_detr",
+        "vocabulary_centered_minus_qd_detr",
+        "vocabulary_centered_minus_eatr",
+        "vocabulary_centered_minus_cg_detr",
+        "vocabulary_centered_minus_uvcom",
+        "vocabulary_centered_minus_tr_detr",
+        "vocabulary_centered_minus_taskweave_mr2hd",
+        "vocabulary_centered_minus_sim_detr"
+      ],
+      "family_size": 8,
+      "metric": "state_macro_r1_tiou_0.5",
+      "rows": [
+        {
+          "bootstrap_resamples": 10000,
+          "bootstrap_seed": 3407,
+          "ci95": [
+            -0.051587301587301584,
+            0.4563492063492064
+          ],
+          "exact_sign_flip": {
+            "enumerations": 128,
+            "exact_two_sided_p": 0.203125,
+            "extreme_assignments": 26,
+            "observed_absolute_mean": 0.22222222222222224,
+            "statistic": "absolute_unweighted_mean_history_delta"
+          },
+          "holm8_adjusted_p": 1.0,
+          "model_id": "moment_detr",
+          "per_history": [
+            {
+              "delta": 0.5,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.0,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.0,
+              "scene": "interp_torchocolate",
+              "stratum": "original",
+              "training_free_vocabulary": 0.5
+            },
+            {
+              "delta": 0.5,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.0,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.0,
+              "scene": "misc_espresso",
+              "stratum": "original",
+              "training_free_vocabulary": 0.5
+            },
+            {
+              "delta": -0.3333333333333333,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.5,
+                "3409": 0.5
+              },
+              "learned_three_seed_mean": 0.3333333333333333,
+              "scene": "misc_tamping",
+              "stratum": "original",
+              "training_free_vocabulary": 0.0
+            },
+            {
+              "delta": 0.75,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.0,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.0,
+              "scene": "misc_americano",
+              "stratum": "original",
+              "training_free_vocabulary": 0.75
+            },
+            {
+              "delta": 0.2222222222222222,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.3333333333333333,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.1111111111111111,
+              "scene": "coffee_martini",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.3333333333333333
+            },
+            {
+              "delta": 0.25,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.0,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.0,
+              "scene": "misc_cross-hands",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.25
+            },
+            {
+              "delta": -0.3333333333333333,
+              "learned_seed_values": {
+                "3407": 0.3333333333333333,
+                "3408": 0.3333333333333333,
+                "3409": 0.3333333333333333
+              },
+              "learned_three_seed_mean": 0.3333333333333333,
+              "scene": "interp_slice-banana",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.0
+            }
+          ],
+          "point_estimate": 0.22222222222222224,
+          "raw_exact_two_sided_p": 0.203125
+        },
+        {
+          "bootstrap_resamples": 10000,
+          "bootstrap_seed": 3407,
+          "ci95": [
+            -0.019841269841269833,
+            0.40079365079365076
+          ],
+          "exact_sign_flip": {
+            "enumerations": 128,
+            "exact_two_sided_p": 0.21875,
+            "extreme_assignments": 28,
+            "observed_absolute_mean": 0.20634920634920637,
+            "statistic": "absolute_unweighted_mean_history_delta"
+          },
+          "holm8_adjusted_p": 1.0,
+          "model_id": "qd_detr",
+          "per_history": [
+            {
+              "delta": 0.5,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.0,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.0,
+              "scene": "interp_torchocolate",
+              "stratum": "original",
+              "training_free_vocabulary": 0.5
+            },
+            {
+              "delta": 0.5,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.0,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.0,
+              "scene": "misc_espresso",
+              "stratum": "original",
+              "training_free_vocabulary": 0.5
+            },
+            {
+              "delta": -0.16666666666666666,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.0,
+                "3409": 0.5
+              },
+              "learned_three_seed_mean": 0.16666666666666666,
+              "scene": "misc_tamping",
+              "stratum": "original",
+              "training_free_vocabulary": 0.0
+            },
+            {
+              "delta": 0.75,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.0,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.0,
+              "scene": "misc_americano",
+              "stratum": "original",
+              "training_free_vocabulary": 0.75
+            },
+            {
+              "delta": 0.1111111111111111,
+              "learned_seed_values": {
+                "3407": 0.3333333333333333,
+                "3408": 0.3333333333333333,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.2222222222222222,
+              "scene": "coffee_martini",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.3333333333333333
+            },
+            {
+              "delta": 0.08333333333333334,
+              "learned_seed_values": {
+                "3407": 0.5,
+                "3408": 0.0,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.16666666666666666,
+              "scene": "misc_cross-hands",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.25
+            },
+            {
+              "delta": -0.3333333333333333,
+              "learned_seed_values": {
+                "3407": 0.3333333333333333,
+                "3408": 0.3333333333333333,
+                "3409": 0.3333333333333333
+              },
+              "learned_three_seed_mean": 0.3333333333333333,
+              "scene": "interp_slice-banana",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.0
+            }
+          ],
+          "point_estimate": 0.20634920634920637,
+          "raw_exact_two_sided_p": 0.21875
+        },
+        {
+          "bootstrap_resamples": 10000,
+          "bootstrap_seed": 3407,
+          "ci95": [
+            0.06746031746031746,
+            0.40079365079365076
+          ],
+          "exact_sign_flip": {
+            "enumerations": 128,
+            "exact_two_sided_p": 0.15625,
+            "extreme_assignments": 20,
+            "observed_absolute_mean": 0.24603174603174605,
+            "statistic": "absolute_unweighted_mean_history_delta"
+          },
+          "holm8_adjusted_p": 1.0,
+          "model_id": "eatr",
+          "per_history": [
+            {
+              "delta": 0.5,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.0,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.0,
+              "scene": "interp_torchocolate",
+              "stratum": "original",
+              "training_free_vocabulary": 0.5
+            },
+            {
+              "delta": 0.5,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.0,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.0,
+              "scene": "misc_espresso",
+              "stratum": "original",
+              "training_free_vocabulary": 0.5
+            },
+            {
+              "delta": 0.0,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.0,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.0,
+              "scene": "misc_tamping",
+              "stratum": "original",
+              "training_free_vocabulary": 0.0
+            },
+            {
+              "delta": 0.75,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.0,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.0,
+              "scene": "misc_americano",
+              "stratum": "original",
+              "training_free_vocabulary": 0.75
+            },
+            {
+              "delta": 0.1111111111111111,
+              "learned_seed_values": {
+                "3407": 0.3333333333333333,
+                "3408": 0.3333333333333333,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.2222222222222222,
+              "scene": "coffee_martini",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.3333333333333333
+            },
+            {
+              "delta": 0.08333333333333334,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.5,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.16666666666666666,
+              "scene": "misc_cross-hands",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.25
+            },
+            {
+              "delta": -0.2222222222222222,
+              "learned_seed_values": {
+                "3407": 0.3333333333333333,
+                "3408": 0.0,
+                "3409": 0.3333333333333333
+              },
+              "learned_three_seed_mean": 0.2222222222222222,
+              "scene": "interp_slice-banana",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.0
+            }
+          ],
+          "point_estimate": 0.24603174603174605,
+          "raw_exact_two_sided_p": 0.15625
+        },
+        {
+          "bootstrap_resamples": 10000,
+          "bootstrap_seed": 3407,
+          "ci95": [
+            0.011904761904761906,
+            0.3214285714285715
+          ],
+          "exact_sign_flip": {
+            "enumerations": 128,
+            "exact_two_sided_p": 0.1875,
+            "extreme_assignments": 24,
+            "observed_absolute_mean": 0.19047619047619047,
+            "statistic": "absolute_unweighted_mean_history_delta"
+          },
+          "holm8_adjusted_p": 1.0,
+          "model_id": "cg_detr",
+          "per_history": [
+            {
+              "delta": 0.5,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.0,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.0,
+              "scene": "interp_torchocolate",
+              "stratum": "original",
+              "training_free_vocabulary": 0.5
+            },
+            {
+              "delta": 0.33333333333333337,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.0,
+                "3409": 0.5
+              },
+              "learned_three_seed_mean": 0.16666666666666666,
+              "scene": "misc_espresso",
+              "stratum": "original",
+              "training_free_vocabulary": 0.5
+            },
+            {
+              "delta": -0.16666666666666666,
+              "learned_seed_values": {
+                "3407": 0.5,
+                "3408": 0.0,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.16666666666666666,
+              "scene": "misc_tamping",
+              "stratum": "original",
+              "training_free_vocabulary": 0.0
+            },
+            {
+              "delta": 0.5833333333333334,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.0,
+                "3409": 0.5
+              },
+              "learned_three_seed_mean": 0.16666666666666666,
+              "scene": "misc_americano",
+              "stratum": "original",
+              "training_free_vocabulary": 0.75
+            },
+            {
+              "delta": 0.0,
+              "learned_seed_values": {
+                "3407": 0.3333333333333333,
+                "3408": 0.3333333333333333,
+                "3409": 0.3333333333333333
+              },
+              "learned_three_seed_mean": 0.3333333333333333,
+              "scene": "coffee_martini",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.3333333333333333
+            },
+            {
+              "delta": 0.08333333333333334,
+              "learned_seed_values": {
+                "3407": 0.5,
+                "3408": 0.0,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.16666666666666666,
+              "scene": "misc_cross-hands",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.25
+            },
+            {
+              "delta": 0.0,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.0,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.0,
+              "scene": "interp_slice-banana",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.0
+            }
+          ],
+          "point_estimate": 0.19047619047619047,
+          "raw_exact_two_sided_p": 0.1875
+        },
+        {
+          "bootstrap_resamples": 10000,
+          "bootstrap_seed": 3407,
+          "ci95": [
+            0.027777777777777787,
+            0.36904761904761907
+          ],
+          "exact_sign_flip": {
+            "enumerations": 128,
+            "exact_two_sided_p": 0.125,
+            "extreme_assignments": 16,
+            "observed_absolute_mean": 0.21825396825396828,
+            "statistic": "absolute_unweighted_mean_history_delta"
+          },
+          "holm8_adjusted_p": 1.0,
+          "model_id": "uvcom",
+          "per_history": [
+            {
+              "delta": 0.5,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.0,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.0,
+              "scene": "interp_torchocolate",
+              "stratum": "original",
+              "training_free_vocabulary": 0.5
+            },
+            {
+              "delta": 0.4166666666666667,
+              "learned_seed_values": {
+                "3407": 0.25,
+                "3408": 0.0,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.08333333333333333,
+              "scene": "misc_espresso",
+              "stratum": "original",
+              "training_free_vocabulary": 0.5
+            },
+            {
+              "delta": -0.16666666666666666,
+              "learned_seed_values": {
+                "3407": 0.5,
+                "3408": 0.0,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.16666666666666666,
+              "scene": "misc_tamping",
+              "stratum": "original",
+              "training_free_vocabulary": 0.0
+            },
+            {
+              "delta": 0.5833333333333334,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.5,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.16666666666666666,
+              "scene": "misc_americano",
+              "stratum": "original",
+              "training_free_vocabulary": 0.75
+            },
+            {
+              "delta": 0.2222222222222222,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.3333333333333333,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.1111111111111111,
+              "scene": "coffee_martini",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.3333333333333333
+            },
+            {
+              "delta": 0.08333333333333334,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.5,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.16666666666666666,
+              "scene": "misc_cross-hands",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.25
+            },
+            {
+              "delta": -0.1111111111111111,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.3333333333333333,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.1111111111111111,
+              "scene": "interp_slice-banana",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.0
+            }
+          ],
+          "point_estimate": 0.21825396825396828,
+          "raw_exact_two_sided_p": 0.125
+        },
+        {
+          "bootstrap_resamples": 10000,
+          "bootstrap_seed": 3407,
+          "ci95": [
+            -0.09523809523809523,
+            0.33333333333333337
+          ],
+          "exact_sign_flip": {
+            "enumerations": 128,
+            "exact_two_sided_p": 0.34375,
+            "extreme_assignments": 44,
+            "observed_absolute_mean": 0.13095238095238096,
+            "statistic": "absolute_unweighted_mean_history_delta"
+          },
+          "holm8_adjusted_p": 1.0,
+          "model_id": "tr_detr",
+          "per_history": [
+            {
+              "delta": 0.08333333333333331,
+              "learned_seed_values": {
+                "3407": 0.5,
+                "3408": 0.5,
+                "3409": 0.25
+              },
+              "learned_three_seed_mean": 0.4166666666666667,
+              "scene": "interp_torchocolate",
+              "stratum": "original",
+              "training_free_vocabulary": 0.5
+            },
+            {
+              "delta": 0.33333333333333337,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.5,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.16666666666666666,
+              "scene": "misc_espresso",
+              "stratum": "original",
+              "training_free_vocabulary": 0.5
+            },
+            {
+              "delta": -0.25,
+              "learned_seed_values": {
+                "3407": 0.25,
+                "3408": 0.25,
+                "3409": 0.25
+              },
+              "learned_three_seed_mean": 0.25,
+              "scene": "misc_tamping",
+              "stratum": "original",
+              "training_free_vocabulary": 0.0
+            },
+            {
+              "delta": 0.5,
+              "learned_seed_values": {
+                "3407": 0.5,
+                "3408": 0.0,
+                "3409": 0.25
+              },
+              "learned_three_seed_mean": 0.25,
+              "scene": "misc_americano",
+              "stratum": "original",
+              "training_free_vocabulary": 0.75
+            },
+            {
+              "delta": 0.3333333333333333,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.0,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.0,
+              "scene": "coffee_martini",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.3333333333333333
+            },
+            {
+              "delta": 0.25,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.0,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.0,
+              "scene": "misc_cross-hands",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.25
+            },
+            {
+              "delta": -0.3333333333333333,
+              "learned_seed_values": {
+                "3407": 0.3333333333333333,
+                "3408": 0.3333333333333333,
+                "3409": 0.3333333333333333
+              },
+              "learned_three_seed_mean": 0.3333333333333333,
+              "scene": "interp_slice-banana",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.0
+            }
+          ],
+          "point_estimate": 0.13095238095238096,
+          "raw_exact_two_sided_p": 0.34375
+        },
+        {
+          "bootstrap_resamples": 10000,
+          "bootstrap_seed": 3407,
+          "ci95": [
+            -0.07142857142857142,
+            0.30158730158730157
+          ],
+          "exact_sign_flip": {
+            "enumerations": 128,
+            "exact_two_sided_p": 0.328125,
+            "extreme_assignments": 42,
+            "observed_absolute_mean": 0.12301587301587302,
+            "statistic": "absolute_unweighted_mean_history_delta"
+          },
+          "holm8_adjusted_p": 1.0,
+          "model_id": "taskweave_mr2hd",
+          "per_history": [
+            {
+              "delta": 0.25,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.25,
+                "3409": 0.5
+              },
+              "learned_three_seed_mean": 0.25,
+              "scene": "interp_torchocolate",
+              "stratum": "original",
+              "training_free_vocabulary": 0.5
+            },
+            {
+              "delta": 0.33333333333333337,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.5,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.16666666666666666,
+              "scene": "misc_espresso",
+              "stratum": "original",
+              "training_free_vocabulary": 0.5
+            },
+            {
+              "delta": -0.25,
+              "learned_seed_values": {
+                "3407": 0.5,
+                "3408": 0.25,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.25,
+              "scene": "misc_tamping",
+              "stratum": "original",
+              "training_free_vocabulary": 0.0
+            },
+            {
+              "delta": 0.4166666666666667,
+              "learned_seed_values": {
+                "3407": 0.25,
+                "3408": 0.25,
+                "3409": 0.5
+              },
+              "learned_three_seed_mean": 0.3333333333333333,
+              "scene": "misc_americano",
+              "stratum": "original",
+              "training_free_vocabulary": 0.75
+            },
+            {
+              "delta": 0.2777777777777778,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.16666666666666666,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.05555555555555555,
+              "scene": "coffee_martini",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.3333333333333333
+            },
+            {
+              "delta": 0.16666666666666669,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.25,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.08333333333333333,
+              "scene": "misc_cross-hands",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.25
+            },
+            {
+              "delta": -0.3333333333333333,
+              "learned_seed_values": {
+                "3407": 0.3333333333333333,
+                "3408": 0.3333333333333333,
+                "3409": 0.3333333333333333
+              },
+              "learned_three_seed_mean": 0.3333333333333333,
+              "scene": "interp_slice-banana",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.0
+            }
+          ],
+          "point_estimate": 0.12301587301587302,
+          "raw_exact_two_sided_p": 0.328125
+        },
+        {
+          "bootstrap_resamples": 10000,
+          "bootstrap_seed": 3407,
+          "ci95": [
+            -0.1984126984126984,
+            0.2698412698412699
+          ],
+          "exact_sign_flip": {
+            "enumerations": 128,
+            "exact_two_sided_p": 0.875,
+            "extreme_assignments": 112,
+            "observed_absolute_mean": 0.03174603174603175,
+            "statistic": "absolute_unweighted_mean_history_delta"
+          },
+          "holm8_adjusted_p": 1.0,
+          "model_id": "sim_detr",
+          "per_history": [
+            {
+              "delta": 0.0,
+              "learned_seed_values": {
+                "3407": 0.5,
+                "3408": 0.5,
+                "3409": 0.5
+              },
+              "learned_three_seed_mean": 0.5,
+              "scene": "interp_torchocolate",
+              "stratum": "original",
+              "training_free_vocabulary": 0.5
+            },
+            {
+              "delta": 0.0,
+              "learned_seed_values": {
+                "3407": 0.5,
+                "3408": 0.5,
+                "3409": 0.5
+              },
+              "learned_three_seed_mean": 0.5,
+              "scene": "misc_espresso",
+              "stratum": "original",
+              "training_free_vocabulary": 0.5
+            },
+            {
+              "delta": -0.5,
+              "learned_seed_values": {
+                "3407": 0.5,
+                "3408": 0.5,
+                "3409": 0.5
+              },
+              "learned_three_seed_mean": 0.5,
+              "scene": "misc_tamping",
+              "stratum": "original",
+              "training_free_vocabulary": 0.0
+            },
+            {
+              "delta": 0.5833333333333334,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.0,
+                "3409": 0.5
+              },
+              "learned_three_seed_mean": 0.16666666666666666,
+              "scene": "misc_americano",
+              "stratum": "original",
+              "training_free_vocabulary": 0.75
+            },
+            {
+              "delta": 0.16666666666666666,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.16666666666666666,
+                "3409": 0.3333333333333333
+              },
+              "learned_three_seed_mean": 0.16666666666666666,
+              "scene": "coffee_martini",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.3333333333333333
+            },
+            {
+              "delta": 0.25,
+              "learned_seed_values": {
+                "3407": 0.0,
+                "3408": 0.0,
+                "3409": 0.0
+              },
+              "learned_three_seed_mean": 0.0,
+              "scene": "misc_cross-hands",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.25
+            },
+            {
+              "delta": -0.27777777777777773,
+              "learned_seed_values": {
+                "3407": 0.16666666666666666,
+                "3408": 0.3333333333333333,
+                "3409": 0.3333333333333333
+              },
+              "learned_three_seed_mean": 0.27777777777777773,
+              "scene": "interp_slice-banana",
+              "stratum": "extension_v2",
+              "training_free_vocabulary": 0.0
+            }
+          ],
+          "point_estimate": 0.03174603174603175,
+          "raw_exact_two_sided_p": 0.875
+        }
+      ]
+    }
+  },
+  "inventory": {
+    "histories": 7,
+    "models": 8,
+    "seeds": [
+      3407,
+      3408,
+      3409
+    ]
+  },
+  "kind": "deja_cue_seven_history_learned_decoder_summary",
+  "models": {
+    "cg_detr": {
+      "mean": {
+        "r1_tiou_0.3": 0.30952380952380953,
+        "r1_tiou_0.5": 0.14285714285714285,
+        "top1_tiou": 0.18971962541421636
+      },
+      "per_seed": {
+        "3407": {
+          "r1_tiou_0.3": 0.5,
+          "r1_tiou_0.5": 0.19047619047619047,
+          "top1_tiou": 0.23562495864414368
+        },
+        "3408": {
+          "r1_tiou_0.3": 0.16666666666666666,
+          "r1_tiou_0.5": 0.047619047619047616,
+          "top1_tiou": 0.12572889773553902
+        },
+        "3409": {
+          "r1_tiou_0.3": 0.2619047619047619,
+          "r1_tiou_0.5": 0.19047619047619047,
+          "top1_tiou": 0.20780501986296637
+        }
+      },
+      "sample_std": {
+        "r1_tiou_0.3": 0.1716929178792376,
+        "r1_tiou_0.5": 0.08247860988423225,
+        "top1_tiou": 0.05713665347289859
+      }
+    },
+    "eatr": {
+      "mean": {
+        "r1_tiou_0.3": 0.2579365079365079,
+        "r1_tiou_0.5": 0.08730158730158728,
+        "top1_tiou": 0.15480704498233966
+      },
+      "per_seed": {
+        "3407": {
+          "r1_tiou_0.3": 0.20238095238095236,
+          "r1_tiou_0.5": 0.09523809523809523,
+          "top1_tiou": 0.13531713933250508
+        },
+        "3408": {
+          "r1_tiou_0.3": 0.19047619047619047,
+          "r1_tiou_0.5": 0.11904761904761904,
+          "top1_tiou": 0.1508749061268654
+        },
+        "3409": {
+          "r1_tiou_0.3": 0.38095238095238093,
+          "r1_tiou_0.5": 0.047619047619047616,
+          "top1_tiou": 0.17822908948764846
+        }
+      },
+      "sample_std": {
+        "r1_tiou_0.3": 0.10670102904562502,
+        "r1_tiou_0.5": 0.036369648372665396,
+        "top1_tiou": 0.021724528844451956
+      }
+    },
+    "moment_detr": {
+      "mean": {
+        "r1_tiou_0.3": 0.23809523809523805,
+        "r1_tiou_0.5": 0.1111111111111111,
+        "top1_tiou": 0.1510808997757561
+      },
+      "per_seed": {
+        "3407": {
+          "r1_tiou_0.3": 0.16666666666666666,
+          "r1_tiou_0.5": 0.047619047619047616,
+          "top1_tiou": 0.12049264220186699
+        },
+        "3408": {
+          "r1_tiou_0.3": 0.23809523809523808,
+          "r1_tiou_0.5": 0.16666666666666666,
+          "top1_tiou": 0.16831040323162624
+        },
+        "3409": {
+          "r1_tiou_0.3": 0.3095238095238095,
+          "r1_tiou_0.5": 0.11904761904761904,
+          "top1_tiou": 0.16443965389377505
+        }
+      },
+      "sample_std": {
+        "r1_tiou_0.3": 0.07142857142857141,
+        "r1_tiou_0.5": 0.05991932091484722,
+        "top1_tiou": 0.026560813262474794
+      }
+    },
+    "qd_detr": {
+      "mean": {
+        "r1_tiou_0.3": 0.19047619047619047,
+        "r1_tiou_0.5": 0.12698412698412698,
+        "top1_tiou": 0.17323544451271702
+      },
+      "per_seed": {
+        "3407": {
+          "r1_tiou_0.3": 0.23809523809523808,
+          "r1_tiou_0.5": 0.16666666666666666,
+          "top1_tiou": 0.186727746734533
+        },
+        "3408": {
+          "r1_tiou_0.3": 0.09523809523809523,
+          "r1_tiou_0.5": 0.09523809523809523,
+          "top1_tiou": 0.1400597397107346
+        },
+        "3409": {
+          "r1_tiou_0.3": 0.23809523809523808,
+          "r1_tiou_0.5": 0.11904761904761904,
+          "top1_tiou": 0.1929188470928835
+        }
+      },
+      "sample_std": {
+        "r1_tiou_0.3": 0.08247860988423225,
+        "r1_tiou_0.5": 0.036369648372665396,
+        "top1_tiou": 0.028897283137745013
+      }
+    },
+    "sim_detr": {
+      "mean": {
+        "r1_tiou_0.3": 0.44047619047619047,
+        "r1_tiou_0.5": 0.30158730158730157,
+        "top1_tiou": 0.28650520514439043
+      },
+      "per_seed": {
+        "3407": {
+          "r1_tiou_0.3": 0.5357142857142857,
+          "r1_tiou_0.5": 0.2380952380952381,
+          "top1_tiou": 0.2977658973677242
+        },
+        "3408": {
+          "r1_tiou_0.3": 0.40476190476190477,
+          "r1_tiou_0.5": 0.2857142857142857,
+          "top1_tiou": 0.2914790894159955
+        },
+        "3409": {
+          "r1_tiou_0.3": 0.38095238095238093,
+          "r1_tiou_0.5": 0.38095238095238093,
+          "top1_tiou": 0.2702706286494516
+        }
+      },
+      "sample_std": {
+        "r1_tiou_0.3": 0.08333333333333333,
+        "r1_tiou_0.5": 0.07273929674533078,
+        "top1_tiou": 0.014406668387694452
+      }
+    },
+    "taskweave_mr2hd": {
+      "mean": {
+        "r1_tiou_0.3": 0.3412698412698412,
+        "r1_tiou_0.5": 0.21031746031746032,
+        "top1_tiou": 0.23753155810781335
+      },
+      "per_seed": {
+        "3407": {
+          "r1_tiou_0.3": 0.3095238095238095,
+          "r1_tiou_0.5": 0.15476190476190474,
+          "top1_tiou": 0.17898545477138425
+        },
+        "3408": {
+          "r1_tiou_0.3": 0.35714285714285715,
+          "r1_tiou_0.5": 0.2857142857142857,
+          "top1_tiou": 0.26561856788602645
+        },
+        "3409": {
+          "r1_tiou_0.3": 0.35714285714285715,
+          "r1_tiou_0.5": 0.19047619047619047,
+          "top1_tiou": 0.2679906516660293
+        }
+      },
+      "sample_std": {
+        "r1_tiou_0.3": 0.027492869961410784,
+        "r1_tiou_0.5": 0.06769334170330152,
+        "top1_tiou": 0.05071628295995984
+      }
+    },
+    "tr_detr": {
+      "mean": {
+        "r1_tiou_0.3": 0.42063492063492064,
+        "r1_tiou_0.5": 0.20238095238095236,
+        "top1_tiou": 0.2821310681705875
+      },
+      "per_seed": {
+        "3407": {
+          "r1_tiou_0.3": 0.42857142857142855,
+          "r1_tiou_0.5": 0.2261904761904762,
+          "top1_tiou": 0.28735558152967966
+        },
+        "3408": {
+          "r1_tiou_0.3": 0.42857142857142855,
+          "r1_tiou_0.5": 0.2261904761904762,
+          "top1_tiou": 0.2984825680153637
+        },
+        "3409": {
+          "r1_tiou_0.3": 0.40476190476190477,
+          "r1_tiou_0.5": 0.15476190476190474,
+          "top1_tiou": 0.260555054966719
+        }
+      },
+      "sample_std": {
+        "r1_tiou_0.3": 0.013746434980705359,
+        "r1_tiou_0.5": 0.04123930494211614,
+        "top1_tiou": 0.019496043608724273
+      }
+    },
+    "uvcom": {
+      "mean": {
+        "r1_tiou_0.3": 0.27777777777777773,
+        "r1_tiou_0.5": 0.11507936507936507,
+        "top1_tiou": 0.1663432557926863
+      },
+      "per_seed": {
+        "3407": {
+          "r1_tiou_0.3": 0.38095238095238093,
+          "r1_tiou_0.5": 0.10714285714285714,
+          "top1_tiou": 0.18540862515681905
+        },
+        "3408": {
+          "r1_tiou_0.3": 0.38095238095238093,
+          "r1_tiou_0.5": 0.23809523809523808,
+          "top1_tiou": 0.23558605638734006
+        },
+        "3409": {
+          "r1_tiou_0.3": 0.07142857142857142,
+          "r1_tiou_0.5": 0.0,
+          "top1_tiou": 0.07803508583389981
+        }
+      },
+      "sample_std": {
+        "r1_tiou_0.3": 0.17870365474916985,
+        "r1_tiou_0.5": 0.11924586667711681,
+        "top1_tiou": 0.08048722452865335
+      }
+    }
+  },
+  "optimization": {
+    "batch_size": 20,
+    "checkpoint_selection": "epoch_200",
+    "epochs": 200,
+    "gradient_clip_norm": 0.1,
+    "learning_rate": 0.0001,
+    "sim_detr_learning_rate_drop_epoch": 100,
+    "training_records": 86,
+    "training_scope": "five_development_histories",
+    "weight_decay": 0.0001
+  },
+  "schema_version": 1,
+  "statistical_protocol": {
+    "bootstrap_sampling": "within_original_and_extension_strata",
+    "bootstrap_scene_order": [
+      "coffee_martini",
+      "interp_slice-banana",
+      "interp_torchocolate",
+      "misc_americano",
+      "misc_cross-hands",
+      "misc_espresso",
+      "misc_tamping"
+    ],
+    "seed_aggregation": "arithmetic_mean_within_history_before_pairing",
+    "training_free_baseline": "vocabulary_centered_coordinates"
+  }
+}

@@ -1,0 +1,138 @@
+{
+    "schema_version":  1,
+    "kind":  "deja_cue_vendored_source_lock",
+    "project":  "Lighthouse",
+    "upstream_commit":  "d095eaa552cecef240897a8b750306b3b2a08740",
+    "files":  [
+                  {
+                      "path":  "LICENSE",
+                      "size_bytes":  11093,
+                      "sha256":  "92353c93f590f8d3e2fad7017880a22772f7f66320b080ce4b2878f56feecb9d"
+                  },
+                  {
+                      "path":  "lighthouse/__init__.py",
+                      "size_bytes":  616,
+                      "sha256":  "7e3103b513ed1945e67c7406c137435a258446a1a66d86a527c214c1a37a3c1e"
+                  },
+                  {
+                      "path":  "lighthouse/common/__init__.py",
+                      "size_bytes":  615,
+                      "sha256":  "4bb9e6c18b8a7c11d8580ae4118e238db0818a2ab512b3b95cc94967c0495468"
+                  },
+                  {
+                      "path":  "lighthouse/common/attention.py",
+                      "size_bytes":  21742,
+                      "sha256":  "3607d27747611335480f088d10de36c1dfec0ffe01c5bc3d4bb6c2c6af98c50e"
+                  },
+                  {
+                      "path":  "lighthouse/common/cg_detr.py",
+                      "size_bytes":  57970,
+                      "sha256":  "7beed2590f10dc735d44b8df77eb715b235c51ee4e8d6665c06609a5de21991e"
+                  },
+                  {
+                      "path":  "lighthouse/common/cg_detr_transformer.py",
+                      "size_bytes":  42155,
+                      "sha256":  "1e99208ba0ee449e14e5017f505bfda90b43603df035a82f375d0331d1982086"
+                  },
+                  {
+                      "path":  "lighthouse/common/CIM.py",
+                      "size_bytes":  52753,
+                      "sha256":  "b40d40d3efd890edcec15c685b6e35aa463a0ec37f94e9184251aee0330f9680"
+                  },
+                  {
+                      "path":  "lighthouse/common/crossattention.py",
+                      "size_bytes":  25411,
+                      "sha256":  "fe15a6234443973eb2e26cff41bc565f08c177e98d3bbb20bbf7084e538847d3"
+                  },
+                  {
+                      "path":  "lighthouse/common/eatr.py",
+                      "size_bytes":  23460,
+                      "sha256":  "a5433b5f4be45fa6c6c6d04e4ad696d72242a02e176e67e1cbb9f54192a24fc5"
+                  },
+                  {
+                      "path":  "lighthouse/common/eatr_transformer.py",
+                      "size_bytes":  26674,
+                      "sha256":  "a9fe1b9204d7125a46b5ff94fb4af77d3246808a64caf682d41de59624862e81"
+                  },
+                  {
+                      "path":  "lighthouse/common/loss_func.py",
+                      "size_bytes":  4674,
+                      "sha256":  "ad67fb0862265fcb86e2b72d10d568c9c5a8ea84d77dbeb342599866568c8838"
+                  },
+                  {
+                      "path":  "lighthouse/common/matcher.py",
+                      "size_bytes":  11024,
+                      "sha256":  "d8102258bd21c2c6c22e29cbf3027ac145363d6b0d3439622f4c592eae6dc140"
+                  },
+                  {
+                      "path":  "lighthouse/common/misc.py",
+                      "size_bytes":  2266,
+                      "sha256":  "e23ba1a200c3a02c3d4de663c6f38021abc4b686ed6e24625a118e2f045a785c"
+                  },
+                  {
+                      "path":  "lighthouse/common/moment_detr.py",
+                      "size_bytes":  19836,
+                      "sha256":  "8ce7174071ee0c06ec46d0ffbf78dacb95eb92c2806e637a9d3c3363fc8f1c3f"
+                  },
+                  {
+                      "path":  "lighthouse/common/moment_transformer.py",
+                      "size_bytes":  22297,
+                      "sha256":  "f37b6928c4031e4f062f94366cc952e0b424fbb8363f494b09e891050857e89d"
+                  },
+                  {
+                      "path":  "lighthouse/common/position_encoding.py",
+                      "size_bytes":  6111,
+                      "sha256":  "14fc1dda984b639c26708a297cc5fca52a53c008517cad5069717ba91de2c59f"
+                  },
+                  {
+                      "path":  "lighthouse/common/qd_detr.py",
+                      "size_bytes":  25138,
+                      "sha256":  "86aa8d55f0ad4c3ab3e371514b1b059c9b401fcbb3f691c685c102d233025234"
+                  },
+                  {
+                      "path":  "lighthouse/common/qd_detr_transformer.py",
+                      "size_bytes":  36859,
+                      "sha256":  "1a3447fd25738259f03209b85f89bdd1b5676a062def0f4b90b6135952022f3e"
+                  },
+                  {
+                      "path":  "lighthouse/common/taskweave.py",
+                      "size_bytes":  31622,
+                      "sha256":  "5ed9a097a6169ad810cd74080084b8a8707487c0b23332b24dd699d95883837a"
+                  },
+                  {
+                      "path":  "lighthouse/common/taskweave_transformer.py",
+                      "size_bytes":  36259,
+                      "sha256":  "12f69fd1de2928f179f7c1596eb1bedd0e6b5e71280f22fb1fdae4828acce10d"
+                  },
+                  {
+                      "path":  "lighthouse/common/tr_detr.py",
+                      "size_bytes":  30681,
+                      "sha256":  "1754111ca9327c8740453e4df4edad7e49f05c2cd1bef781ba6e35deede55c33"
+                  },
+                  {
+                      "path":  "lighthouse/common/tr_detr_transformer.py",
+                      "size_bytes":  38958,
+                      "sha256":  "8800ad20891e166cc614fddaf242aa044e2aca90ad4d7e40fb06bffcdf21903e"
+                  },
+                  {
+                      "path":  "lighthouse/common/utils/__init__.py",
+                      "size_bytes":  615,
+                      "sha256":  "4bb9e6c18b8a7c11d8580ae4118e238db0818a2ab512b3b95cc94967c0495468"
+                  },
+                  {
+                      "path":  "lighthouse/common/utils/model_utils.py",
+                      "size_bytes":  3405,
+                      "sha256":  "2d996161be77fda65c2fd0dc752130f4c476a9be8a9f757eca65a20849a8fda3"
+                  },
+                  {
+                      "path":  "lighthouse/common/utils/span_utils.py",
+                      "size_bytes":  6783,
+                      "sha256":  "49a9a8edcda87fc2beb33738c0ace98faa08f5fb609e211dcb0c6e44eeb447fb"
+                  },
+                  {
+                      "path":  "lighthouse/common/uvcom.py",
+                      "size_bytes":  30173,
+                      "sha256":  "cb4b35dbf2db4a78e937c3be3684fd92e49e01b3d7a1e0041cefc5d9b27ed8dc"
+                  }
+              ]
+}

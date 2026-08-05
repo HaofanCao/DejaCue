@@ -1,0 +1,33 @@
+name: Experiment question
+description: Ask about a documented protocol, metric, or reproduction workflow.
+title: "[Experiment]: "
+labels: [question]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Fixed-feature evaluation
+        - VOST protocol
+        - Seven-history evaluation
+        - Learned decoders
+        - Feature extraction
+        - Robustness or diagnostics
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: State the specific setting, result, or command in question.
+    validations:
+      required: true
+
+  - type: textarea
+    id: checks
+    attributes:
+      label: Checks already run
+      description: Include relevant commands and concise output.
+      render: shell

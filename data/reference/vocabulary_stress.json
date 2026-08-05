@@ -1,0 +1,124 @@
+{
+  "duplication_stress": {
+    "2": {
+      "query_uniform": {
+        "stability": {
+          "joint_identity_changes": 2,
+          "joint_window_changes": 12,
+          "maximum_absolute_joint_score_delta": 7.6809539794921875,
+          "maximum_absolute_target_score_delta": 7.6809539794921875,
+          "num_original_queries": 32,
+          "target_window_changes": 13
+        }
+      },
+      "state_balanced": {
+        "exact_prediction_reproduction": true,
+        "stability": {
+          "joint_identity_changes": 0,
+          "joint_window_changes": 0,
+          "maximum_absolute_joint_score_delta": 1.71661376953125e-05,
+          "maximum_absolute_target_score_delta": 1.71661376953125e-05,
+          "num_original_queries": 32,
+          "target_window_changes": 0
+        }
+      }
+    },
+    "4": {
+      "query_uniform": {
+        "stability": {
+          "joint_identity_changes": 2,
+          "joint_window_changes": 12,
+          "maximum_absolute_joint_score_delta": 18.974891662597656,
+          "maximum_absolute_target_score_delta": 18.974891662597656,
+          "num_original_queries": 32,
+          "target_window_changes": 14
+        }
+      },
+      "state_balanced": {
+        "exact_prediction_reproduction": true,
+        "stability": {
+          "joint_identity_changes": 0,
+          "joint_window_changes": 0,
+          "maximum_absolute_joint_score_delta": 1.52587890625e-05,
+          "maximum_absolute_target_score_delta": 1.52587890625e-05,
+          "num_original_queries": 32,
+          "target_window_changes": 0
+        }
+      }
+    },
+    "8": {
+      "query_uniform": {
+        "stability": {
+          "joint_identity_changes": 2,
+          "joint_window_changes": 15,
+          "maximum_absolute_joint_score_delta": 39.78852081298828,
+          "maximum_absolute_target_score_delta": 39.78852081298828,
+          "num_original_queries": 32,
+          "target_window_changes": 16
+        }
+      },
+      "state_balanced": {
+        "exact_prediction_reproduction": true,
+        "stability": {
+          "joint_identity_changes": 0,
+          "joint_window_changes": 0,
+          "maximum_absolute_joint_score_delta": 1.52587890625e-05,
+          "maximum_absolute_target_score_delta": 1.52587890625e-05,
+          "num_original_queries": 32,
+          "target_window_changes": 0
+        }
+      }
+    }
+  },
+  "evaluation_scope": {
+    "composition_table": {
+      "histories": 4,
+      "original_descriptions": 16
+    },
+    "duplication_stress": {
+      "histories": 7,
+      "original_descriptions": 32
+    }
+  },
+  "factorial_cell": "state_balanced_zero_sum_floor_5e_2",
+  "kind": "deja_cue_vocabulary_composition_summary",
+  "schema_version": 2,
+  "table": {
+    "one_sided_four": {
+      "added_residual_norm_median": 0.3198569715023041,
+      "new_description_identity_accuracy": 0.96875,
+      "new_description_r1_tiou_0.5": 0.4375,
+      "new_description_top1_tiou": 0.4005141902016476,
+      "num_new_descriptions": 16,
+      "original_window_exact_rate": 0.71875,
+      "original_window_mean_tiou": 0.937146812124664
+    },
+    "one_sided_one": {
+      "added_residual_norm_median": 0.2747306078672409,
+      "new_description_identity_accuracy": 0.875,
+      "new_description_r1_tiou_0.5": 0.375,
+      "new_description_top1_tiou": 0.4222471695393324,
+      "num_new_descriptions": 4,
+      "original_window_exact_rate": 0.8125,
+      "original_window_mean_tiou": 0.9949227210297407
+    },
+    "one_sided_two": {
+      "added_residual_norm_median": 0.30861977487802505,
+      "new_description_identity_accuracy": 0.9375,
+      "new_description_r1_tiou_0.5": 0.5,
+      "new_description_top1_tiou": 0.443482153583318,
+      "num_new_descriptions": 8,
+      "original_window_exact_rate": 0.65625,
+      "original_window_mean_tiou": 0.884034978019326
+    },
+    "symmetric_four_per_state": {
+      "added_residual_norm_median": 0.29824700951576233,
+      "new_description_identity_accuracy": 0.96875,
+      "new_description_r1_tiou_0.5": 0.4375,
+      "new_description_top1_tiou": 0.40859280445147306,
+      "num_new_descriptions": 32,
+      "original_window_exact_rate": 0.5,
+      "original_window_mean_tiou": 0.8717605614724152
+    }
+  }
+}

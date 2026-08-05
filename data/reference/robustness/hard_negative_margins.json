@@ -1,0 +1,102 @@
+{
+  "comparison": {
+    "baseline": "absolute_k3",
+    "delta": "treatment_minus_baseline_within_query",
+    "history_aggregation": "median_query_delta_then_unweighted_history_mean",
+    "treatment": "query_only_k3"
+  },
+  "definitions": {
+    "joint_identity_state": "best positive score minus the best non-target-window score outside the query state's co-visible interval",
+    "sibling_state": "best positive score minus the best target-window score matching a sibling state at tIoU >= 0.5"
+  },
+  "identity_accuracy": {
+    "absolute_k3": {
+      "accuracy_percent": 93.75,
+      "num_correct": 15,
+      "num_queries": 16
+    },
+    "query_only_k3": {
+      "accuracy_percent": 100.0,
+      "num_correct": 16,
+      "num_queries": 16
+    }
+  },
+  "kind": "deja_cue_hard_negative_margin_evidence",
+  "paired_margins": {
+    "joint_identity_state": {
+      "bootstrap": {
+        "num_resamples": 10000,
+        "seed": 3407,
+        "unit": "history"
+      },
+      "field": "double_margin",
+      "history_median_deltas": [
+        {
+          "delta": 10.19008994102478,
+          "history_id": "R01",
+          "label": "torchocolate"
+        },
+        {
+          "delta": -19.73056983947754,
+          "history_id": "R04",
+          "label": "americano"
+        },
+        {
+          "delta": 3.937692165374756,
+          "history_id": "R02",
+          "label": "espresso"
+        },
+        {
+          "delta": 0.24031293392181396,
+          "history_id": "R03",
+          "label": "tamping"
+        }
+      ],
+      "num_pairs": 16,
+      "num_positive_pairs": 9,
+      "reported_history_bootstrap_95ci": [
+        -13.813504338264465,
+        7.702645689249039
+      ],
+      "reported_history_macro_delta": -1.3406186997890472
+    },
+    "sibling_state": {
+      "bootstrap": {
+        "num_resamples": 10000,
+        "seed": 3407,
+        "unit": "history"
+      },
+      "field": "temporal_margin",
+      "history_median_deltas": [
+        {
+          "delta": 10.77767276763916,
+          "history_id": "R01",
+          "label": "torchocolate"
+        },
+        {
+          "delta": -3.2630481719970703,
+          "history_id": "R04",
+          "label": "americano"
+        },
+        {
+          "delta": 3.0493907928466797,
+          "history_id": "R02",
+          "label": "espresso"
+        },
+        {
+          "delta": -1.3268628120422363,
+          "history_id": "R03",
+          "label": "tamping"
+        }
+      ],
+      "num_pairs": 16,
+      "num_positive_pairs": 10,
+      "reported_history_bootstrap_95ci": [
+        -2.2949554920196533,
+        7.751538872718811
+      ],
+      "reported_history_macro_delta": 2.3092881441116333
+    }
+  },
+  "schema_version": 1
+}

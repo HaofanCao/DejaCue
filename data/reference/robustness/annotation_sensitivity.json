@@ -1,0 +1,329 @@
+{
+  "kind": "deja_cue_annotation_sensitivity_evidence",
+  "reference_episode_counts": {
+    "adjudicated": {
+      "A01": {
+        "mostly_sliced": 2,
+        "mostly_unsliced": 1,
+        "partly_sliced": 1
+      },
+      "A02": {
+        "fingers_interlaced_clasped": 20,
+        "hands_open_noninterlaced": 24
+      },
+      "A03": {
+        "nearly_empty": 1,
+        "nearly_full": 1,
+        "partly_filled": 1
+      }
+    },
+    "pass_A": {
+      "A01": {
+        "mostly_sliced": 2,
+        "mostly_unsliced": 1,
+        "partly_sliced": 1
+      },
+      "A02": {
+        "fingers_interlaced_clasped": 20,
+        "hands_open_noninterlaced": 24
+      },
+      "A03": {
+        "nearly_empty": 1,
+        "nearly_full": 1,
+        "partly_filled": 1
+      }
+    },
+    "pass_B": {
+      "A01": {
+        "mostly_sliced": 3,
+        "mostly_unsliced": 1,
+        "partly_sliced": 1
+      },
+      "A02": {
+        "fingers_interlaced_clasped": 16,
+        "hands_open_noninterlaced": 8
+      },
+      "A03": {
+        "nearly_empty": 1,
+        "nearly_full": 1,
+        "partly_filled": 1
+      }
+    }
+  },
+  "reported_coordinate_deltas": {
+    "adjudicated": {
+      "dual_centered_minus_absolute": {
+        "state_macro_r1_tiou_0.5": -0.27777777777777773,
+        "state_macro_top1_tiou": -0.11070339415615871
+      },
+      "vocabulary_centered_minus_absolute": {
+        "state_macro_r1_tiou_0.5": -0.19444444444444442,
+        "state_macro_top1_tiou": -0.1290528791189984
+      }
+    },
+    "pass_A": {
+      "dual_centered_minus_absolute": {
+        "state_macro_r1_tiou_0.5": -0.27777777777777773,
+        "state_macro_top1_tiou": -0.11070339415615871
+      },
+      "vocabulary_centered_minus_absolute": {
+        "state_macro_r1_tiou_0.5": -0.19444444444444442,
+        "state_macro_top1_tiou": -0.1290528791189984
+      }
+    },
+    "pass_B": {
+      "dual_centered_minus_absolute": {
+        "state_macro_r1_tiou_0.5": -0.08333333333333331,
+        "state_macro_top1_tiou": -0.07148770450504704
+      },
+      "vocabulary_centered_minus_absolute": {
+        "state_macro_r1_tiou_0.5": -0.08333333333333331,
+        "state_macro_top1_tiou": -0.06592732360008202
+      }
+    }
+  },
+  "schema_version": 1,
+  "scope": "descriptive_extension_n3_only",
+  "scores": {
+    "adjudicated": {
+      "absolute_coordinates": {
+        "history_rows": [
+          {
+            "history_id": "A03",
+            "num_states": 3,
+            "state_macro_r1_tiou_0.5": 0.3333333333333333,
+            "state_macro_top1_tiou": 0.32750169033130494
+          },
+          {
+            "history_id": "A02",
+            "num_states": 2,
+            "state_macro_r1_tiou_0.5": 0.5,
+            "state_macro_top1_tiou": 0.5233363444745558
+          },
+          {
+            "history_id": "A01",
+            "num_states": 3,
+            "state_macro_r1_tiou_0.5": 0.3333333333333333,
+            "state_macro_top1_tiou": 0.2380952380952381
+          }
+        ],
+        "reported_history_macro": {
+          "state_macro_r1_tiou_0.5": 0.38888888888888884,
+          "state_macro_top1_tiou": 0.3629777576336996
+        }
+      },
+      "dual_centered_coordinates": {
+        "history_rows": [
+          {
+            "history_id": "A03",
+            "num_states": 3,
+            "state_macro_r1_tiou_0.5": 0.3333333333333333,
+            "state_macro_top1_tiou": 0.31893543687595494
+          },
+          {
+            "history_id": "A02",
+            "num_states": 2,
+            "state_macro_r1_tiou_0.5": 0.0,
+            "state_macro_top1_tiou": 0.32655608389176466
+          },
+          {
+            "history_id": "A01",
+            "num_states": 3,
+            "state_macro_r1_tiou_0.5": 0.0,
+            "state_macro_top1_tiou": 0.111331569664903
+          }
+        ],
+        "reported_history_macro": {
+          "state_macro_r1_tiou_0.5": 0.1111111111111111,
+          "state_macro_top1_tiou": 0.2522743634775409
+        }
+      },
+      "vocabulary_centered_coordinates": {
+        "history_rows": [
+          {
+            "history_id": "A03",
+            "num_states": 3,
+            "state_macro_r1_tiou_0.5": 0.3333333333333333,
+            "state_macro_top1_tiou": 0.281728475384949
+          },
+          {
+            "history_id": "A02",
+            "num_states": 2,
+            "state_macro_r1_tiou_0.5": 0.25,
+            "state_macro_top1_tiou": 0.30871459049425154
+          },
+          {
+            "history_id": "A01",
+            "num_states": 3,
+            "state_macro_r1_tiou_0.5": 0.0,
+            "state_macro_top1_tiou": 0.111331569664903
+          }
+        ],
+        "reported_history_macro": {
+          "state_macro_r1_tiou_0.5": 0.19444444444444442,
+          "state_macro_top1_tiou": 0.2339248785147012
+        }
+      }
+    },
+    "pass_A": {
+      "absolute_coordinates": {
+        "history_rows": [
+          {
+            "history_id": "A03",
+            "num_states": 3,
+            "state_macro_r1_tiou_0.5": 0.3333333333333333,
+            "state_macro_top1_tiou": 0.32750169033130494
+          },
+          {
+            "history_id": "A02",
+            "num_states": 2,
+            "state_macro_r1_tiou_0.5": 0.5,
+            "state_macro_top1_tiou": 0.5233363444745558
+          },
+          {
+            "history_id": "A01",
+            "num_states": 3,
+            "state_macro_r1_tiou_0.5": 0.3333333333333333,
+            "state_macro_top1_tiou": 0.2380952380952381
+          }
+        ],
+        "reported_history_macro": {
+          "state_macro_r1_tiou_0.5": 0.38888888888888884,
+          "state_macro_top1_tiou": 0.3629777576336996
+        }
+      },
+      "dual_centered_coordinates": {
+        "history_rows": [
+          {
+            "history_id": "A03",
+            "num_states": 3,
+            "state_macro_r1_tiou_0.5": 0.3333333333333333,
+            "state_macro_top1_tiou": 0.31893543687595494
+          },
+          {
+            "history_id": "A02",
+            "num_states": 2,
+            "state_macro_r1_tiou_0.5": 0.0,
+            "state_macro_top1_tiou": 0.32655608389176466
+          },
+          {
+            "history_id": "A01",
+            "num_states": 3,
+            "state_macro_r1_tiou_0.5": 0.0,
+            "state_macro_top1_tiou": 0.111331569664903
+          }
+        ],
+        "reported_history_macro": {
+          "state_macro_r1_tiou_0.5": 0.1111111111111111,
+          "state_macro_top1_tiou": 0.2522743634775409
+        }
+      },
+      "vocabulary_centered_coordinates": {
+        "history_rows": [
+          {
+            "history_id": "A03",
+            "num_states": 3,
+            "state_macro_r1_tiou_0.5": 0.3333333333333333,
+            "state_macro_top1_tiou": 0.281728475384949
+          },
+          {
+            "history_id": "A02",
+            "num_states": 2,
+            "state_macro_r1_tiou_0.5": 0.25,
+            "state_macro_top1_tiou": 0.30871459049425154
+          },
+          {
+            "history_id": "A01",
+            "num_states": 3,
+            "state_macro_r1_tiou_0.5": 0.0,
+            "state_macro_top1_tiou": 0.111331569664903
+          }
+        ],
+        "reported_history_macro": {
+          "state_macro_r1_tiou_0.5": 0.19444444444444442,
+          "state_macro_top1_tiou": 0.2339248785147012
+        }
+      }
+    },
+    "pass_B": {
+      "absolute_coordinates": {
+        "history_rows": [
+          {
+            "history_id": "A03",
+            "num_states": 3,
+            "state_macro_r1_tiou_0.5": 0.3333333333333333,
+            "state_macro_top1_tiou": 0.3299526707234618
+          },
+          {
+            "history_id": "A02",
+            "num_states": 2,
+            "state_macro_r1_tiou_0.5": 0.5,
+            "state_macro_top1_tiou": 0.44839656729900634
+          },
+          {
+            "history_id": "A01",
+            "num_states": 3,
+            "state_macro_r1_tiou_0.5": 0.3333333333333333,
+            "state_macro_top1_tiou": 0.2646349413298566
+          }
+        ],
+        "reported_history_macro": {
+          "state_macro_r1_tiou_0.5": 0.38888888888888884,
+          "state_macro_top1_tiou": 0.34766139311744154
+        }
+      },
+      "dual_centered_coordinates": {
+        "history_rows": [
+          {
+            "history_id": "A03",
+            "num_states": 3,
+            "state_macro_r1_tiou_0.5": 0.3333333333333333,
+            "state_macro_top1_tiou": 0.3290716163877341
+          },
+          {
+            "history_id": "A02",
+            "num_states": 2,
+            "state_macro_r1_tiou_0.5": 0.25,
+            "state_macro_top1_tiou": 0.18981481481481483
+          },
+          {
+            "history_id": "A01",
+            "num_states": 3,
+            "state_macro_r1_tiou_0.5": 0.3333333333333333,
+            "state_macro_top1_tiou": 0.30963463463463464
+          }
+        ],
+        "reported_history_macro": {
+          "state_macro_r1_tiou_0.5": 0.3055555555555555,
+          "state_macro_top1_tiou": 0.2761736886123945
+        }
+      },
+      "vocabulary_centered_coordinates": {
+        "history_rows": [
+          {
+            "history_id": "A03",
+            "num_states": 3,
+            "state_macro_r1_tiou_0.5": 0.3333333333333333,
+            "state_macro_top1_tiou": 0.289039796139666
+          },
+          {
+            "history_id": "A02",
+            "num_states": 2,
+            "state_macro_r1_tiou_0.5": 0.25,
+            "state_macro_top1_tiou": 0.2465277777777778
+          },
+          {
+            "history_id": "A01",
+            "num_states": 3,
+            "state_macro_r1_tiou_0.5": 0.3333333333333333,
+            "state_macro_top1_tiou": 0.30963463463463464
+          }
+        ],
+        "reported_history_macro": {
+          "state_macro_r1_tiou_0.5": 0.3055555555555555,
+          "state_macro_top1_tiou": 0.2817340695173595
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1313 @@
+{
+  "conditions": {
+    "contiguous_missing_span_010pct": {
+      "family": "contiguous_missing_frames",
+      "parameters": {
+        "missing_span_fraction": 0.1
+      },
+      "replicate_seeds": [
+        3407,
+        3408,
+        3409
+      ],
+      "replicates": [
+        {
+          "baseline": [
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.532266266644001
+              },
+              "scene": "interp_torchocolate"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.75,
+                "state_macro_target_top1_tiou": 0.7194714769721031
+              },
+              "scene": "misc_americano"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.4892788603901863
+              },
+              "scene": "misc_espresso"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.038235295563936234
+              },
+              "scene": "misc_tamping"
+            }
+          ],
+          "perturbed": [
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.25,
+                "state_macro_target_top1_tiou": 0.44080284982919693
+              },
+              "scene": "interp_torchocolate"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.75,
+                "state_macro_target_top1_tiou": 0.5745479688048363
+              },
+              "scene": "misc_americano"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.2579836994409561
+              },
+              "scene": "misc_espresso"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.00988700520247221
+              },
+              "scene": "misc_tamping"
+            }
+          ],
+          "seed": 3407
+        },
+        {
+          "baseline": [
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.532266266644001
+              },
+              "scene": "interp_torchocolate"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.75,
+                "state_macro_target_top1_tiou": 0.7194714769721031
+              },
+              "scene": "misc_americano"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.4892788603901863
+              },
+              "scene": "misc_espresso"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.038235295563936234
+              },
+              "scene": "misc_tamping"
+            }
+          ],
+          "perturbed": [
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.25,
+                "state_macro_target_top1_tiou": 0.44080284982919693
+              },
+              "scene": "interp_torchocolate"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.75,
+                "state_macro_target_top1_tiou": 0.6628249511122704
+              },
+              "scene": "misc_americano"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.49568911641836166
+              },
+              "scene": "misc_espresso"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.12013184651732445
+              },
+              "scene": "misc_tamping"
+            }
+          ],
+          "seed": 3408
+        },
+        {
+          "baseline": [
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.532266266644001
+              },
+              "scene": "interp_torchocolate"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.75,
+                "state_macro_target_top1_tiou": 0.7194714769721031
+              },
+              "scene": "misc_americano"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.4892788603901863
+              },
+              "scene": "misc_espresso"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.038235295563936234
+              },
+              "scene": "misc_tamping"
+            }
+          ],
+          "perturbed": [
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.25,
+                "state_macro_target_top1_tiou": 0.44080284982919693
+              },
+              "scene": "interp_torchocolate"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.5797433853149414
+              },
+              "scene": "misc_americano"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.5022118091583252
+              },
+              "scene": "misc_espresso"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.03430001065135002
+              },
+              "scene": "misc_tamping"
+            }
+          ],
+          "seed": 3409
+        }
+      ],
+      "reported": {
+        "bootstrap": {
+          "num_resamples": 10000,
+          "seed": 3407
+        },
+        "observed": {
+          "query_macro_joint_identity_accuracy": {
+            "baseline": 1.0,
+            "delta": 0.0,
+            "perturbed": 1.0
+          },
+          "state_macro_target_r1_tiou_0.5": {
+            "baseline": 0.4375,
+            "delta": -0.125,
+            "perturbed": 0.3125
+          },
+          "state_macro_target_top1_tiou": {
+            "baseline": 0.44481297489255667,
+            "delta": -0.06483561305018763,
+            "perturbed": 0.379977361842369
+          }
+        },
+        "paired_delta_scene_cluster_bootstrap_95ci": {
+          "query_macro_joint_identity_accuracy": [
+            0.0,
+            0.0
+          ],
+          "state_macro_target_r1_tiou_0.5": [
+            -0.3125,
+            0.0
+          ],
+          "state_macro_target_top1_tiou": [
+            -0.15027589350938797,
+            0.014005807926878333
+          ]
+        }
+      },
+      "support": {
+        "num_affected_histories": 4,
+        "num_affected_scenes": 4
+      }
+    },
+    "distractor_contamination_025pct_mix050pct": {
+      "family": "distractor_contamination",
+      "parameters": {
+        "affected_fraction": 0.25,
+        "mixing_weight": 0.5
+      },
+      "replicate_seeds": [
+        3407,
+        3408,
+        3409
+      ],
+      "replicates": [
+        {
+          "baseline": [
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.532266266644001
+              },
+              "scene": "interp_torchocolate"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.75,
+                "state_macro_target_top1_tiou": 0.7194714769721031
+              },
+              "scene": "misc_americano"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.4892788603901863
+              },
+              "scene": "misc_espresso"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.038235295563936234
+              },
+              "scene": "misc_tamping"
+            }
+          ],
+          "perturbed": [
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.5347447991371155
+              },
+              "scene": "interp_torchocolate"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.75,
+                "state_macro_target_top1_tiou": 0.7194714769721031
+              },
+              "scene": "misc_americano"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.4850378520786762
+              },
+              "scene": "misc_espresso"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.038235295563936234
+              },
+              "scene": "misc_tamping"
+            }
+          ],
+          "seed": 3407
+        },
+        {
+          "baseline": [
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.532266266644001
+              },
+              "scene": "interp_torchocolate"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.75,
+                "state_macro_target_top1_tiou": 0.7194714769721031
+              },
+              "scene": "misc_americano"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.4892788603901863
+              },
+              "scene": "misc_espresso"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.038235295563936234
+              },
+              "scene": "misc_tamping"
+            }
+          ],
+          "perturbed": [
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.5783699452877045
+              },
+              "scene": "interp_torchocolate"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.75,
+                "state_macro_target_top1_tiou": 0.7194714769721031
+              },
+              "scene": "misc_americano"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.4892788603901863
+              },
+              "scene": "misc_espresso"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.038235295563936234
+              },
+              "scene": "misc_tamping"
+            }
+          ],
+          "seed": 3408
+        },
+        {
+          "baseline": [
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.532266266644001
+              },
+              "scene": "interp_torchocolate"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.75,
+                "state_macro_target_top1_tiou": 0.7194714769721031
+              },
+              "scene": "misc_americano"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.4892788603901863
+              },
+              "scene": "misc_espresso"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.038235295563936234
+              },
+              "scene": "misc_tamping"
+            }
+          ],
+          "perturbed": [
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.5287586078047752
+              },
+              "scene": "interp_torchocolate"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.75,
+                "state_macro_target_top1_tiou": 0.7194714769721031
+              },
+              "scene": "misc_americano"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.4892788603901863
+              },
+              "scene": "misc_espresso"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.038235295563936234
+              },
+              "scene": "misc_tamping"
+            }
+          ],
+          "seed": 3409
+        }
+      ],
+      "reported": {
+        "bootstrap": {
+          "num_resamples": 10000,
+          "seed": 3407
+        },
+        "observed": {
+          "query_macro_joint_identity_accuracy": {
+            "baseline": 1.0,
+            "delta": 0.0,
+            "perturbed": 1.0
+          },
+          "state_macro_target_r1_tiou_0.5": {
+            "baseline": 0.4375,
+            "delta": 0.0,
+            "perturbed": 0.4375
+          },
+          "state_macro_target_top1_tiou": {
+            "baseline": 0.44481297489255667,
+            "delta": 0.0034027953321735063,
+            "perturbed": 0.4482157702247302
+          }
+        },
+        "paired_delta_scene_cluster_bootstrap_95ci": {
+          "query_macro_joint_identity_accuracy": [
+            0.0,
+            0.0
+          ],
+          "state_macro_target_r1_tiou_0.5": [
+            0.0,
+            0.0
+          ],
+          "state_macro_target_top1_tiou": [
+            -0.002120504155755043,
+            0.02305183932185173
+          ]
+        }
+      },
+      "support": {
+        "num_affected_histories": 4,
+        "num_affected_scenes": 4
+      }
+    },
+    "distractor_contamination_100pct_mix100pct": {
+      "family": "distractor_contamination",
+      "parameters": {
+        "affected_fraction": 1.0,
+        "mixing_weight": 1.0
+      },
+      "replicate_seeds": [
+        3407,
+        3408,
+        3409
+      ],
+      "replicates": [
+        {
+          "baseline": [
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.532266266644001
+              },
+              "scene": "interp_torchocolate"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.75,
+                "state_macro_target_top1_tiou": 0.7194714769721031
+              },
+              "scene": "misc_americano"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.4892788603901863
+              },
+              "scene": "misc_espresso"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.038235295563936234
+              },
+              "scene": "misc_tamping"
+            }
+          ],
+          "perturbed": [
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.23073340207338333
+              },
+              "scene": "interp_torchocolate"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.75,
+                "state_macro_target_top1_tiou": 0.659120723605156
+              },
+              "scene": "misc_americano"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.3665354121476412
+              },
+              "scene": "misc_espresso"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.03954802080988884
+              },
+              "scene": "misc_tamping"
+            }
+          ],
+          "seed": 3407
+        },
+        {
+          "baseline": [
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.532266266644001
+              },
+              "scene": "interp_torchocolate"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.75,
+                "state_macro_target_top1_tiou": 0.7194714769721031
+              },
+              "scene": "misc_americano"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.4892788603901863
+              },
+              "scene": "misc_espresso"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.038235295563936234
+              },
+              "scene": "misc_tamping"
+            }
+          ],
+          "perturbed": [
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.25,
+                "state_macro_target_top1_tiou": 0.3221968188881874
+              },
+              "scene": "interp_torchocolate"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.75,
+                "state_macro_target_top1_tiou": 0.659120723605156
+              },
+              "scene": "misc_americano"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.3665354121476412
+              },
+              "scene": "misc_espresso"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.03954802080988884
+              },
+              "scene": "misc_tamping"
+            }
+          ],
+          "seed": 3408
+        },
+        {
+          "baseline": [
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.532266266644001
+              },
+              "scene": "interp_torchocolate"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.75,
+                "state_macro_target_top1_tiou": 0.7194714769721031
+              },
+              "scene": "misc_americano"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.4892788603901863
+              },
+              "scene": "misc_espresso"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.038235295563936234
+              },
+              "scene": "misc_tamping"
+            }
+          ],
+          "perturbed": [
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.25,
+                "state_macro_target_top1_tiou": 0.3221968188881874
+              },
+              "scene": "interp_torchocolate"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.75,
+                "state_macro_target_top1_tiou": 0.659120723605156
+              },
+              "scene": "misc_americano"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.3665354121476412
+              },
+              "scene": "misc_espresso"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.03954802080988884
+              },
+              "scene": "misc_tamping"
+            }
+          ],
+          "seed": 3409
+        }
+      ],
+      "reported": {
+        "bootstrap": {
+          "num_resamples": 10000,
+          "seed": 3407
+        },
+        "observed": {
+          "query_macro_joint_identity_accuracy": {
+            "baseline": 1.0,
+            "delta": 0.0,
+            "perturbed": 1.0
+          },
+          "state_macro_target_r1_tiou_0.5": {
+            "baseline": 0.4375,
+            "delta": -0.08333333333333333,
+            "perturbed": 0.3541666666666667
+          },
+          "state_macro_target_top1_tiou": {
+            "baseline": 0.44481297489255667,
+            "delta": -0.105584682431072,
+            "perturbed": 0.33922829246148467
+          }
+        },
+        "paired_delta_scene_cluster_bootstrap_95ci": {
+          "query_macro_joint_identity_accuracy": [
+            0.0,
+            0.0
+          ],
+          "state_macro_target_r1_tiou_0.5": [
+            -0.25,
+            0.0
+          ],
+          "state_macro_target_top1_tiou": [
+            -0.20295561291277409,
+            -0.029519014060497284
+          ]
+        }
+      },
+      "support": {
+        "num_affected_histories": 4,
+        "num_affected_scenes": 4
+      }
+    },
+    "identity_switch_after_050pct": {
+      "family": "identity_switch",
+      "parameters": {
+        "switch_point_fraction": 0.5
+      },
+      "replicate_seeds": [
+        3407,
+        3408,
+        3409
+      ],
+      "replicates": [
+        {
+          "baseline": [
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.75,
+                "state_macro_target_top1_tiou": 0.7194714769721031
+              },
+              "scene": "misc_americano"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.4892788603901863
+              },
+              "scene": "misc_espresso"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.038235295563936234
+              },
+              "scene": "misc_tamping"
+            }
+          ],
+          "perturbed": [
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.75,
+                "state_macro_target_top1_tiou": 0.6801965534687042
+              },
+              "scene": "misc_americano"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.4225862193852663
+              },
+              "scene": "misc_espresso"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.03954802080988884
+              },
+              "scene": "misc_tamping"
+            }
+          ],
+          "seed": 3407
+        },
+        {
+          "baseline": [
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.75,
+                "state_macro_target_top1_tiou": 0.7194714769721031
+              },
+              "scene": "misc_americano"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.4892788603901863
+              },
+              "scene": "misc_espresso"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.038235295563936234
+              },
+              "scene": "misc_tamping"
+            }
+          ],
+          "perturbed": [
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.75,
+                "state_macro_target_top1_tiou": 0.6801965534687042
+              },
+              "scene": "misc_americano"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.4225862193852663
+              },
+              "scene": "misc_espresso"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.03954802080988884
+              },
+              "scene": "misc_tamping"
+            }
+          ],
+          "seed": 3408
+        },
+        {
+          "baseline": [
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.75,
+                "state_macro_target_top1_tiou": 0.7194714769721031
+              },
+              "scene": "misc_americano"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.4892788603901863
+              },
+              "scene": "misc_espresso"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.038235295563936234
+              },
+              "scene": "misc_tamping"
+            }
+          ],
+          "perturbed": [
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.75,
+                "state_macro_target_top1_tiou": 0.6801965534687042
+              },
+              "scene": "misc_americano"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.4225862193852663
+              },
+              "scene": "misc_espresso"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.03954802080988884
+              },
+              "scene": "misc_tamping"
+            }
+          ],
+          "seed": 3409
+        }
+      ],
+      "reported": {
+        "bootstrap": {
+          "num_resamples": 10000,
+          "seed": 3407
+        },
+        "observed": {
+          "query_macro_joint_identity_accuracy": {
+            "baseline": 1.0,
+            "delta": 0.0,
+            "perturbed": 1.0
+          },
+          "state_macro_target_r1_tiou_0.5": {
+            "baseline": 0.4166666666666667,
+            "delta": 0.0,
+            "perturbed": 0.4166666666666667
+          },
+          "state_macro_target_top1_tiou": {
+            "baseline": 0.41566187764207524,
+            "delta": -0.034884946420788765,
+            "perturbed": 0.3807769312212865
+          }
+        },
+        "paired_delta_scene_cluster_bootstrap_95ci": {
+          "query_macro_joint_identity_accuracy": [
+            0.0,
+            0.0
+          ],
+          "state_macro_target_r1_tiou_0.5": [
+            0.0,
+            0.0
+          ],
+          "state_macro_target_top1_tiou": [
+            -0.06669264100492,
+            0.0013127252459526062
+          ]
+        }
+      },
+      "support": {
+        "num_affected_histories": 3,
+        "num_affected_scenes": 3
+      }
+    },
+    "random_missing_010pct": {
+      "family": "random_missing_frames",
+      "parameters": {
+        "missing_fraction": 0.1
+      },
+      "replicate_seeds": [
+        3407,
+        3408,
+        3409
+      ],
+      "replicates": [
+        {
+          "baseline": [
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.532266266644001
+              },
+              "scene": "interp_torchocolate"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.75,
+                "state_macro_target_top1_tiou": 0.7194714769721031
+              },
+              "scene": "misc_americano"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.4892788603901863
+              },
+              "scene": "misc_espresso"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.038235295563936234
+              },
+              "scene": "misc_tamping"
+            }
+          ],
+          "perturbed": [
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.25,
+                "state_macro_target_top1_tiou": 0.23809886910021305
+              },
+              "scene": "interp_torchocolate"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 0.75,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.15716733410954475
+              },
+              "scene": "misc_americano"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.028592375107109547
+              },
+              "scene": "misc_espresso"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.01406249962747097
+              },
+              "scene": "misc_tamping"
+            }
+          ],
+          "seed": 3407
+        },
+        {
+          "baseline": [
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.532266266644001
+              },
+              "scene": "interp_torchocolate"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.75,
+                "state_macro_target_top1_tiou": 0.7194714769721031
+              },
+              "scene": "misc_americano"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.4892788603901863
+              },
+              "scene": "misc_espresso"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.038235295563936234
+              },
+              "scene": "misc_tamping"
+            }
+          ],
+          "perturbed": [
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 0.75,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.050670730881392956
+              },
+              "scene": "interp_torchocolate"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 0.75,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.1584637202322483
+              },
+              "scene": "misc_americano"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.47769166715443134
+              },
+              "scene": "misc_espresso"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.02923976629972458
+              },
+              "scene": "misc_tamping"
+            }
+          ],
+          "seed": 3408
+        },
+        {
+          "baseline": [
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.532266266644001
+              },
+              "scene": "interp_torchocolate"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.75,
+                "state_macro_target_top1_tiou": 0.7194714769721031
+              },
+              "scene": "misc_americano"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.5,
+                "state_macro_target_top1_tiou": 0.4892788603901863
+              },
+              "scene": "misc_espresso"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.038235295563936234
+              },
+              "scene": "misc_tamping"
+            }
+          ],
+          "perturbed": [
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.11745828064158559
+              },
+              "scene": "interp_torchocolate"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 0.75,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.09081423841416836
+              },
+              "scene": "misc_americano"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 0.75,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.09227063320577145
+              },
+              "scene": "misc_espresso"
+            },
+            {
+              "metrics": {
+                "query_macro_joint_identity_accuracy": 1.0,
+                "state_macro_target_r1_tiou_0.5": 0.0,
+                "state_macro_target_top1_tiou": 0.022012578323483467
+              },
+              "scene": "misc_tamping"
+            }
+          ],
+          "seed": 3409
+        }
+      ],
+      "reported": {
+        "bootstrap": {
+          "num_resamples": 10000,
+          "seed": 3407
+        },
+        "observed": {
+          "query_macro_joint_identity_accuracy": {
+            "baseline": 1.0,
+            "delta": -0.10416666666666667,
+            "perturbed": 0.8958333333333334
+          },
+          "state_macro_target_r1_tiou_0.5": {
+            "baseline": 0.4375,
+            "delta": -0.375,
+            "perturbed": 0.0625
+          },
+          "state_macro_target_top1_tiou": {
+            "baseline": 0.44481297489255667,
+            "delta": -0.32176775046779466,
+            "perturbed": 0.12304522442476203
+          }
+        },
+        "paired_delta_scene_cluster_bootstrap_95ci": {
+          "query_macro_joint_identity_accuracy": [
+            -0.25,
+            0.0
+          ],
+          "state_macro_target_r1_tiou_0.5": [
+            -0.6875,
+            -0.0625
+          ],
+          "state_macro_target_top1_tiou": [
+            -0.5369202448055148,
+            -0.08968392666429281
+          ]
+        }
+      },
+      "support": {
+        "num_affected_histories": 4,
+        "num_affected_scenes": 4
+      }
+    }
+  },
+  "kind": "deja_cue_tracking_perturbation_evidence",
+  "metrics": [
+    "state_macro_target_top1_tiou",
+    "state_macro_target_r1_tiou_0.5",
+    "query_macro_joint_identity_accuracy"
+  ],
+  "protocol": {
+    "contamination_semantics": "only exact-time co-visible distractor features are mixed; each mixed feature is L2-normalized",
+    "coordinate_system": "inclusive_absolute_frame_indices",
+    "eligibility": "metrics use only object histories with at least one actual feature or support modification; the paired clean baseline uses the identical subset",
+    "identity_switch_semantics": "one distractor track, chosen by maximum exact-time suffix coverage with track-id tie breaking, replaces the target suffix at exact shared frames",
+    "method": {
+      "features": "union",
+      "kernel_size": 3,
+      "query_centering": 1.0,
+      "visual_centering": 1.0
+    },
+    "missing_frame_semantics": "removed observations are deleted from FeatureTrack, so the scanner sees a true validity gap and cannot smooth or scan across it"
+  },
+  "schema_version": 1
+}

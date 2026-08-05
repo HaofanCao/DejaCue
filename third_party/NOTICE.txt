@@ -1,0 +1,18 @@
+Third-party source notice
+
+This supplement includes the unmodified model, matcher, transformer, loss,
+and utility files needed to execute the reported learned-decoder comparison.
+
+Lighthouse
+  Pinned revision: d095eaa552cecef240897a8b750306b3b2a08740
+  License: third_party/lighthouse/LICENSE (Apache License 2.0)
+  Included files and checksums: third_party/lighthouse/SOURCE_LOCK.json
+
+Sim-DETR
+  Pinned revision: 1965e994bd4ef486c2a9b137ef4b0b57837330c3
+  License: third_party/sim_detr/LICENSE
+  Included files and checksums: third_party/sim_detr/SOURCE_LOCK.json
+
+The source files themselves are unchanged. Integration, data conversion,
+training orchestration, checkpoint binding, and evaluation are implemented in
+deja_cue/learned and scripts.

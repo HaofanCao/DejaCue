@@ -1,0 +1,432 @@
+{
+  "schema_version": 1,
+  "kind": "deja_cue_learned_development",
+  "task": "identity_conditioned_state_moment_retrieval",
+  "role": "development_only",
+  "interval_convention": "zero_based_inclusive",
+  "feature_specification": {
+    "encoder": "google/siglip2-base-patch16-224",
+    "dimension": 768,
+    "crop": "union_lineage_mask",
+    "padding_fraction": 0.2,
+    "outside_mask_rgb_value": 127,
+    "text_prompts": [
+      "{text}",
+      "a photo of {text}",
+      "the {text}"
+    ],
+    "text_aggregation": "mean_then_l2_normalize"
+  },
+  "counts": {
+    "histories": 5,
+    "states": 13,
+    "descriptions": 26,
+    "positive_episodes": 46,
+    "observed_frames": 3559,
+    "positive_training_records": 86
+  },
+  "histories": [
+    {
+      "history_id": "D01",
+      "label": "hand",
+      "native_history_id": "hypernerf/interp_hand/right_hand",
+      "visual_features": "data/learned/development/features/D01/visual_features.npz",
+      "text_features": "data/learned/development/features/D01/text_features.npz",
+      "states": [
+        {
+          "state_id": "closed_fist",
+          "descriptions": [
+            "closed fist",
+            "hand closed into a fist"
+          ],
+          "references": [
+            [
+              222,
+              310
+            ],
+            [
+              320,
+              339
+            ],
+            [
+              1056,
+              1091
+            ],
+            [
+              1215,
+              1245
+            ],
+            [
+              1248,
+              1249
+            ],
+            [
+              1430,
+              1488
+            ],
+            [
+              1663,
+              1680
+            ],
+            [
+              1684,
+              1696
+            ],
+            [
+              1705,
+              1733
+            ]
+          ]
+        },
+        {
+          "state_id": "open_palm",
+          "descriptions": [
+            "open palm",
+            "hand with an open palm"
+          ],
+          "references": [
+            [
+              0,
+              137
+            ],
+            [
+              140,
+              171
+            ],
+            [
+              407,
+              445
+            ],
+            [
+              448,
+              516
+            ],
+            [
+              534,
+              543
+            ],
+            [
+              549,
+              575
+            ],
+            [
+              641,
+              654
+            ],
+            [
+              660,
+              673
+            ],
+            [
+              758,
+              775
+            ],
+            [
+              777,
+              807
+            ],
+            [
+              809,
+              824
+            ],
+            [
+              1119,
+              1167
+            ],
+            [
+              1273,
+              1373
+            ],
+            [
+              1540,
+              1584
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "history_id": "D02",
+      "label": "banana",
+      "native_history_id": "hypernerf/vrig_peel-banana/banana",
+      "visual_features": "data/learned/development/features/D02/visual_features.npz",
+      "text_features": "data/learned/development/features/D02/text_features.npz",
+      "states": [
+        {
+          "state_id": "unpeeled",
+          "descriptions": [
+            "unpeeled banana",
+            "banana with the peel closed"
+          ],
+          "references": [
+            [
+              0,
+              12
+            ]
+          ]
+        },
+        {
+          "state_id": "peel_initiated",
+          "descriptions": [
+            "peeling initiated",
+            "banana with the peel starting to open"
+          ],
+          "references": [
+            [
+              127,
+              160
+            ]
+          ]
+        },
+        {
+          "state_id": "partially_peeled",
+          "descriptions": [
+            "partially peeled banana",
+            "banana with part of the peel pulled down"
+          ],
+          "references": [
+            [
+              172,
+              190
+            ]
+          ]
+        },
+        {
+          "state_id": "mostly_peeled",
+          "descriptions": [
+            "mostly peeled banana",
+            "banana with most of the peel pulled down"
+          ],
+          "references": [
+            [
+              263,
+              281
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "history_id": "D03",
+      "label": "lemon",
+      "native_history_id": "hypernerf/interp_cut-lemon/lemon_lineage",
+      "visual_features": "data/learned/development/features/D03/visual_features.npz",
+      "text_features": "data/learned/development/features/D03/text_features.npz",
+      "states": [
+        {
+          "state_id": "intact",
+          "descriptions": [
+            "intact lemon",
+            "lemon before separation"
+          ],
+          "references": [
+            [
+              1065,
+              1103
+            ]
+          ]
+        },
+        {
+          "state_id": "split_in_progress",
+          "descriptions": [
+            "lemon split in progress",
+            "cut lemon before full separation"
+          ],
+          "references": [
+            [
+              1299,
+              1330
+            ]
+          ]
+        },
+        {
+          "state_id": "separated_primary_half",
+          "descriptions": [
+            "separated lemon half",
+            "primary lemon half after separation"
+          ],
+          "references": [
+            [
+              1362,
+              1390
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "history_id": "D04",
+      "label": "cookie",
+      "native_history_id": "hypernerf/misc_split-cookie/cookie_lineage",
+      "visual_features": "data/learned/development/features/D04/visual_features.npz",
+      "text_features": "data/learned/development/features/D04/text_features.npz",
+      "states": [
+        {
+          "state_id": "pre_split_connected",
+          "descriptions": [
+            "connected cookie before splitting",
+            "cookie before the pieces separate"
+          ],
+          "references": [
+            [
+              159,
+              190
+            ]
+          ]
+        },
+        {
+          "state_id": "post_split_primary_piece",
+          "descriptions": [
+            "cookie after splitting",
+            "primary cookie piece after separation"
+          ],
+          "references": [
+            [
+              423,
+              451
+            ],
+            [
+              457,
+              471
+            ],
+            [
+              487,
+              538
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "history_id": "D05",
+      "label": "toy_container",
+      "native_history_id": "hypernerf/interp_chickchicken/toy_chicken_container",
+      "visual_features": "data/learned/development/features/D05/visual_features.npz",
+      "text_features": "data/learned/development/features/D05/text_features.npz",
+      "states": [
+        {
+          "state_id": "closed",
+          "descriptions": [
+            "closed toy chicken",
+            "toy chicken with its lid closed"
+          ],
+          "references": [
+            [
+              0,
+              18
+            ],
+            [
+              88,
+              102
+            ],
+            [
+              166,
+              184
+            ],
+            [
+              250,
+              264
+            ],
+            [
+              330,
+              346
+            ],
+            [
+              406,
+              418
+            ]
+          ]
+        },
+        {
+          "state_id": "open",
+          "descriptions": [
+            "open toy chicken",
+            "toy chicken with its lid raised"
+          ],
+          "references": [
+            [
+              32,
+              72
+            ],
+            [
+              116,
+              156
+            ],
+            [
+              198,
+              236
+            ],
+            [
+              278,
+              312
+            ],
+            [
+              360,
+              392
+            ],
+            [
+              432,
+              454
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "source_lock": {
+    "executed_snapshot_sha256": "fca3f4d7ef13c4cd13b207b3b1fd07ce544b563082af9f93856adce40e95b253",
+    "staged_payload_index_sha256": "800996e2b9447d7fb20f0e912a01b2b5b72bd60c6dda0d5845e4a5d31493d1ab",
+    "files": [
+      {
+        "path": "data/learned/development/features/D01/text_features.npz",
+        "bytes": 12158,
+        "sha256": "b85277288411137f26e56fb68219c20bc5c656acdeec6c7cede4768c47bf5711"
+      },
+      {
+        "path": "data/learned/development/features/D01/visual_features.npz",
+        "bytes": 4332033,
+        "sha256": "096e060b31fb6d13e48294d711f240523f729d93dc7585da69bdf7b9b2185a77"
+      },
+      {
+        "path": "data/learned/development/features/D02/text_features.npz",
+        "bytes": 23710,
+        "sha256": "16397b2b278c56d9fd813f7c3665054019a9d484365c831e370c62eef51aed29"
+      },
+      {
+        "path": "data/learned/development/features/D02/visual_features.npz",
+        "bytes": 870091,
+        "sha256": "ad7192e35cb67322611d78819897743f5f7923d439a17c76e2d4ca8b9827dad2"
+      },
+      {
+        "path": "data/learned/development/features/D03/text_features.npz",
+        "bytes": 18034,
+        "sha256": "3a6981e9a82d8276b218b3a2de67c9490e5bb06abfebc360ee1d57f07484d152"
+      },
+      {
+        "path": "data/learned/development/features/D03/visual_features.npz",
+        "bytes": 2616605,
+        "sha256": "01f5e6296a21882e8e90617f91bc62fea7643762287806b1561431fed27be7ab"
+      },
+      {
+        "path": "data/learned/development/features/D04/text_features.npz",
+        "bytes": 12245,
+        "sha256": "2f4ec28c96c46108b39ad55569fc1b53f361450d3e09af698525d90ba05890c4"
+      },
+      {
+        "path": "data/learned/development/features/D04/visual_features.npz",
+        "bytes": 1069732,
+        "sha256": "96a9951987e410d4fc47f4819fb0a813720325b50ea608846c21ef2752d43dbf"
+      },
+      {
+        "path": "data/learned/development/features/D05/text_features.npz",
+        "bytes": 12133,
+        "sha256": "ef3b8345607cc2e3c113e5bd1c6cab551f49bc234dc6cc9622283f8bd171743f"
+      },
+      {
+        "path": "data/learned/development/features/D05/visual_features.npz",
+        "bytes": 1291374,
+        "sha256": "ea5356d7c0388776b24e37530a4e157af2a1e55c7693f7a3ea7000f3be935700"
+      }
+    ]
+  }
+}

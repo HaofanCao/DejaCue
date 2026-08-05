@@ -1,0 +1,595 @@
+{
+  "feature_dimension": 768,
+  "histories": [
+    {
+      "dataset": "hypernerf",
+      "distractors": [
+        {
+          "co_visible_moments": [
+            {
+              "end": 28,
+              "start": 0,
+              "state_id": "intact_surface"
+            }
+          ],
+          "object_label": "person torso",
+          "track_id": 1,
+          "visual_features": "data/seven_history/features/evaluation/hypernerf__interp_torchocolate__upper_chocolate_bar/distractors/track_1/visual_features.npz"
+        },
+        {
+          "co_visible_moments": [
+            {
+              "end": 98,
+              "start": 63,
+              "state_id": "charred_surface"
+            }
+          ],
+          "object_label": "forearm",
+          "track_id": 144,
+          "visual_features": "data/seven_history/features/evaluation/hypernerf__interp_torchocolate__upper_chocolate_bar/distractors/track_144/visual_features.npz"
+        }
+      ],
+      "history_id": "S01",
+      "object_group_id": "hypernerf/interp_torchocolate/upper_chocolate_bar",
+      "scene": "interp_torchocolate",
+      "states": [
+        {
+          "descriptions": [
+            "uncharred chocolate bar",
+            "chocolate bar with an intact brown surface"
+          ],
+          "feature_state_id": "intact_surface",
+          "references": [
+            [
+              0,
+              32
+            ]
+          ],
+          "state_id": "intact_surface"
+        },
+        {
+          "descriptions": [
+            "charred chocolate bar",
+            "chocolate bar with a blackened surface"
+          ],
+          "feature_state_id": "charred_surface",
+          "references": [
+            [
+              39,
+              694
+            ]
+          ],
+          "state_id": "charred_surface"
+        }
+      ],
+      "stratum": "original",
+      "target_visual_features": "data/seven_history/features/evaluation/hypernerf__interp_torchocolate__upper_chocolate_bar/visual_features.npz",
+      "text_features": "data/seven_history/features/evaluation/hypernerf__interp_torchocolate__upper_chocolate_bar/text_features.npz",
+      "text_state_field": "state_ids"
+    },
+    {
+      "dataset": "hypernerf",
+      "distractors": [
+        {
+          "co_visible_moments": [
+            {
+              "end": 8,
+              "start": 5,
+              "state_id": "empty_cup"
+            }
+          ],
+          "object_label": "cork coaster",
+          "track_id": 17,
+          "visual_features": "data/seven_history/features/evaluation/hypernerf__misc_espresso__glass_cup/distractors/track_17/visual_features.npz"
+        },
+        {
+          "co_visible_moments": [
+            {
+              "end": 752,
+              "start": 728,
+              "state_id": "espresso_filled"
+            }
+          ],
+          "object_label": "portafilter handle",
+          "track_id": 1505,
+          "visual_features": "data/seven_history/features/evaluation/hypernerf__misc_espresso__glass_cup/distractors/track_1505/visual_features.npz"
+        }
+      ],
+      "history_id": "S02",
+      "object_group_id": "hypernerf/misc_espresso/glass_cup",
+      "scene": "misc_espresso",
+      "states": [
+        {
+          "descriptions": [
+            "empty glass cup",
+            "glass cup with no espresso"
+          ],
+          "feature_state_id": "empty_cup",
+          "references": [
+            [
+              0,
+              340
+            ]
+          ],
+          "state_id": "empty_cup"
+        },
+        {
+          "descriptions": [
+            "glass cup filled with espresso",
+            "brewed espresso in the glass cup"
+          ],
+          "feature_state_id": "espresso_filled",
+          "references": [
+            [
+              721,
+              776
+            ]
+          ],
+          "state_id": "espresso_filled"
+        }
+      ],
+      "stratum": "original",
+      "target_visual_features": "data/seven_history/features/evaluation/hypernerf__misc_espresso__glass_cup/visual_features.npz",
+      "text_features": "data/seven_history/features/evaluation/hypernerf__misc_espresso__glass_cup/text_features.npz",
+      "text_state_field": "state_ids"
+    },
+    {
+      "dataset": "hypernerf",
+      "distractors": [
+        {
+          "co_visible_moments": [
+            {
+              "end": 17,
+              "start": 0,
+              "state_id": "loose_grounds"
+            }
+          ],
+          "object_label": "stainless steel pitcher",
+          "track_id": 0,
+          "visual_features": "data/seven_history/features/evaluation/hypernerf__misc_tamping__portafilter/distractors/track_0/visual_features.npz"
+        },
+        {
+          "co_visible_moments": [
+            {
+              "end": 315,
+              "start": 291,
+              "state_id": "tamped_puck"
+            }
+          ],
+          "object_label": "espresso machine base",
+          "track_id": 860,
+          "visual_features": "data/seven_history/features/evaluation/hypernerf__misc_tamping__portafilter/distractors/track_860/visual_features.npz"
+        }
+      ],
+      "history_id": "S03",
+      "object_group_id": "hypernerf/misc_tamping/portafilter",
+      "scene": "misc_tamping",
+      "states": [
+        {
+          "descriptions": [
+            "portafilter with loose coffee grounds",
+            "untamped grounds in the portafilter"
+          ],
+          "feature_state_id": "loose_grounds",
+          "references": [
+            [
+              0,
+              158
+            ]
+          ],
+          "state_id": "loose_grounds"
+        },
+        {
+          "descriptions": [
+            "portafilter with a tamped coffee puck",
+            "compressed coffee grounds in the portafilter"
+          ],
+          "feature_state_id": "tamped_puck",
+          "references": [
+            [
+              281,
+              336
+            ]
+          ],
+          "state_id": "tamped_puck"
+        }
+      ],
+      "stratum": "original",
+      "target_visual_features": "data/seven_history/features/evaluation/hypernerf__misc_tamping__portafilter/visual_features.npz",
+      "text_features": "data/seven_history/features/evaluation/hypernerf__misc_tamping__portafilter/text_features.npz",
+      "text_state_field": "state_ids"
+    },
+    {
+      "dataset": "hypernerf",
+      "distractors": [
+        {
+          "co_visible_moments": [
+            {
+              "end": 29,
+              "start": 0,
+              "state_id": "clear_water"
+            }
+          ],
+          "object_label": "hand",
+          "track_id": 2,
+          "visual_features": "data/seven_history/features/evaluation/hypernerf__misc_americano__glass_cup/distractors/track_2/visual_features.npz"
+        },
+        {
+          "co_visible_moments": [
+            {
+              "end": 366,
+              "start": 359,
+              "state_id": "americano_filled"
+            }
+          ],
+          "object_label": "cutting board",
+          "track_id": 592,
+          "visual_features": "data/seven_history/features/evaluation/hypernerf__misc_americano__glass_cup/distractors/track_592/visual_features.npz"
+        }
+      ],
+      "history_id": "S04",
+      "object_group_id": "hypernerf/misc_americano/glass_cup",
+      "scene": "misc_americano",
+      "states": [
+        {
+          "descriptions": [
+            "glass cup containing clear water",
+            "clear water in the glass cup"
+          ],
+          "feature_state_id": "clear_water",
+          "references": [
+            [
+              0,
+              133
+            ]
+          ],
+          "state_id": "clear_water"
+        },
+        {
+          "descriptions": [
+            "glass cup containing an americano",
+            "dark coffee mixed into the glass cup"
+          ],
+          "feature_state_id": "americano_filled",
+          "references": [
+            [
+              195,
+              525
+            ]
+          ],
+          "state_id": "americano_filled"
+        }
+      ],
+      "stratum": "original",
+      "target_visual_features": "data/seven_history/features/evaluation/hypernerf__misc_americano__glass_cup/visual_features.npz",
+      "text_features": "data/seven_history/features/evaluation/hypernerf__misc_americano__glass_cup/text_features.npz",
+      "text_state_field": "state_ids"
+    },
+    {
+      "dataset": "neu3d",
+      "distractors": [],
+      "history_id": "S05",
+      "object_group_id": "neu3d/coffee_martini/cam00/martini_glass_contents",
+      "scene": "coffee_martini",
+      "states": [
+        {
+          "descriptions": [
+            "nearly empty martini glass",
+            "martini glass containing only a little cocktail"
+          ],
+          "feature_state_id": "s_0dc6a1ebde35dc4dcfcdfde433e57511eb688ccf184ed1e65fd22e2dd9704ca8",
+          "references": [
+            [
+              0,
+              28
+            ]
+          ],
+          "state_id": "nearly_empty"
+        },
+        {
+          "descriptions": [
+            "partly filled martini glass",
+            "martini glass filled to an intermediate level"
+          ],
+          "feature_state_id": "s_9c3f6b9f22664c7ddef3da3b6d651873ced809109734c17aa0401bbf86131a41",
+          "references": [
+            [
+              31,
+              68
+            ]
+          ],
+          "state_id": "partly_filled"
+        },
+        {
+          "descriptions": [
+            "nearly full martini glass",
+            "martini glass containing cocktail near the top of its bowl"
+          ],
+          "feature_state_id": "s_32adb45c45524ed571c710620dbf59a63ae1001946e6de13b95715ccdf583003",
+          "references": [
+            [
+              71,
+              99
+            ]
+          ],
+          "state_id": "nearly_full"
+        }
+      ],
+      "stratum": "extension",
+      "target_visual_features": "data/seven_history/features/evaluation/neu3d__coffee_martini__cam00/visual_features.npz",
+      "text_features": "data/seven_history/features/evaluation/neu3d__coffee_martini__cam00/text_features.npz",
+      "text_state_field": "state_tokens"
+    },
+    {
+      "dataset": "hypernerf",
+      "distractors": [],
+      "history_id": "S06",
+      "object_group_id": "hypernerf/misc_cross-hands/cross-hands1/participants_two_hands_union",
+      "scene": "misc_cross-hands",
+      "states": [
+        {
+          "descriptions": [
+            "two open hands with fingers not interlaced",
+            "both hands open without interwoven fingers"
+          ],
+          "feature_state_id": "s_2f813244369f254efb490c00d580c6527aabdc87b40550582b872c6653160489",
+          "references": [
+            [
+              0,
+              15
+            ],
+            [
+              86,
+              138
+            ],
+            [
+              139,
+              181
+            ],
+            [
+              253,
+              279
+            ],
+            [
+              285,
+              296
+            ],
+            [
+              312,
+              325
+            ],
+            [
+              353,
+              393
+            ],
+            [
+              505,
+              575
+            ],
+            [
+              596,
+              629
+            ],
+            [
+              679,
+              693
+            ],
+            [
+              695,
+              709
+            ],
+            [
+              722,
+              732
+            ],
+            [
+              736,
+              754
+            ],
+            [
+              775,
+              791
+            ],
+            [
+              805,
+              822
+            ],
+            [
+              834,
+              843
+            ],
+            [
+              853,
+              866
+            ],
+            [
+              897,
+              907
+            ],
+            [
+              909,
+              979
+            ],
+            [
+              1113,
+              1171
+            ],
+            [
+              1173,
+              1187
+            ],
+            [
+              1230,
+              1256
+            ],
+            [
+              1341,
+              1375
+            ],
+            [
+              1430,
+              1445
+            ]
+          ],
+          "state_id": "hands_open_noninterlaced"
+        },
+        {
+          "descriptions": [
+            "two hands clasped with interlaced fingers",
+            "opposing hands with fingers visibly interwoven"
+          ],
+          "feature_state_id": "s_338072088c92362605e882c18121bdc89c7fb1cf2628e5e77d76f076f89e5e07",
+          "references": [
+            [
+              16,
+              32
+            ],
+            [
+              33,
+              85
+            ],
+            [
+              182,
+              225
+            ],
+            [
+              227,
+              252
+            ],
+            [
+              298,
+              311
+            ],
+            [
+              394,
+              434
+            ],
+            [
+              435,
+              504
+            ],
+            [
+              630,
+              663
+            ],
+            [
+              664,
+              678
+            ],
+            [
+              711,
+              721
+            ],
+            [
+              758,
+              774
+            ],
+            [
+              824,
+              833
+            ],
+            [
+              867,
+              880
+            ],
+            [
+              887,
+              896
+            ],
+            [
+              980,
+              1051
+            ],
+            [
+              1054,
+              1112
+            ],
+            [
+              1188,
+              1203
+            ],
+            [
+              1204,
+              1229
+            ],
+            [
+              1376,
+              1411
+            ],
+            [
+              1414,
+              1429
+            ]
+          ],
+          "state_id": "fingers_interlaced_clasped"
+        }
+      ],
+      "stratum": "extension",
+      "target_visual_features": "data/seven_history/features/evaluation/hypernerf__misc_cross-hands__cross-hands1/visual_features.npz",
+      "text_features": "data/seven_history/features/evaluation/hypernerf__misc_cross-hands__cross-hands1/text_features.npz",
+      "text_state_field": "state_tokens"
+    },
+    {
+      "dataset": "hypernerf",
+      "distractors": [],
+      "history_id": "S07",
+      "object_group_id": "hypernerf/interp_slice-banana/primary_attached_flesh",
+      "scene": "interp_slice-banana",
+      "states": [
+        {
+          "descriptions": [
+            "mostly unsliced peeled banana",
+            "peeled banana with most of its body still intact"
+          ],
+          "feature_state_id": "s_df9c6a044f693cddf5740d944d053c87e30d49a79fce71282da624b3bcef53f6",
+          "references": [
+            [
+              0,
+              139
+            ]
+          ],
+          "state_id": "mostly_unsliced"
+        },
+        {
+          "descriptions": [
+            "partly sliced banana",
+            "peeled banana with roughly half of its body remaining intact"
+          ],
+          "feature_state_id": "s_1e1db404cc2c647f11bdb17c91f3ec4bfc52e8cdeb0888de78f26fcc8e38fe87",
+          "references": [
+            [
+              141,
+              189
+            ]
+          ],
+          "state_id": "partly_sliced"
+        },
+        {
+          "descriptions": [
+            "mostly sliced banana",
+            "peeled banana with only a short intact section remaining"
+          ],
+          "feature_state_id": "s_5c83c9be22e679a281caf37dbcbdc3254d767b733b8bea7bb6729688e82a8696",
+          "references": [
+            [
+              254,
+              299
+            ],
+            [
+              301,
+              329
+            ]
+          ],
+          "state_id": "mostly_sliced"
+        }
+      ],
+      "stratum": "extension",
+      "target_visual_features": "data/seven_history/features/evaluation/hypernerf__interp_slice-banana/visual_features.npz",
+      "text_features": "data/seven_history/features/evaluation/hypernerf__interp_slice-banana/text_features.npz",
+      "text_state_field": "state_tokens"
+    }
+  ],
+  "interval_convention": "zero_based_inclusive",
+  "kind": "deja_cue_seven_history_feature_manifest",
+  "schema_version": 1
+}

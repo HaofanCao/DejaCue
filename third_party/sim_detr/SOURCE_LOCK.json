@@ -1,0 +1,68 @@
+{
+    "schema_version":  1,
+    "kind":  "deja_cue_vendored_source_lock",
+    "project":  "Sim-DETR",
+    "upstream_commit":  "1965e994bd4ef486c2a9b137ef4b0b57837330c3",
+    "files":  [
+                  {
+                      "path":  "LICENSE",
+                      "size_bytes":  2172,
+                      "sha256":  "fbcba2881b59ec257000a5e3422dcfe36dbd208e794dafe6781bd2709f77c73c"
+                  },
+                  {
+                      "path":  "sim_detr/__init__.py",
+                      "size_bytes":  0,
+                      "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                  },
+                  {
+                      "path":  "sim_detr/attention.py",
+                      "size_bytes":  20923,
+                      "sha256":  "3fabee545afb43f119a6b894aa8003f70da275436e9edc14f5a0a60909221831"
+                  },
+                  {
+                      "path":  "sim_detr/interaction/test_CQA.py",
+                      "size_bytes":  6009,
+                      "sha256":  "a97b6cdb5d0475b11e203a2364d3f442fe68793d97f0c61b31975e134ae2d111"
+                  },
+                  {
+                      "path":  "sim_detr/loss_fun/CTCLoss.py",
+                      "size_bytes":  1762,
+                      "sha256":  "2146d7467bc225f3fd885bf5d8d8fcfda0f528259f5362d4352c84dfa5a48c84"
+                  },
+                  {
+                      "path":  "sim_detr/loss_fun/VTCLoss.py",
+                      "size_bytes":  1203,
+                      "sha256":  "dd2121c332bcbaa632c1af86f7dc93fa5a8d5e2bfdf10b448d14b9e044aad5aa"
+                  },
+                  {
+                      "path":  "sim_detr/matcher.py",
+                      "size_bytes":  6964,
+                      "sha256":  "aa1688ebaee319e2f6a17451aa3202d3826558bf5ad73086b0febc011322a1d9"
+                  },
+                  {
+                      "path":  "sim_detr/misc.py",
+                      "size_bytes":  499,
+                      "sha256":  "dcb02d459d0db988f7bec7f2ef11320274456688ef19725b6e1aab68bd2ad8eb"
+                  },
+                  {
+                      "path":  "sim_detr/model.py",
+                      "size_bytes":  30257,
+                      "sha256":  "61edbde5d75f8a527e30ada7a38fb32f09cc347cb4656506afce017a17e29720"
+                  },
+                  {
+                      "path":  "sim_detr/position_encoding.py",
+                      "size_bytes":  4293,
+                      "sha256":  "73b08a01db79c44dacd6859514d504b943a76a3d3ac3067a1505ee41034ffa6d"
+                  },
+                  {
+                      "path":  "sim_detr/span_utils.py",
+                      "size_bytes":  3860,
+                      "sha256":  "82ec89bdaca05cfb6382551597c3c60d2b79733e7e721b69eacb2cd02c6e001c"
+                  },
+                  {
+                      "path":  "sim_detr/transformer.py",
+                      "size_bytes":  39654,
+                      "sha256":  "0d61bc672da6b529fa798c9a5ac8e8c0dc923d7be79ae5f8bba453d7423e1d27"
+                  }
+              ]
+}

@@ -1,0 +1,1438 @@
+{
+  "candidate_ranking": {
+    "absolute": {
+      "best_overlap_normalized_rank": 0.25697133261714256,
+      "mrr_03": 0.4927577611218848,
+      "mrr_05": 0.356982395621695,
+      "oracle_gap": 0.6030941001423342,
+      "oracle_gap_closed_at_10": 0.18517983773756846,
+      "oracle_tiou": 0.9362461675564152,
+      "recall_at_10_05": 0.34523809523809523,
+      "recall_at_50_05": 0.5595238095238095,
+      "recall_at_5_05": 0.34523809523809523,
+      "top1_tiou": 0.3331520674140808
+    },
+    "dual_centered": {
+      "best_overlap_normalized_rank": 0.2333791485173991,
+      "mrr_03": 0.49829971230168735,
+      "mrr_05": 0.33046676699623123,
+      "oracle_gap": 0.5726871132091971,
+      "oracle_gap_closed_at_10": 0.23619181116885318,
+      "oracle_tiou": 0.9362461675564152,
+      "recall_at_10_05": 0.42857142857142855,
+      "recall_at_50_05": 0.5476190476190476,
+      "recall_at_5_05": 0.42857142857142855,
+      "top1_tiou": 0.3635590543472179
+    },
+    "vocabulary_only": {
+      "best_overlap_normalized_rank": 0.23997456842224182,
+      "mrr_03": 0.47039837121268985,
+      "mrr_05": 0.3573879590168509,
+      "oracle_gap": 0.5772132868137151,
+      "oracle_gap_closed_at_10": 0.23285015616777072,
+      "oracle_tiou": 0.9362461675564152,
+      "recall_at_10_05": 0.42857142857142855,
+      "recall_at_50_05": 0.5119047619047619,
+      "recall_at_5_05": 0.42857142857142855,
+      "top1_tiou": 0.3590328807427
+    }
+  },
+  "coordinate_conditions": {
+    "absolute_coordinates": {
+      "paraphrase_exact_agreement": 0.5,
+      "paraphrase_window_tiou": 0.7350957360828206,
+      "query_macro_joint_crossed_r1_tiou_0.3": 0.4880952380952381,
+      "query_macro_joint_crossed_r1_tiou_0.5": 0.34523809523809523,
+      "query_macro_joint_identity_accuracy": 1.0,
+      "query_macro_target_candidate_oracle_tiou": 0.9362461623691377,
+      "query_macro_target_valid_run_edge_hit": 0.6666666666666667,
+      "state_macro_target_r1_tiou_0.3": 0.4880952380952381,
+      "state_macro_target_r1_tiou_0.5": 0.34523809523809523,
+      "state_macro_target_top1_tiou": 0.33315206984324114
+    },
+    "dual_centered_coordinates": {
+      "paraphrase_exact_agreement": 0.14285714285714285,
+      "paraphrase_window_tiou": 0.3702616100864751,
+      "query_macro_joint_crossed_r1_tiou_0.3": 0.4880952380952381,
+      "query_macro_joint_crossed_r1_tiou_0.5": 0.2976190476190476,
+      "query_macro_joint_identity_accuracy": 1.0,
+      "query_macro_target_candidate_oracle_tiou": 0.9362461623691377,
+      "query_macro_target_valid_run_edge_hit": 0.511904761904762,
+      "state_macro_target_r1_tiou_0.3": 0.4880952380952381,
+      "state_macro_target_r1_tiou_0.5": 0.2976190476190476,
+      "state_macro_target_top1_tiou": 0.36355905403338723
+    },
+    "visual_centered_coordinates": {
+      "paraphrase_exact_agreement": 0.4523809523809524,
+      "paraphrase_window_tiou": 0.6681469123633136,
+      "query_macro_joint_crossed_r1_tiou_0.3": 0.4523809523809524,
+      "query_macro_joint_crossed_r1_tiou_0.5": 0.34523809523809523,
+      "query_macro_joint_identity_accuracy": 1.0,
+      "query_macro_target_candidate_oracle_tiou": 0.9362461623691377,
+      "query_macro_target_valid_run_edge_hit": 0.4523809523809524,
+      "state_macro_target_r1_tiou_0.3": 0.4523809523809524,
+      "state_macro_target_r1_tiou_0.5": 0.34523809523809523,
+      "state_macro_target_top1_tiou": 0.3245695485245614
+    },
+    "vocabulary_centered_coordinates": {
+      "paraphrase_exact_agreement": 0.14285714285714285,
+      "paraphrase_window_tiou": 0.36953989043831825,
+      "query_macro_joint_crossed_r1_tiou_0.3": 0.4523809523809524,
+      "query_macro_joint_crossed_r1_tiou_0.5": 0.33333333333333337,
+      "query_macro_joint_identity_accuracy": 1.0,
+      "query_macro_target_candidate_oracle_tiou": 0.9362461623691377,
+      "query_macro_target_valid_run_edge_hit": 0.5357142857142857,
+      "state_macro_target_r1_tiou_0.3": 0.4523809523809524,
+      "state_macro_target_r1_tiou_0.5": 0.33333333333333337,
+      "state_macro_target_top1_tiou": 0.35903287820872803
+    }
+  },
+  "coordinate_prediction_windows": {
+    "absolute_coordinates": {
+      "coffee_martini|nearly_empty|martini glass containing only a little cocktail": [
+        0,
+        26
+      ],
+      "coffee_martini|nearly_empty|nearly empty martini glass": [
+        0,
+        26
+      ],
+      "coffee_martini|nearly_full|martini glass containing cocktail near the top of its bowl": [
+        0,
+        25
+      ],
+      "coffee_martini|nearly_full|nearly full martini glass": [
+        0,
+        27
+      ],
+      "coffee_martini|partly_filled|martini glass filled to an intermediate level": [
+        1,
+        37
+      ],
+      "coffee_martini|partly_filled|partly filled martini glass": [
+        0,
+        27
+      ],
+      "interp_slice-banana|mostly_sliced|mostly sliced banana": [
+        144,
+        202
+      ],
+      "interp_slice-banana|mostly_sliced|peeled banana with only a short intact section remaining": [
+        145,
+        203
+      ],
+      "interp_slice-banana|mostly_unsliced|mostly unsliced peeled banana": [
+        145,
+        203
+      ],
+      "interp_slice-banana|mostly_unsliced|peeled banana with most of its body still intact": [
+        145,
+        203
+      ],
+      "interp_slice-banana|partly_sliced|partly sliced banana": [
+        145,
+        203
+      ],
+      "interp_slice-banana|partly_sliced|peeled banana with roughly half of its body remaining intact": [
+        145,
+        203
+      ],
+      "interp_torchocolate|charred_surface|charred chocolate bar": [
+        269,
+        305
+      ],
+      "interp_torchocolate|charred_surface|chocolate bar with a blackened surface": [
+        60,
+        221
+      ],
+      "interp_torchocolate|intact_surface|chocolate bar with an intact brown surface": [
+        0,
+        167
+      ],
+      "interp_torchocolate|intact_surface|uncharred chocolate bar": [
+        194,
+        214
+      ],
+      "misc_americano|americano_filled|dark coffee mixed into the glass cup": [
+        357,
+        524
+      ],
+      "misc_americano|americano_filled|glass cup containing an americano": [
+        414,
+        523
+      ],
+      "misc_americano|clear_water|clear water in the glass cup": [
+        0,
+        161
+      ],
+      "misc_americano|clear_water|glass cup containing clear water": [
+        0,
+        161
+      ],
+      "misc_cross-hands|fingers_interlaced_clasped|opposing hands with fingers visibly interwoven": [
+        407,
+        433
+      ],
+      "misc_cross-hands|fingers_interlaced_clasped|two hands clasped with interlaced fingers": [
+        403,
+        434
+      ],
+      "misc_cross-hands|hands_open_noninterlaced|both hands open without interwoven fingers": [
+        64,
+        225
+      ],
+      "misc_cross-hands|hands_open_noninterlaced|two open hands with fingers not interlaced": [
+        64,
+        225
+      ],
+      "misc_espresso|empty_cup|empty glass cup": [
+        202,
+        444
+      ],
+      "misc_espresso|empty_cup|glass cup with no espresso": [
+        413,
+        776
+      ],
+      "misc_espresso|espresso_filled|brewed espresso in the glass cup": [
+        413,
+        776
+      ],
+      "misc_espresso|espresso_filled|glass cup filled with espresso": [
+        413,
+        776
+      ],
+      "misc_tamping|loose_grounds|portafilter with loose coffee grounds": [
+        0,
+        107
+      ],
+      "misc_tamping|loose_grounds|untamped grounds in the portafilter": [
+        0,
+        107
+      ],
+      "misc_tamping|tamped_puck|compressed coffee grounds in the portafilter": [
+        0,
+        107
+      ],
+      "misc_tamping|tamped_puck|portafilter with a tamped coffee puck": [
+        0,
+        107
+      ]
+    },
+    "dual_centered_coordinates": {
+      "coffee_martini|nearly_empty|martini glass containing only a little cocktail": [
+        60,
+        96
+      ],
+      "coffee_martini|nearly_empty|nearly empty martini glass": [
+        0,
+        29
+      ],
+      "coffee_martini|nearly_full|martini glass containing cocktail near the top of its bowl": [
+        47,
+        98
+      ],
+      "coffee_martini|nearly_full|nearly full martini glass": [
+        13,
+        30
+      ],
+      "coffee_martini|partly_filled|martini glass filled to an intermediate level": [
+        29,
+        42
+      ],
+      "coffee_martini|partly_filled|partly filled martini glass": [
+        10,
+        37
+      ],
+      "interp_slice-banana|mostly_sliced|mostly sliced banana": [
+        95,
+        153
+      ],
+      "interp_slice-banana|mostly_sliced|peeled banana with only a short intact section remaining": [
+        167,
+        203
+      ],
+      "interp_slice-banana|mostly_unsliced|mostly unsliced peeled banana": [
+        301,
+        328
+      ],
+      "interp_slice-banana|mostly_unsliced|peeled banana with most of its body still intact": [
+        18,
+        47
+      ],
+      "interp_slice-banana|partly_sliced|partly sliced banana": [
+        96,
+        203
+      ],
+      "interp_slice-banana|partly_sliced|peeled banana with roughly half of its body remaining intact": [
+        301,
+        328
+      ],
+      "interp_torchocolate|charred_surface|charred chocolate bar": [
+        192,
+        674
+      ],
+      "interp_torchocolate|charred_surface|chocolate bar with a blackened surface": [
+        77,
+        238
+      ],
+      "interp_torchocolate|intact_surface|chocolate bar with an intact brown surface": [
+        0,
+        47
+      ],
+      "interp_torchocolate|intact_surface|uncharred chocolate bar": [
+        0,
+        71
+      ],
+      "misc_americano|americano_filled|dark coffee mixed into the glass cup": [
+        278,
+        520
+      ],
+      "misc_americano|americano_filled|glass cup containing an americano": [
+        364,
+        525
+      ],
+      "misc_americano|clear_water|clear water in the glass cup": [
+        0,
+        161
+      ],
+      "misc_americano|clear_water|glass cup containing clear water": [
+        0,
+        161
+      ],
+      "misc_cross-hands|fingers_interlaced_clasped|opposing hands with fingers visibly interwoven": [
+        480,
+        551
+      ],
+      "misc_cross-hands|fingers_interlaced_clasped|two hands clasped with interlaced fingers": [
+        353,
+        460
+      ],
+      "misc_cross-hands|hands_open_noninterlaced|both hands open without interwoven fingers": [
+        890,
+        1051
+      ],
+      "misc_cross-hands|hands_open_noninterlaced|two open hands with fingers not interlaced": [
+        941,
+        1050
+      ],
+      "misc_espresso|empty_cup|empty glass cup": [
+        0,
+        363
+      ],
+      "misc_espresso|empty_cup|glass cup with no espresso": [
+        1,
+        243
+      ],
+      "misc_espresso|espresso_filled|brewed espresso in the glass cup": [
+        413,
+        776
+      ],
+      "misc_espresso|espresso_filled|glass cup filled with espresso": [
+        413,
+        776
+      ],
+      "misc_tamping|loose_grounds|portafilter with loose coffee grounds": [
+        133,
+        169
+      ],
+      "misc_tamping|loose_grounds|untamped grounds in the portafilter": [
+        152,
+        197
+      ],
+      "misc_tamping|tamped_puck|compressed coffee grounds in the portafilter": [
+        0,
+        107
+      ],
+      "misc_tamping|tamped_puck|portafilter with a tamped coffee puck": [
+        202,
+        273
+      ]
+    },
+    "visual_centered_coordinates": {
+      "coffee_martini|nearly_empty|martini glass containing only a little cocktail": [
+        1,
+        27
+      ],
+      "coffee_martini|nearly_empty|nearly empty martini glass": [
+        0,
+        27
+      ],
+      "coffee_martini|nearly_full|martini glass containing cocktail near the top of its bowl": [
+        7,
+        26
+      ],
+      "coffee_martini|nearly_full|nearly full martini glass": [
+        1,
+        28
+      ],
+      "coffee_martini|partly_filled|martini glass filled to an intermediate level": [
+        8,
+        41
+      ],
+      "coffee_martini|partly_filled|partly filled martini glass": [
+        1,
+        28
+      ],
+      "interp_slice-banana|mostly_sliced|mostly sliced banana": [
+        141,
+        199
+      ],
+      "interp_slice-banana|mostly_sliced|peeled banana with only a short intact section remaining": [
+        143,
+        201
+      ],
+      "interp_slice-banana|mostly_unsliced|mostly unsliced peeled banana": [
+        143,
+        201
+      ],
+      "interp_slice-banana|mostly_unsliced|peeled banana with most of its body still intact": [
+        143,
+        201
+      ],
+      "interp_slice-banana|partly_sliced|partly sliced banana": [
+        143,
+        201
+      ],
+      "interp_slice-banana|partly_sliced|peeled banana with roughly half of its body remaining intact": [
+        143,
+        201
+      ],
+      "interp_torchocolate|charred_surface|charred chocolate bar": [
+        267,
+        303
+      ],
+      "interp_torchocolate|charred_surface|chocolate bar with a blackened surface": [
+        60,
+        221
+      ],
+      "interp_torchocolate|intact_surface|chocolate bar with an intact brown surface": [
+        0,
+        167
+      ],
+      "interp_torchocolate|intact_surface|uncharred chocolate bar": [
+        118,
+        151
+      ],
+      "misc_americano|americano_filled|dark coffee mixed into the glass cup": [
+        357,
+        524
+      ],
+      "misc_americano|americano_filled|glass cup containing an americano": [
+        414,
+        523
+      ],
+      "misc_americano|clear_water|clear water in the glass cup": [
+        0,
+        161
+      ],
+      "misc_americano|clear_water|glass cup containing clear water": [
+        0,
+        161
+      ],
+      "misc_cross-hands|fingers_interlaced_clasped|opposing hands with fingers visibly interwoven": [
+        79,
+        130
+      ],
+      "misc_cross-hands|fingers_interlaced_clasped|two hands clasped with interlaced fingers": [
+        403,
+        434
+      ],
+      "misc_cross-hands|hands_open_noninterlaced|both hands open without interwoven fingers": [
+        64,
+        225
+      ],
+      "misc_cross-hands|hands_open_noninterlaced|two open hands with fingers not interlaced": [
+        64,
+        225
+      ],
+      "misc_espresso|empty_cup|empty glass cup": [
+        103,
+        466
+      ],
+      "misc_espresso|empty_cup|glass cup with no espresso": [
+        413,
+        776
+      ],
+      "misc_espresso|espresso_filled|brewed espresso in the glass cup": [
+        413,
+        776
+      ],
+      "misc_espresso|espresso_filled|glass cup filled with espresso": [
+        413,
+        776
+      ],
+      "misc_tamping|loose_grounds|portafilter with loose coffee grounds": [
+        0,
+        107
+      ],
+      "misc_tamping|loose_grounds|untamped grounds in the portafilter": [
+        0,
+        107
+      ],
+      "misc_tamping|tamped_puck|compressed coffee grounds in the portafilter": [
+        0,
+        107
+      ],
+      "misc_tamping|tamped_puck|portafilter with a tamped coffee puck": [
+        0,
+        107
+      ]
+    },
+    "vocabulary_centered_coordinates": {
+      "coffee_martini|nearly_empty|martini glass containing only a little cocktail": [
+        41,
+        99
+      ],
+      "coffee_martini|nearly_empty|nearly empty martini glass": [
+        0,
+        24
+      ],
+      "coffee_martini|nearly_full|martini glass containing cocktail near the top of its bowl": [
+        47,
+        98
+      ],
+      "coffee_martini|nearly_full|nearly full martini glass": [
+        13,
+        30
+      ],
+      "coffee_martini|partly_filled|martini glass filled to an intermediate level": [
+        29,
+        42
+      ],
+      "coffee_martini|partly_filled|partly filled martini glass": [
+        9,
+        22
+      ],
+      "interp_slice-banana|mostly_sliced|mostly sliced banana": [
+        95,
+        153
+      ],
+      "interp_slice-banana|mostly_sliced|peeled banana with only a short intact section remaining": [
+        167,
+        203
+      ],
+      "interp_slice-banana|mostly_unsliced|mostly unsliced peeled banana": [
+        254,
+        299
+      ],
+      "interp_slice-banana|mostly_unsliced|peeled banana with most of its body still intact": [
+        18,
+        47
+      ],
+      "interp_slice-banana|partly_sliced|partly sliced banana": [
+        96,
+        203
+      ],
+      "interp_slice-banana|partly_sliced|peeled banana with roughly half of its body remaining intact": [
+        301,
+        328
+      ],
+      "interp_torchocolate|charred_surface|charred chocolate bar": [
+        192,
+        674
+      ],
+      "interp_torchocolate|charred_surface|chocolate bar with a blackened surface": [
+        77,
+        238
+      ],
+      "interp_torchocolate|intact_surface|chocolate bar with an intact brown surface": [
+        0,
+        47
+      ],
+      "interp_torchocolate|intact_surface|uncharred chocolate bar": [
+        0,
+        71
+      ],
+      "misc_americano|americano_filled|dark coffee mixed into the glass cup": [
+        279,
+        521
+      ],
+      "misc_americano|americano_filled|glass cup containing an americano": [
+        364,
+        525
+      ],
+      "misc_americano|clear_water|clear water in the glass cup": [
+        0,
+        161
+      ],
+      "misc_americano|clear_water|glass cup containing clear water": [
+        0,
+        161
+      ],
+      "misc_cross-hands|fingers_interlaced_clasped|opposing hands with fingers visibly interwoven": [
+        481,
+        552
+      ],
+      "misc_cross-hands|fingers_interlaced_clasped|two hands clasped with interlaced fingers": [
+        1341,
+        1412
+      ],
+      "misc_cross-hands|hands_open_noninterlaced|both hands open without interwoven fingers": [
+        942,
+        1051
+      ],
+      "misc_cross-hands|hands_open_noninterlaced|two open hands with fingers not interlaced": [
+        942,
+        1051
+      ],
+      "misc_espresso|empty_cup|empty glass cup": [
+        0,
+        363
+      ],
+      "misc_espresso|empty_cup|glass cup with no espresso": [
+        1,
+        243
+      ],
+      "misc_espresso|espresso_filled|brewed espresso in the glass cup": [
+        528,
+        770
+      ],
+      "misc_espresso|espresso_filled|glass cup filled with espresso": [
+        534,
+        776
+      ],
+      "misc_tamping|loose_grounds|portafilter with loose coffee grounds": [
+        131,
+        176
+      ],
+      "misc_tamping|loose_grounds|untamped grounds in the portafilter": [
+        166,
+        195
+      ],
+      "misc_tamping|tamped_puck|compressed coffee grounds in the portafilter": [
+        0,
+        161
+      ],
+      "misc_tamping|tamped_puck|portafilter with a tamped coffee puck": [
+        202,
+        273
+      ]
+    }
+  },
+  "coordinate_statistics": {
+    "independent_unit": "history",
+    "primary_family": {
+      "family_size": 2,
+      "holm_adjusted_p": {
+        "dual_centered_minus_absolute_state_macro_r1_tiou_0.5": 1.0,
+        "vocabulary_centered_minus_absolute_state_macro_r1_tiou_0.5": 1.0
+      },
+      "metric": "state_macro_target_r1_tiou_0.5",
+      "raw_p": {
+        "dual_centered_minus_absolute_state_macro_r1_tiou_0.5": 1.0,
+        "vocabulary_centered_minus_absolute_state_macro_r1_tiou_0.5": 1.0
+      },
+      "rows": [
+        {
+          "bootstrap_resamples": 10000,
+          "bootstrap_seed": 3407,
+          "ci95_high": 0.21428571428571427,
+          "ci95_low": -0.2619047619047619,
+          "comparison_id": "vocabulary_centered_minus_absolute_state_macro_r1_tiou_0.5",
+          "descriptive_metrics_without_multiplicity_claim": {
+            "state_macro_target_r1_tiou_0.3": {
+              "bootstrap_resamples": 10000,
+              "bootstrap_seed": 3407,
+              "ci95_high": 0.27380952380952384,
+              "ci95_low": -0.34523809523809523,
+              "history_deltas": {
+                "coffee_martini": 0.16666666666666669,
+                "interp_slice-banana": -0.16666666666666666,
+                "interp_torchocolate": 0.75,
+                "misc_americano": 0.0,
+                "misc_cross-hands": -0.75,
+                "misc_espresso": 0.25,
+                "misc_tamping": -0.5
+              },
+              "point_estimate": -0.03571428571428571,
+              "sampling": "resample_four_original_and_three_extension_histories_within_stratum"
+            },
+            "state_macro_target_top1_tiou": {
+              "bootstrap_resamples": 10000,
+              "bootstrap_seed": 3407,
+              "ci95_high": 0.17142289353623275,
+              "ci95_low": -0.1433166006491298,
+              "history_deltas": {
+                "coffee_martini": -0.045773221800724684,
+                "interp_slice-banana": -0.1267636741201083,
+                "interp_torchocolate": 0.4073207098990679,
+                "misc_americano": 0.09592144936323166,
+                "misc_cross-hands": -0.21462176740169525,
+                "misc_espresso": 0.36515678837895393,
+                "misc_tamping": -0.30007462576031685
+              },
+              "point_estimate": 0.025880808365486913,
+              "sampling": "resample_four_original_and_three_extension_histories_within_stratum"
+            }
+          },
+          "effective_independent_n": 7,
+          "exact_sign_flip": {
+            "enumerations": 128,
+            "exact_two_sided_p": 1.0,
+            "extreme_assignments": 128,
+            "observed_absolute_mean": 0.011904761904761902,
+            "statistic": "absolute_unweighted_mean_history_delta"
+          },
+          "history_deltas": {
+            "coffee_martini": 0.0,
+            "interp_slice-banana": -0.3333333333333333,
+            "interp_torchocolate": 0.5,
+            "misc_americano": 0.0,
+            "misc_cross-hands": -0.25,
+            "misc_espresso": 0.5,
+            "misc_tamping": -0.5
+          },
+          "holm2_adjusted_p": 1.0,
+          "left_method": "vocabulary_centered_coordinates",
+          "metric": "state_macro_target_r1_tiou_0.5",
+          "point_estimate": -0.011904761904761902,
+          "raw_exact_two_sided_p": 1.0,
+          "right_method": "absolute_coordinates",
+          "sampling": "resample_four_original_and_three_extension_histories_within_stratum"
+        },
+        {
+          "bootstrap_resamples": 10000,
+          "bootstrap_seed": 3407,
+          "ci95_high": 0.1904761904761905,
+          "ci95_low": -0.3095238095238095,
+          "comparison_id": "dual_centered_minus_absolute_state_macro_r1_tiou_0.5",
+          "descriptive_metrics_without_multiplicity_claim": {
+            "state_macro_target_r1_tiou_0.3": {
+              "bootstrap_resamples": 10000,
+              "bootstrap_seed": 3407,
+              "ci95_high": 0.2857142857142857,
+              "ci95_low": -0.27380952380952384,
+              "history_deltas": {
+                "coffee_martini": 0.16666666666666669,
+                "interp_slice-banana": -0.16666666666666666,
+                "interp_torchocolate": 0.75,
+                "misc_americano": 0.0,
+                "misc_cross-hands": -0.5,
+                "misc_espresso": 0.25,
+                "misc_tamping": -0.5
+              },
+              "point_estimate": 0.0,
+              "sampling": "resample_four_original_and_three_extension_histories_within_stratum"
+            },
+            "state_macro_target_top1_tiou": {
+              "bootstrap_resamples": 10000,
+              "bootstrap_seed": 3407,
+              "ci95_high": 0.17416142512645041,
+              "ci95_low": -0.13223166471081121,
+              "history_deltas": {
+                "coffee_martini": -0.008566262821356474,
+                "interp_slice-banana": -0.1267636741201083,
+                "interp_torchocolate": 0.4073207098990679,
+                "misc_americano": 0.09592144936323166,
+                "misc_cross-hands": -0.1967802606523037,
+                "misc_espresso": 0.33426589518785477,
+                "misc_tamping": -0.29254896752536297
+              },
+              "point_estimate": 0.030406984190146123,
+              "sampling": "resample_four_original_and_three_extension_histories_within_stratum"
+            }
+          },
+          "effective_independent_n": 7,
+          "exact_sign_flip": {
+            "enumerations": 128,
+            "exact_two_sided_p": 1.0,
+            "extreme_assignments": 128,
+            "observed_absolute_mean": 0.047619047619047616,
+            "statistic": "absolute_unweighted_mean_history_delta"
+          },
+          "history_deltas": {
+            "coffee_martini": 0.0,
+            "interp_slice-banana": -0.3333333333333333,
+            "interp_torchocolate": 0.5,
+            "misc_americano": 0.0,
+            "misc_cross-hands": -0.5,
+            "misc_espresso": 0.5,
+            "misc_tamping": -0.5
+          },
+          "holm2_adjusted_p": 1.0,
+          "left_method": "dual_centered_coordinates",
+          "metric": "state_macro_target_r1_tiou_0.5",
+          "point_estimate": -0.047619047619047616,
+          "raw_exact_two_sided_p": 1.0,
+          "right_method": "absolute_coordinates",
+          "sampling": "resample_four_original_and_three_extension_histories_within_stratum"
+        }
+      ]
+    },
+    "strata": {
+      "extension_v2": [
+        "coffee_martini",
+        "misc_cross-hands",
+        "interp_slice-banana"
+      ],
+      "original": [
+        "interp_torchocolate",
+        "misc_espresso",
+        "misc_tamping",
+        "misc_americano"
+      ]
+    }
+  },
+  "duration_and_normalization": {
+    "ratio_1_25_sqrt": {
+      "paraphrase_exact_agreement": 0.14285714285714285,
+      "paraphrase_window_tiou": 0.3920121139491953,
+      "query_macro_joint_crossed_r1_tiou_0.3": 0.5,
+      "query_macro_joint_crossed_r1_tiou_0.5": 0.2976190476190476,
+      "query_macro_joint_identity_accuracy": 1.0,
+      "query_macro_target_candidate_oracle_tiou": 0.9455730773153759,
+      "query_macro_target_valid_run_edge_hit": 0.5833333333333333,
+      "state_macro_target_r1_tiou_0.3": 0.5,
+      "state_macro_target_r1_tiou_0.5": 0.2976190476190476,
+      "state_macro_target_top1_tiou": 0.3865072365318026
+    },
+    "ratio_1_5_mean": {
+      "paraphrase_exact_agreement": 0.0,
+      "paraphrase_window_tiou": 0.0,
+      "query_macro_joint_crossed_r1_tiou_0.3": 0.0,
+      "query_macro_joint_crossed_r1_tiou_0.5": 0.0,
+      "query_macro_joint_identity_accuracy": 0.8571428571428571,
+      "query_macro_target_candidate_oracle_tiou": 0.9362461623691377,
+      "query_macro_target_valid_run_edge_hit": 0.0,
+      "state_macro_target_r1_tiou_0.3": 0.0,
+      "state_macro_target_r1_tiou_0.5": 0.0,
+      "state_macro_target_top1_tiou": 0.009551761450157278
+    },
+    "ratio_1_5_single_median": {
+      "paraphrase_exact_agreement": 0.07142857142857142,
+      "paraphrase_window_tiou": 0.08462608902759496,
+      "query_macro_joint_crossed_r1_tiou_0.3": 0.17857142857142858,
+      "query_macro_joint_crossed_r1_tiou_0.5": 0.11904761904761904,
+      "query_macro_joint_identity_accuracy": 1.0,
+      "query_macro_target_candidate_oracle_tiou": 0.5143416169143858,
+      "query_macro_target_valid_run_edge_hit": 0.10714285714285714,
+      "state_macro_target_r1_tiou_0.3": 0.17857142857142858,
+      "state_macro_target_r1_tiou_0.5": 0.11904761904761904,
+      "state_macro_target_top1_tiou": 0.16965704943452561
+    },
+    "ratio_1_5_sqrt": {
+      "paraphrase_exact_agreement": 0.14285714285714285,
+      "paraphrase_window_tiou": 0.3702616100864751,
+      "query_macro_joint_crossed_r1_tiou_0.3": 0.4880952380952381,
+      "query_macro_joint_crossed_r1_tiou_0.5": 0.2976190476190476,
+      "query_macro_joint_identity_accuracy": 1.0,
+      "query_macro_target_candidate_oracle_tiou": 0.9362461623691377,
+      "query_macro_target_valid_run_edge_hit": 0.511904761904762,
+      "state_macro_target_r1_tiou_0.3": 0.4880952380952381,
+      "state_macro_target_r1_tiou_0.5": 0.2976190476190476,
+      "state_macro_target_top1_tiou": 0.36355905403338723
+    },
+    "ratio_1_5_sum": {
+      "paraphrase_exact_agreement": 0.2857142857142857,
+      "paraphrase_window_tiou": 0.4369180081855683,
+      "query_macro_joint_crossed_r1_tiou_0.3": 0.5833333333333333,
+      "query_macro_joint_crossed_r1_tiou_0.5": 0.38095238095238093,
+      "query_macro_joint_identity_accuracy": 1.0,
+      "query_macro_target_candidate_oracle_tiou": 0.9362461623691377,
+      "query_macro_target_valid_run_edge_hit": 0.5833333333333333,
+      "state_macro_target_r1_tiou_0.3": 0.5833333333333333,
+      "state_macro_target_r1_tiou_0.5": 0.38095238095238093,
+      "state_macro_target_top1_tiou": 0.3962605116622789
+    },
+    "ratio_2_0_sqrt": {
+      "paraphrase_exact_agreement": 0.14285714285714285,
+      "paraphrase_window_tiou": 0.41259952457178206,
+      "query_macro_joint_crossed_r1_tiou_0.3": 0.5238095238095238,
+      "query_macro_joint_crossed_r1_tiou_0.5": 0.33333333333333337,
+      "query_macro_joint_identity_accuracy": 1.0,
+      "query_macro_target_candidate_oracle_tiou": 0.922274432012013,
+      "query_macro_target_valid_run_edge_hit": 0.511904761904762,
+      "state_macro_target_r1_tiou_0.3": 0.5238095238095238,
+      "state_macro_target_r1_tiou_0.5": 0.33333333333333337,
+      "state_macro_target_top1_tiou": 0.35226020527382695
+    }
+  },
+  "inventory": {
+    "descriptions": 32,
+    "episodes": 59,
+    "histories": 7,
+    "states": 16
+  },
+  "kind": "deja_cue_seven_history_v2_result_summary",
+  "matched_similarity_controls": {
+    "max_frame_absolute": {
+      "state_macro_target_r1_tiou_0.3": 0.0,
+      "state_macro_target_r1_tiou_0.5": 0.0,
+      "state_macro_target_top1_tiou": 0.007198107908125922
+    },
+    "max_frame_vocabulary_centered": {
+      "state_macro_target_r1_tiou_0.3": 0.0,
+      "state_macro_target_r1_tiou_0.5": 0.0,
+      "state_macro_target_top1_tiou": 0.0098540752394942
+    },
+    "multiscale_mean_pool_absolute": {
+      "state_macro_target_r1_tiou_0.3": 0.0,
+      "state_macro_target_r1_tiou_0.5": 0.0,
+      "state_macro_target_top1_tiou": 0.007691870367792569
+    },
+    "multiscale_mean_pool_vocabulary_centered": {
+      "state_macro_target_r1_tiou_0.3": 0.0,
+      "state_macro_target_r1_tiou_0.5": 0.0,
+      "state_macro_target_top1_tiou": 0.010535084164245102
+    }
+  },
+  "missing_observation_stress": {
+    "strict_runs_missing_01pct": {
+      "metrics": {
+        "query_macro_target_candidate_oracle_tiou": {
+          "mean": 0.7069731752077738,
+          "sample_std": 0.010424916530972833,
+          "values": [
+            0.6968801085438047,
+            0.7063384772766205,
+            0.7177009398028964
+          ]
+        },
+        "query_macro_target_valid_run_edge_hit": {
+          "mean": 0.5158730158730158,
+          "sample_std": 0.013746434980705392,
+          "values": [
+            0.5,
+            0.5238095238095238,
+            0.5238095238095238
+          ]
+        },
+        "state_macro_target_r1_tiou_0.3": {
+          "mean": 0.3611111111111111,
+          "sample_std": 0.0676933417033015,
+          "values": [
+            0.38095238095238093,
+            0.41666666666666663,
+            0.2857142857142857
+          ]
+        },
+        "state_macro_target_r1_tiou_0.5": {
+          "mean": 0.1626984126984127,
+          "sample_std": 0.09622504486493763,
+          "values": [
+            0.25,
+            0.17857142857142858,
+            0.05952380952380952
+          ]
+        },
+        "state_macro_target_top1_tiou": {
+          "mean": 0.23672531717382964,
+          "sample_std": 0.03555379636839508,
+          "values": [
+            0.25865516494516105,
+            0.25581673652465853,
+            0.1957040500516693
+          ]
+        }
+      },
+      "num_seeds": 3
+    },
+    "strict_runs_missing_05pct": {
+      "metrics": {
+        "query_macro_target_candidate_oracle_tiou": {
+          "mean": 0.5125663758861639,
+          "sample_std": 0.034388235484355836,
+          "values": [
+            0.549560686307294,
+            0.506563879017319,
+            0.481574562333879
+          ]
+        },
+        "query_macro_target_valid_run_edge_hit": {
+          "mean": 0.6944444444444445,
+          "sample_std": 0.038268455400765684,
+          "values": [
+            0.7380952380952381,
+            0.6666666666666667,
+            0.6785714285714286
+          ]
+        },
+        "state_macro_target_r1_tiou_0.3": {
+          "mean": 0.25396825396825395,
+          "sample_std": 0.04811252243246879,
+          "values": [
+            0.2261904761904762,
+            0.2261904761904762,
+            0.3095238095238095
+          ]
+        },
+        "state_macro_target_r1_tiou_0.5": {
+          "mean": 0.11507936507936507,
+          "sample_std": 0.0676933417033015,
+          "values": [
+            0.19047619047619047,
+            0.09523809523809523,
+            0.05952380952380952
+          ]
+        },
+        "state_macro_target_top1_tiou": {
+          "mean": 0.1792076250893019,
+          "sample_std": 0.024242432367898147,
+          "values": [
+            0.20619661454111338,
+            0.1592795183616025,
+            0.17214674236518995
+          ]
+        }
+      },
+      "num_seeds": 3
+    },
+    "strict_runs_missing_10pct": {
+      "metrics": {
+        "query_macro_target_candidate_oracle_tiou": {
+          "mean": 0.40252776358217474,
+          "sample_std": 0.024481686366027242,
+          "values": [
+            0.4014073706098965,
+            0.427550411029231,
+            0.37862550910739673
+          ]
+        },
+        "query_macro_target_valid_run_edge_hit": {
+          "mean": 0.8015873015873015,
+          "sample_std": 0.03636964837266539,
+          "values": [
+            0.7619047619047619,
+            0.8333333333333333,
+            0.8095238095238095
+          ]
+        },
+        "state_macro_target_r1_tiou_0.3": {
+          "mean": 0.1865079365079365,
+          "sample_std": 0.08775136661704754,
+          "values": [
+            0.11904761904761904,
+            0.2857142857142857,
+            0.15476190476190474
+          ]
+        },
+        "state_macro_target_r1_tiou_0.5": {
+          "mean": 0.11111111111111112,
+          "sample_std": 0.0792658109342785,
+          "values": [
+            0.05952380952380952,
+            0.20238095238095238,
+            0.07142857142857142
+          ]
+        },
+        "state_macro_target_top1_tiou": {
+          "mean": 0.15150070106167168,
+          "sample_std": 0.04834280196158156,
+          "values": [
+            0.11915908421256713,
+            0.20707381102034733,
+            0.1282692079521006
+          ]
+        }
+      },
+      "num_seeds": 3
+    },
+    "zero_evidence_bridge_missing_01pct": {
+      "metrics": {
+        "query_macro_target_candidate_oracle_tiou": {
+          "mean": 0.9362461623691377,
+          "sample_std": 0.0,
+          "values": [
+            0.9362461623691377,
+            0.9362461623691377,
+            0.9362461623691377
+          ]
+        },
+        "query_macro_target_valid_run_edge_hit": {
+          "mean": 0.4444444444444444,
+          "sample_std": 0.013746434980705392,
+          "values": [
+            0.4523809523809524,
+            0.4523809523809524,
+            0.42857142857142855
+          ]
+        },
+        "state_macro_target_r1_tiou_0.3": {
+          "mean": 0.4166666666666667,
+          "sample_std": 6.798699777552591e-17,
+          "values": [
+            0.41666666666666663,
+            0.41666666666666663,
+            0.41666666666666663
+          ]
+        },
+        "state_macro_target_r1_tiou_0.5": {
+          "mean": 0.28571428571428575,
+          "sample_std": 0.020619652471058052,
+          "values": [
+            0.2976190476190476,
+            0.2619047619047619,
+            0.2976190476190476
+          ]
+        },
+        "state_macro_target_top1_tiou": {
+          "mean": 0.3445806507730768,
+          "sample_std": 0.008803573796012152,
+          "values": [
+            0.3472946253383444,
+            0.33473963920204414,
+            0.3517076877788419
+          ]
+        }
+      },
+      "num_seeds": 3
+    },
+    "zero_evidence_bridge_missing_05pct": {
+      "metrics": {
+        "query_macro_target_candidate_oracle_tiou": {
+          "mean": 0.936101577111653,
+          "sample_std": 0.0002504290119890458,
+          "values": [
+            0.9362461623691377,
+            0.9362461623691377,
+            0.9358124065966834
+          ]
+        },
+        "query_macro_target_valid_run_edge_hit": {
+          "mean": 0.49206349206349204,
+          "sample_std": 0.08935182737458489,
+          "values": [
+            0.5833333333333333,
+            0.40476190476190477,
+            0.4880952380952381
+          ]
+        },
+        "state_macro_target_r1_tiou_0.3": {
+          "mean": 0.4166666666666667,
+          "sample_std": 6.798699777552591e-17,
+          "values": [
+            0.41666666666666663,
+            0.41666666666666663,
+            0.41666666666666663
+          ]
+        },
+        "state_macro_target_r1_tiou_0.5": {
+          "mean": 0.2976190476190476,
+          "sample_std": 0.0,
+          "values": [
+            0.2976190476190476,
+            0.2976190476190476,
+            0.2976190476190476
+          ]
+        },
+        "state_macro_target_top1_tiou": {
+          "mean": 0.3515879793595227,
+          "sample_std": 0.003908635396125659,
+          "values": [
+            0.3560601424958025,
+            0.349878441542387,
+            0.3488253540403786
+          ]
+        }
+      },
+      "num_seeds": 3
+    },
+    "zero_evidence_bridge_missing_10pct": {
+      "metrics": {
+        "query_macro_target_candidate_oracle_tiou": {
+          "mean": 0.9360833324137188,
+          "sample_std": 0.000236219292201819,
+          "values": [
+            0.9362461623691377,
+            0.9361914282753354,
+            0.9358124065966834
+          ]
+        },
+        "query_macro_target_valid_run_edge_hit": {
+          "mean": 0.5079365079365079,
+          "sample_std": 0.11744959195991068,
+          "values": [
+            0.4523809523809524,
+            0.42857142857142855,
+            0.6428571428571429
+          ]
+        },
+        "state_macro_target_r1_tiou_0.3": {
+          "mean": 0.4166666666666667,
+          "sample_std": 6.798699777552591e-17,
+          "values": [
+            0.41666666666666663,
+            0.41666666666666663,
+            0.41666666666666663
+          ]
+        },
+        "state_macro_target_r1_tiou_0.5": {
+          "mean": 0.29365079365079366,
+          "sample_std": 0.029959660457423615,
+          "values": [
+            0.2976190476190476,
+            0.2619047619047619,
+            0.32142857142857145
+          ]
+        },
+        "state_macro_target_top1_tiou": {
+          "mean": 0.35545355995141326,
+          "sample_std": 0.01054837380736515,
+          "values": [
+            0.3604622662422203,
+            0.34333396703004837,
+            0.3625644465819711
+          ]
+        }
+      },
+      "num_seeds": 3
+    }
+  },
+  "original_n4_prediction_reproduction": {
+    "exact": true,
+    "num_queries": 16
+  },
+  "protocol": {
+    "bootstrap_resamples": 10000,
+    "bootstrap_seed": 3407,
+    "coordinate_primary_family_size": 2,
+    "exact_sign_flip_assignments": 128,
+    "independent_unit": "history",
+    "query_center_weighting": "state_balanced",
+    "strata": {
+      "coffee_martini": "extension_v2",
+      "interp_slice-banana": "extension_v2",
+      "interp_torchocolate": "original",
+      "misc_americano": "original",
+      "misc_cross-hands": "extension_v2",
+      "misc_espresso": "original",
+      "misc_tamping": "original"
+    }
+  },
+  "raw_residual_prediction_match": true,
+  "schema_version": 1,
+  "state_nonoverlap": {
+    "exact_nonoverlap": {
+      "per_scene": [
+        {
+          "num_states": 2,
+          "scene": "interp_torchocolate",
+          "state_macro_target_r1_tiou_0.3": 0.5,
+          "state_macro_target_r1_tiou_0.5": 0.5,
+          "state_macro_target_top1_tiou": 0.4031366267052501
+        },
+        {
+          "num_states": 2,
+          "scene": "misc_espresso",
+          "state_macro_target_r1_tiou_0.3": 0.5,
+          "state_macro_target_r1_tiou_0.5": 0.5,
+          "state_macro_target_top1_tiou": 0.5453296703296704
+        },
+        {
+          "num_states": 2,
+          "scene": "misc_tamping",
+          "state_macro_target_r1_tiou_0.3": 0.0,
+          "state_macro_target_r1_tiou_0.5": 0.0,
+          "state_macro_target_top1_tiou": 0.08928571428571429
+        },
+        {
+          "num_states": 2,
+          "scene": "misc_americano",
+          "state_macro_target_r1_tiou_0.3": 1.0,
+          "state_macro_target_r1_tiou_0.5": 1.0,
+          "state_macro_target_top1_tiou": 0.6673566819588974
+        },
+        {
+          "num_states": 3,
+          "scene": "coffee_martini",
+          "state_macro_target_r1_tiou_0.3": 0.3333333333333333,
+          "state_macro_target_r1_tiou_0.5": 0.3333333333333333,
+          "state_macro_target_top1_tiou": 0.48801101601279706
+        },
+        {
+          "num_states": 2,
+          "scene": "misc_cross-hands",
+          "state_macro_target_r1_tiou_0.3": 0.5,
+          "state_macro_target_r1_tiou_0.5": 0.0,
+          "state_macro_target_top1_tiou": 0.3456572769953052
+        },
+        {
+          "num_states": 3,
+          "scene": "interp_slice-banana",
+          "state_macro_target_r1_tiou_0.3": 0.0,
+          "state_macro_target_r1_tiou_0.5": 0.0,
+          "state_macro_target_top1_tiou": 0.0
+        }
+      ],
+      "scene_macro": {
+        "state_macro_target_r1_tiou_0.3": 0.40476190476190477,
+        "state_macro_target_r1_tiou_0.5": 0.33333333333333337,
+        "state_macro_target_top1_tiou": 0.36268242661251915
+      }
+    },
+    "independent": {
+      "per_scene": [
+        {
+          "num_states": 2,
+          "scene": "interp_torchocolate",
+          "state_macro_target_r1_tiou_0.3": 0.5,
+          "state_macro_target_r1_tiou_0.5": 0.5,
+          "state_macro_target_top1_tiou": 0.4031366267052501
+        },
+        {
+          "num_states": 2,
+          "scene": "misc_espresso",
+          "state_macro_target_r1_tiou_0.3": 0.5,
+          "state_macro_target_r1_tiou_0.5": 0.5,
+          "state_macro_target_top1_tiou": 0.5453296703296704
+        },
+        {
+          "num_states": 2,
+          "scene": "misc_tamping",
+          "state_macro_target_r1_tiou_0.3": 0.0,
+          "state_macro_target_r1_tiou_0.5": 0.0,
+          "state_macro_target_top1_tiou": 0.08928571428571429
+        },
+        {
+          "num_states": 2,
+          "scene": "misc_americano",
+          "state_macro_target_r1_tiou_0.3": 1.0,
+          "state_macro_target_r1_tiou_0.5": 1.0,
+          "state_macro_target_top1_tiou": 0.6673566819588974
+        },
+        {
+          "num_states": 3,
+          "scene": "coffee_martini",
+          "state_macro_target_r1_tiou_0.3": 0.3333333333333333,
+          "state_macro_target_r1_tiou_0.5": 0.3333333333333333,
+          "state_macro_target_top1_tiou": 0.48801101601279706
+        },
+        {
+          "num_states": 2,
+          "scene": "misc_cross-hands",
+          "state_macro_target_r1_tiou_0.3": 0.5,
+          "state_macro_target_r1_tiou_0.5": 0.0,
+          "state_macro_target_top1_tiou": 0.3456572769953052
+        },
+        {
+          "num_states": 3,
+          "scene": "interp_slice-banana",
+          "state_macro_target_r1_tiou_0.3": 0.0,
+          "state_macro_target_r1_tiou_0.5": 0.0,
+          "state_macro_target_top1_tiou": 0.0582010582010582
+        }
+      ],
+      "scene_macro": {
+        "state_macro_target_r1_tiou_0.3": 0.40476190476190477,
+        "state_macro_target_r1_tiou_0.5": 0.33333333333333337,
+        "state_macro_target_top1_tiou": 0.3709968634983846
+      }
+    },
+    "independent_conflicts": {
+      "overlapping_pairs": 1,
+      "rate": 0.09090909090909091,
+      "total_cross_state_pairs": 11
+    }
+  },
+  "window_schedules": {
+    "1.25": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      10,
+      11,
+      12,
+      15,
+      18,
+      19,
+      20,
+      21,
+      24,
+      25,
+      26,
+      27,
+      28,
+      30,
+      34,
+      37,
+      38,
+      46,
+      48,
+      49,
+      52,
+      59,
+      60,
+      75,
+      94,
+      110,
+      118,
+      148,
+      168,
+      185,
+      231,
+      289,
+      361,
+      451,
+      483
+    ],
+    "1.5": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      9,
+      10,
+      11,
+      14,
+      18,
+      20,
+      21,
+      25,
+      26,
+      27,
+      28,
+      30,
+      32,
+      34,
+      37,
+      46,
+      48,
+      49,
+      52,
+      59,
+      72,
+      108,
+      110,
+      162,
+      168,
+      243,
+      364,
+      483
+    ],
+    "2.0": [
+      1,
+      2,
+      4,
+      8,
+      10,
+      11,
+      16,
+      18,
+      20,
+      21,
+      25,
+      26,
+      27,
+      28,
+      30,
+      32,
+      34,
+      37,
+      46,
+      49,
+      52,
+      59,
+      64,
+      110,
+      128,
+      168,
+      256,
+      483
+    ]
+  }
+}

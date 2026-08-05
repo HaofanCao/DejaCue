@@ -1,0 +1,315 @@
+{
+  "circular_shift": {
+    "preserved": [
+      "valid_frame_indices",
+      "valid_run_boundaries",
+      "candidate_windows",
+      "per_run_visual_feature_multiset",
+      "visibility_count_timeline",
+      "state_text_queries"
+    ],
+    "protocol": "independent non-identity circular shift inside each maximal valid run",
+    "reported_drop_r1_tiou_0.5": 0.296875,
+    "reported_shift_mean_r1_tiou_0.5": 0.140625,
+    "shifts": [
+      {
+        "histories": [
+          {
+            "history_id": "R01",
+            "label": "torchocolate",
+            "r1_tiou_0.5": 0.25
+          },
+          {
+            "history_id": "R02",
+            "label": "espresso",
+            "r1_tiou_0.5": 0.0
+          },
+          {
+            "history_id": "R03",
+            "label": "tamping",
+            "r1_tiou_0.5": 0.0
+          },
+          {
+            "history_id": "R04",
+            "label": "americano",
+            "r1_tiou_0.5": 0.25
+          }
+        ],
+        "reported_macro_r1_tiou_0.5": 0.125,
+        "shift_index": 0
+      },
+      {
+        "histories": [
+          {
+            "history_id": "R01",
+            "label": "torchocolate",
+            "r1_tiou_0.5": 0.75
+          },
+          {
+            "history_id": "R02",
+            "label": "espresso",
+            "r1_tiou_0.5": 0.0
+          },
+          {
+            "history_id": "R03",
+            "label": "tamping",
+            "r1_tiou_0.5": 0.0
+          },
+          {
+            "history_id": "R04",
+            "label": "americano",
+            "r1_tiou_0.5": 0.0
+          }
+        ],
+        "reported_macro_r1_tiou_0.5": 0.1875,
+        "shift_index": 1
+      },
+      {
+        "histories": [
+          {
+            "history_id": "R01",
+            "label": "torchocolate",
+            "r1_tiou_0.5": 0.5
+          },
+          {
+            "history_id": "R02",
+            "label": "espresso",
+            "r1_tiou_0.5": 0.0
+          },
+          {
+            "history_id": "R03",
+            "label": "tamping",
+            "r1_tiou_0.5": 0.25
+          },
+          {
+            "history_id": "R04",
+            "label": "americano",
+            "r1_tiou_0.5": 0.25
+          }
+        ],
+        "reported_macro_r1_tiou_0.5": 0.25,
+        "shift_index": 2
+      },
+      {
+        "histories": [
+          {
+            "history_id": "R01",
+            "label": "torchocolate",
+            "r1_tiou_0.5": 0.0
+          },
+          {
+            "history_id": "R02",
+            "label": "espresso",
+            "r1_tiou_0.5": 0.0
+          },
+          {
+            "history_id": "R03",
+            "label": "tamping",
+            "r1_tiou_0.5": 0.0
+          },
+          {
+            "history_id": "R04",
+            "label": "americano",
+            "r1_tiou_0.5": 0.75
+          }
+        ],
+        "reported_macro_r1_tiou_0.5": 0.1875,
+        "shift_index": 3
+      },
+      {
+        "histories": [
+          {
+            "history_id": "R01",
+            "label": "torchocolate",
+            "r1_tiou_0.5": 0.0
+          },
+          {
+            "history_id": "R02",
+            "label": "espresso",
+            "r1_tiou_0.5": 0.0
+          },
+          {
+            "history_id": "R03",
+            "label": "tamping",
+            "r1_tiou_0.5": 0.0
+          },
+          {
+            "history_id": "R04",
+            "label": "americano",
+            "r1_tiou_0.5": 0.75
+          }
+        ],
+        "reported_macro_r1_tiou_0.5": 0.1875,
+        "shift_index": 4
+      },
+      {
+        "histories": [
+          {
+            "history_id": "R01",
+            "label": "torchocolate",
+            "r1_tiou_0.5": 0.0
+          },
+          {
+            "history_id": "R02",
+            "label": "espresso",
+            "r1_tiou_0.5": 0.0
+          },
+          {
+            "history_id": "R03",
+            "label": "tamping",
+            "r1_tiou_0.5": 0.0
+          },
+          {
+            "history_id": "R04",
+            "label": "americano",
+            "r1_tiou_0.5": 0.0
+          }
+        ],
+        "reported_macro_r1_tiou_0.5": 0.0,
+        "shift_index": 5
+      },
+      {
+        "histories": [
+          {
+            "history_id": "R01",
+            "label": "torchocolate",
+            "r1_tiou_0.5": 0.0
+          },
+          {
+            "history_id": "R02",
+            "label": "espresso",
+            "r1_tiou_0.5": 0.0
+          },
+          {
+            "history_id": "R03",
+            "label": "tamping",
+            "r1_tiou_0.5": 0.0
+          },
+          {
+            "history_id": "R04",
+            "label": "americano",
+            "r1_tiou_0.5": 0.25
+          }
+        ],
+        "reported_macro_r1_tiou_0.5": 0.0625,
+        "shift_index": 6
+      },
+      {
+        "histories": [
+          {
+            "history_id": "R01",
+            "label": "torchocolate",
+            "r1_tiou_0.5": 0.25
+          },
+          {
+            "history_id": "R02",
+            "label": "espresso",
+            "r1_tiou_0.5": 0.0
+          },
+          {
+            "history_id": "R03",
+            "label": "tamping",
+            "r1_tiou_0.5": 0.25
+          },
+          {
+            "history_id": "R04",
+            "label": "americano",
+            "r1_tiou_0.5": 0.0
+          }
+        ],
+        "reported_macro_r1_tiou_0.5": 0.125,
+        "shift_index": 7
+      }
+    ],
+    "unshifted": {
+      "histories": [
+        {
+          "history_id": "R01",
+          "label": "torchocolate",
+          "r1_tiou_0.5": 0.5
+        },
+        {
+          "history_id": "R02",
+          "label": "espresso",
+          "r1_tiou_0.5": 0.5
+        },
+        {
+          "history_id": "R03",
+          "label": "tamping",
+          "r1_tiou_0.5": 0.0
+        },
+        {
+          "history_id": "R04",
+          "label": "americano",
+          "r1_tiou_0.5": 0.75
+        }
+      ],
+      "reported_macro_r1_tiou_0.5": 0.4375
+    }
+  },
+  "development_selection": {
+    "coordinate_system": "trajectory_centered_vocabulary_relative",
+    "feature_composition": "union_lineage_mask_before_visual_encoding",
+    "folds": [
+      {
+        "candidate_oracle_top1_tiou": 1.0,
+        "descriptions": 4,
+        "episodes": 23,
+        "history_id": "D01",
+        "label": "hand",
+        "permuted_r1_tiou_0.5": 0.0,
+        "r1_tiou_0.5": 1.0,
+        "states": 2
+      },
+      {
+        "candidate_oracle_top1_tiou": 0.9352226853370667,
+        "descriptions": 8,
+        "episodes": 4,
+        "history_id": "D02",
+        "label": "banana",
+        "permuted_r1_tiou_0.5": 0.08333333333333333,
+        "r1_tiou_0.5": 0.25,
+        "states": 4
+      },
+      {
+        "candidate_oracle_top1_tiou": 0.971794863541921,
+        "descriptions": 6,
+        "episodes": 3,
+        "history_id": "D03",
+        "label": "lemon",
+        "permuted_r1_tiou_0.5": 0.08333333333333333,
+        "r1_tiou_0.5": 0.16666666666666666,
+        "states": 3
+      },
+      {
+        "candidate_oracle_top1_tiou": 1.0,
+        "descriptions": 4,
+        "episodes": 4,
+        "history_id": "D04",
+        "label": "cookie",
+        "permuted_r1_tiou_0.5": 0.0,
+        "r1_tiou_0.5": 0.25,
+        "states": 2
+      },
+      {
+        "candidate_oracle_top1_tiou": 0.9598484933376312,
+        "descriptions": 4,
+        "episodes": 12,
+        "history_id": "D05",
+        "label": "toy_container",
+        "permuted_r1_tiou_0.5": 0.0,
+        "r1_tiou_0.5": 1.0,
+        "states": 2
+      }
+    ],
+    "optimized_scalar_count": 0,
+    "reported_macro": {
+      "candidate_oracle_top1_tiou": 0.9733732084433239,
+      "permuted_r1_tiou_0.5": 0.03333333333333333,
+      "r1_tiou_0.5": 0.5333333333333334
+    },
+    "smoothing_kernel_size": 3
+  },
+  "kind": "deja_cue_development_and_control_evidence",
+  "schema_version": 1
+}
