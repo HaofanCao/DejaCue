@@ -6,12 +6,12 @@
 <p align="center">
   <a href="https://arxiv.org/abs/2608.02044"><img src="https://img.shields.io/badge/arXiv-2608.02044-b31b1b.svg" alt="DejaCue"></a>
   <a href="https://github.com/HaofanCao/DejaCue"><img src="https://img.shields.io/badge/Code-GitHub-181717.svg?logo=github&logoColor=white" alt="GitHub"></a>
-  <a href="https://huggingface.co/papers/2608.02044"><img src="https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?logo=huggingface&logoColor=black" alt="Hugging Face Paper"></a>
   <a href="https://huggingface.co/datasets/HaofanCao/deja-cue-data"><img src="https://img.shields.io/badge/Hugging%20Face-Dataset-FFD21E?logo=huggingface&logoColor=black" alt="Hugging Face Dataset"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/Code%20License-Apache--2.0-2F855A.svg" alt="Apache 2.0"></a>
   <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB.svg?logo=python&logoColor=white" alt="Python 3.10 or newer">
   <img src="https://img.shields.io/badge/PyTorch-2.2%2B-EE4C2C.svg?logo=pytorch&logoColor=white" alt="PyTorch 2.2 or newer">
 </p>
+
 
 </div>
 
